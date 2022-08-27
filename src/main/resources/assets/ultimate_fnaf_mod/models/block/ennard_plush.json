@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/ennardplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/ennardplush",
+    "particle": "ultimate_fnaf_mod:blocks/ennardplush",
+    "1": "ultimate_fnaf_mod:blocks/ennardplush"
+  }
+}

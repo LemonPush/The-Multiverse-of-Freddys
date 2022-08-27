@@ -1,0 +1,36 @@
+{
+  "_fv": 33,
+  "_type": "structure",
+  "definition": {
+    "structure": "glitchcastle",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 2,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:TheGlitch"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:Glitch"
+      },
+      {
+        "value": "CUSTOM:Glitch2"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:GlitchyPlane"
+      },
+      {
+        "value": "CUSTOM:GlitchGreen"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

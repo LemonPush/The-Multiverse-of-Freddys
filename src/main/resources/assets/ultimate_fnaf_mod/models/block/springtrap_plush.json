@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/springtrapplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/springtrapplush",
+    "particle": "ultimate_fnaf_mod:blocks/springtrapplush",
+    "2": "ultimate_fnaf_mod:blocks/springtrapplush"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/puppet_mask",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/puppet_mask",
+    "particle": "ultimate_fnaf_mod:blocks/puppet_mask",
+    "0": "ultimate_fnaf_mod:blocks/puppet_mask"
+  }
+}

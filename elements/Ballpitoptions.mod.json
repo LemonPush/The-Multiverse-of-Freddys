@@ -1,0 +1,64 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Get Ball",
+          "onClick": {
+            "name": "Ballget"
+          },
+          "width": 66,
+          "height": 20,
+          "name": "Get Ball",
+          "x": 177,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Get Agony",
+          "onClick": {
+            "name": "Agonyget"
+          },
+          "width": 66,
+          "height": 20,
+          "name": "Get Agony",
+          "x": 177,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Get Inside",
+          "onClick": {
+            "name": "Insideget"
+          },
+          "width": 66,
+          "height": 20,
+          "name": "Get Inside",
+          "x": 177,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

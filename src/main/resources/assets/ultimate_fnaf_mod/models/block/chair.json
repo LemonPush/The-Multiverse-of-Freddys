@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/chair",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/chair",
+    "particle": "ultimate_fnaf_mod:blocks/chair",
+    "0": "ultimate_fnaf_mod:blocks/chair"
+  }
+}

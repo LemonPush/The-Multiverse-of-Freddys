@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/moltenfoxyplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/moltenfoxyplush",
+    "particle": "ultimate_fnaf_mod:blocks/moltenfoxyplush",
+    "2": "ultimate_fnaf_mod:blocks/moltenfoxyplush"
+  }
+}

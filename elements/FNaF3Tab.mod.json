@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "FNaF 3",
+    "icon": {
+      "value": "CUSTOM:Fnaf3icon"
+    },
+    "showSearch": true
+  }
+}

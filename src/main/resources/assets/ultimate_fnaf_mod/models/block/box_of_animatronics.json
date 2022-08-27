@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/boxofanimatronics",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/boxofanimatronics",
+    "particle": "ultimate_fnaf_mod:blocks/boxofanimatronics",
+    "0": "ultimate_fnaf_mod:blocks/boxofanimatronics"
+  }
+}

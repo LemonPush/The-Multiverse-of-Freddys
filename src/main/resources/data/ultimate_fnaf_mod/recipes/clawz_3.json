@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultimate_fnaf_mod:guitar_6"
+    },
+    {
+      "item": "ultimate_fnaf_mod:scraps"
+    }
+  ],
+  "result": {
+    "item": "ultimate_fnaf_mod:scrap_baby_claw",
+    "count": 1
+  }
+}

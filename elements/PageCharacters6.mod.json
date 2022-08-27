@@ -1,0 +1,320 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Games Springtrap:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Games Springtrap:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Gold Ingot",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Gold Ingot",
+          "x": 231,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Springtrap",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Springtrap",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Golden Head:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Golden Head:",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "N. Fredbear",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "N. Fredbear",
+          "x": 240,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Teaser Fredbear:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Teaser Fredbear:",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "N. Freddybear:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "N. Freddybear:",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "N. Fredbear",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "N. Fredbear",
+          "x": 240,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Characters7"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Characters5"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ G.F. Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ G.F. Plush",
+          "x": 114,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Mysterious Tape",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Mysterious Tape",
+          "x": 231,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Charlotte:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Charlotte:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Toy Chica + Book",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Toy Chica + Book",
+          "x": 123,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "W. Golden Freddy",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "W. Golden Freddy",
+          "x": 123,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Grey Dye",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Grey Dye",
+          "x": 231,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Highschool Toy",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Highschool Toy",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Puppet",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Puppet",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Cake Slice",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Cake Slice",
+          "x": 114,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Chica:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Chica:",
+          "x": 123,
+          "y": 116
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

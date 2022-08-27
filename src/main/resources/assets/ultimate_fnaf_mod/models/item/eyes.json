@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/roxy_eyes",
+  "textures": {
+    "1": "ultimate_fnaf_mod:blocks/roxy_eyes",
+    "particle": "ultimate_fnaf_mod:items/roxy_eyes"
+  }
+}

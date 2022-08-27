@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/chica_head",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/chica_head",
+    "particle": "ultimate_fnaf_mod:blocks/chica_head",
+    "0": "ultimate_fnaf_mod:blocks/chica_head"
+  }
+}

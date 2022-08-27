@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "microphone7"
+      },
+      "name": "default"
+    }
+  }
+}

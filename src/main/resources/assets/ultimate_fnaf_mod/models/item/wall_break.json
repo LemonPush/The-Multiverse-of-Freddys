@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/wallbreak",
+  "textures": {
+    "0": "ultimate_fnaf_mod:blocks/wallbreak_scott",
+    "particle": "ultimate_fnaf_mod:items/anim_1"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "agony_1",
+    "enableBody": true,
+    "textureBody": "agony_2",
+    "enableLeggings": true,
+    "textureLeggings": "agony_3",
+    "enableBoots": true,
+    "textureBoots": "agony_4",
+    "creativeTab": {
+      "value": "CUSTOM:FlipSideTab"
+    },
+    "armorTextureFile": "spring_",
+    "helmetName": "Agonized Helmet",
+    "bodyName": "Agonized Chestplate",
+    "leggingsName": "Agonized Leggings",
+    "bootsName": "Agonized Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelAnomalysuit",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "anomalysuit.png",
+    "bodyModelName": "ModelAnomalysuit",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "anomalysuit.png",
+    "leggingsModelName": "ModelAnomalysuit",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "anomalysuit.png",
+    "bootsModelName": "ModelAnomalysuit",
+    "bootsModelPartL": "LeftBoot",
+    "bootsModelPartR": "RightBoot",
+    "bootsModelTexture": "anomalysuit.png",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 30,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 30,
+    "toughness": 2.0,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Agony"
+      }
+    ]
+  }
+}

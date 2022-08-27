@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    },
+    "3": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    },
+    "4": {
+      "item": "ultimate_fnaf_mod:lure_7"
+    },
+    "5": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    },
+    "7": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:tamed_lure_7",
+    "count": 1
+  }
+}

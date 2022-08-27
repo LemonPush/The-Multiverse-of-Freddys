@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    },
+    "1": {
+      "item": "minecraft:cake"
+    },
+    "2": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    },
+    "3": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    },
+    "4": {
+      "item": "ultimate_fnaf_mod:guitar_6"
+    },
+    "5": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    },
+    "6": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    },
+    "7": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    },
+    "8": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:golden_guitar",
+    "count": 1
+  }
+}

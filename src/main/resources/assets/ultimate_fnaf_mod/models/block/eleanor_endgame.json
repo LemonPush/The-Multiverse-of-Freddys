@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/eleanor",
+    "up": "ultimate_fnaf_mod:blocks/eleanor",
+    "north": "ultimate_fnaf_mod:blocks/eleanor",
+    "east": "ultimate_fnaf_mod:blocks/eleanor",
+    "south": "ultimate_fnaf_mod:blocks/eleanor",
+    "west": "ultimate_fnaf_mod:blocks/eleanor",
+    "particle": "ultimate_fnaf_mod:blocks/eleanor"
+  }
+}

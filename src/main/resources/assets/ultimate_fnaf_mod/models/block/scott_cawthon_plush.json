@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/scottcawthon",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/scottcawthon",
+    "particle": "ultimate_fnaf_mod:blocks/scottcawthon",
+    "0": "ultimate_fnaf_mod:blocks/scottcawthon"
+  }
+}

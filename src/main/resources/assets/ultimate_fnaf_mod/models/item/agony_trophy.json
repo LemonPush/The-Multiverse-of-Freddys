@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/agonytrophy",
+  "textures": {
+    "2": "ultimate_fnaf_mod:blocks/agonytrophy",
+    "particle": "ultimate_fnaf_mod:items/agonytrophy"
+  }
+}

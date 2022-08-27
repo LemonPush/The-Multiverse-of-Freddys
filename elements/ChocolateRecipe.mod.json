@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#3"
+      },
+      {
+        "value": "Blocks.CAKE"
+      },
+      {
+        "value": "Items.DYE#3"
+      },
+      {
+        "value": "Items.DYE#3"
+      },
+      {
+        "value": "CUSTOM:Guitar6"
+      },
+      {
+        "value": "Items.DYE#3"
+      },
+      {
+        "value": "Items.DYE#3"
+      },
+      {
+        "value": "Items.DYE#3"
+      },
+      {
+        "value": "Items.DYE#3"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Chcolate"
+    },
+    "name": "chocolate_recipe",
+    "namespace": "mod"
+  }
+}

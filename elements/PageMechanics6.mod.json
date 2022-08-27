@@ -1,0 +1,410 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Giving the machine",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Giving the machine",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Emotional Energy",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Emotional Energy",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "any further be sure",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "any further be sure",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Arcade Machine:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Arcade Machine:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "will result in you",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "will result in you",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Mechanics5"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "anything...best",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "anything...best",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "pocket dimension",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "pocket dimension",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "of luck player...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "of luck player...",
+          "x": 222,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "called The FlipSide.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "called The FlipSide.",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "traveling to a",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "traveling to a",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Before venturing",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Before venturing",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Visit \"Multiverse\"",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Visit \"Multiverse\"",
+          "x": 222,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to be ready for",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to be ready for",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Arcade Machine:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Arcade Machine:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Giving the machine",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Giving the machine",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "a Red Fishing Rod",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "a Red Fishing Rod",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "will take you to",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "will take you to",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the Consequences",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "the Consequences",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "dimension. here lays",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "dimension. here lays",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "TOYSNHK who awaits",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "TOYSNHK who awaits",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to be set freed.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to be set freed.",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Careful, feed them",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Careful, feed them",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "a cake to sooth ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "a cake to sooth ",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "them then offer the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "them then offer the",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "child a present to",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "child a present to",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "set them free.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "set them free.",
+          "x": 105,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

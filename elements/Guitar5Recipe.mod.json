@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:IceCream"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:Guitar4"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Guitar5"
+    },
+    "name": "guitar_5_recipe",
+    "namespace": "mod"
+  }
+}

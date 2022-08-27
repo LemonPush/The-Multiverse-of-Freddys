@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/big_fist",
+  "textures": {
+    "0": "ultimate_fnaf_mod:blocks/big_fist",
+    "particle": "ultimate_fnaf_mod:items/anim_1"
+  }
+}

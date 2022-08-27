@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/fazblaster",
+  "textures": {
+    "0": "ultimate_fnaf_mod:blocks/fazblaster",
+    "particle": "ultimate_fnaf_mod:items/fazblaster"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/tree",
+    "up": "ultimate_fnaf_mod:blocks/tree",
+    "north": "ultimate_fnaf_mod:blocks/tree",
+    "east": "ultimate_fnaf_mod:blocks/tree",
+    "south": "ultimate_fnaf_mod:blocks/tree",
+    "west": "ultimate_fnaf_mod:blocks/tree",
+    "particle": "ultimate_fnaf_mod:blocks/tree"
+  }
+}

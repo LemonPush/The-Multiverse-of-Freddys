@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/ballpit",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/ballpit",
+    "particle": "ultimate_fnaf_mod:blocks/ballpit",
+    "2": "ultimate_fnaf_mod:blocks/ballpit"
+  }
+}

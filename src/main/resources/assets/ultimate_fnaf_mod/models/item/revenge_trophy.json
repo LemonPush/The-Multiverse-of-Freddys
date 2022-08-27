@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/revengetrophy",
+  "textures": {
+    "1": "ultimate_fnaf_mod:blocks/revengetrophy",
+    "particle": "ultimate_fnaf_mod:items/revengetrophy"
+  }
+}

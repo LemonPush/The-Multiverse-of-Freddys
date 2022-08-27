@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/foxyplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/foxyplush",
+    "particle": "ultimate_fnaf_mod:blocks/foxyplush",
+    "0": "ultimate_fnaf_mod:blocks/foxyplush"
+  }
+}

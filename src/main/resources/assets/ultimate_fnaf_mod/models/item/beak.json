@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/chica_beak",
+  "textures": {
+    "2": "ultimate_fnaf_mod:blocks/chica_beak",
+    "particle": "ultimate_fnaf_mod:items/chica_beak"
+  }
+}

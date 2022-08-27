@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": "Blocks.WOOL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FazBag"
+    },
+    "name": "faz_bag_recipe",
+    "namespace": "mod"
+  }
+}

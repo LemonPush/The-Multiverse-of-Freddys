@@ -1,0 +1,153 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The Glitch",
+          "color": {
+            "value": -6750055,
+            "falpha": 0.0
+          },
+          "name": "The Glitch",
+          "x": 186,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Continue",
+          "onClick": {
+            "name": "Entry1"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Continue",
+          "x": 177,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "This reality has been",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "This reality has been",
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "infected by Afton's evil.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "infected by Afton's evil.",
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Princess Quest",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Princess Quest",
+          "x": 141,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Merch",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Merch",
+          "x": 195,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Theories",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Theories",
+          "x": 231,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "His agony has been spreading",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "His agony has been spreading",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "throughout the internet",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "throughout the internet",
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "bringing others to his domain.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "bringing others to his domain.",
+          "x": 141,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

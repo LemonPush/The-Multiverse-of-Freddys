@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/graypuppetplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/graypuppetplush",
+    "particle": "ultimate_fnaf_mod:blocks/graypuppetplush",
+    "2": "ultimate_fnaf_mod:blocks/graypuppetplush"
+  }
+}

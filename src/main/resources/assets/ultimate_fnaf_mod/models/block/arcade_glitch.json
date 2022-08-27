@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/arcade",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/arcade",
+    "particle": "ultimate_fnaf_mod:blocks/arcade",
+    "0": "ultimate_fnaf_mod:blocks/arcade"
+  }
+}

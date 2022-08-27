@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/deadmary",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/deadmary",
+    "particle": "ultimate_fnaf_mod:blocks/deadmary",
+    "2": "ultimate_fnaf_mod:blocks/deadmary"
+  }
+}

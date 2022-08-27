@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/dreadbearplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/dreadbearplush",
+    "particle": "ultimate_fnaf_mod:blocks/dreadbearplush",
+    "2": "ultimate_fnaf_mod:blocks/dreadbearplush"
+  }
+}

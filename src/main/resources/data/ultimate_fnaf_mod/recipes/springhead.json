@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultimate_fnaf_mod:springlock_coil"
+    },
+    {
+      "item": "ultimate_fnaf_mod:springlock_coil"
+    },
+    {
+      "item": "ultimate_fnaf_mod:springlock_coil"
+    },
+    {
+      "item": "ultimate_fnaf_mod:springlock_coil"
+    },
+    {
+      "item": "ultimate_fnaf_mod:springlock_coil"
+    },
+    {
+      "item": "ultimate_fnaf_mod:springlock_coil"
+    },
+    {
+      "item": "ultimate_fnaf_mod:springlock_coil"
+    },
+    {
+      "item": "ultimate_fnaf_mod:springlock_coil"
+    },
+    {
+      "item": "ultimate_fnaf_mod:springlock_coil"
+    }
+  ],
+  "result": {
+    "item": "ultimate_fnaf_mod:spring_bonnie_head",
+    "count": 1
+  }
+}

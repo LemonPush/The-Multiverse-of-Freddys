@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/plushtrapchaser_body",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/plushtrapchaser_body",
+    "particle": "ultimate_fnaf_mod:blocks/plushtrapchaser_body",
+    "2": "ultimate_fnaf_mod:blocks/plushtrapchaser_body"
+  }
+}

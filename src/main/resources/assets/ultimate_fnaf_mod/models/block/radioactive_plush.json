@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/radioactivefoxyplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/radioactivefoxyplush",
+    "particle": "ultimate_fnaf_mod:blocks/radioactivefoxyplush",
+    "3": "ultimate_fnaf_mod:blocks/radioactivefoxyplush"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BoxOfOrgans"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ella"
+      },
+      {
+        "value": "CUSTOM:EleanorBody"
+      },
+      {
+        "value": "CUSTOM:PlushtrapChaserBody"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FetchBody"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GreenRemnant"
+    },
+    "name": "summon_afton",
+    "namespace": "mod"
+  }
+}

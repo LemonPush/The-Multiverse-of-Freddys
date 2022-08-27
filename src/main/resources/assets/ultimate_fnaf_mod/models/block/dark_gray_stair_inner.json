@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "ultimate_fnaf_mod:blocks/black_texture",
+    "top": "ultimate_fnaf_mod:blocks/black_texture",
+    "side": "ultimate_fnaf_mod:blocks/black_texture"
+  }
+}

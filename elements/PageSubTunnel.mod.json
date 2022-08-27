@@ -1,0 +1,318 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Sub-Tunnel",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Sub-Tunnel",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Honestly I need a",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Honestly I need a",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "break, too much is",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "break, too much is",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "going on rn. Don't",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "going on rn. Don't",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Coming Soon",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Coming Soon",
+          "x": 123,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "worry the mod ain't",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "worry the mod ain't",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Sub-Tunnel",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Sub-Tunnel",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "cancelled lol.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "cancelled lol.",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "I just need a break",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "I just need a break",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to collect my many",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to collect my many",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "thoughts and ideas",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "thoughts and ideas",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "too much strees atm.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "too much strees atm.",
+          "x": 105,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Thank you very much",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Thank you very much",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "for playing the mod.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "for playing the mod.",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ya'll really motivate",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Ya'll really motivate",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "me to add more and",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "me to add more and",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "fix stuff.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "fix stuff.",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "I'll still fix bugs",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "I'll still fix bugs",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "if needed but no",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "if needed but no",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "big update for some",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "big update for some",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "time, maybe till",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "time, maybe till",
+          "x": 222,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "idk lmao :skullface:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "idk lmao :skullface:",
+          "x": 222,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

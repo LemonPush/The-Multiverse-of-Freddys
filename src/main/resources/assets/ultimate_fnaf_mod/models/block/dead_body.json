@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/dead_body",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/dead_body",
+    "particle": "ultimate_fnaf_mod:blocks/dead_body",
+    "2": "ultimate_fnaf_mod:blocks/dead_body"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:f_5_icon"
+    },
+    "title": {
+      "translate": "advancements.prison.title"
+    },
+    "description": {
+      "translate": "advancements.prison.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "prison": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ultimate_fnaf_mod:sub_tunnel"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "ultimate_fnaf_mod:flipside_achi"
+}

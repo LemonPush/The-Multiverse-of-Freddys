@@ -1,0 +1,294 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Shadow Bonnie:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Shadow Bonnie:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Shadow Freddy:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Shadow Freddy:",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "S.B. Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "S.B. Plush",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "N. Mangle:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "N. Mangle:",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "S.F. Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "S.F. Plush",
+          "x": 123,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nightmare:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Nightmare:",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Suitless Afton:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Suitless Afton:",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Knife",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Knife",
+          "x": 123,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Characters4"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Characters2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "S.F. Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "S.F. Plush",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "N. Fredbear:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "N. Fredbear:",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Springtrap:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Springtrap:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Knife",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Knife",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mangle Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mangle Plush",
+          "x": 240,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Puppet Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Puppet Plush",
+          "x": 240,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "William Afton:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "William Afton:",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Knife",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Knife",
+          "x": 123,
+          "y": 134
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

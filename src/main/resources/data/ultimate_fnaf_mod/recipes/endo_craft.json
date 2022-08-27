@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultimate_fnaf_mod:endo"
+    }
+  ],
+  "result": {
+    "item": "ultimate_fnaf_mod:possessed_metal",
+    "count": 3
+  }
+}

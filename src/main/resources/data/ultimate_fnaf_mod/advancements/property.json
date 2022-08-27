@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:fredbear_suit_helmet"
+    },
+    "title": {
+      "translate": "advancements.property.title"
+    },
+    "description": {
+      "translate": "advancements.property.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "property": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:fredbear_suit_helmet",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "ultimate_fnaf_mod:yellow_2",
+      "ultimate_fnaf_mod:yellow_3",
+      "ultimate_fnaf_mod:yellow_4",
+      "ultimate_fnaf_mod:yellow_1"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:into_madness"
+}

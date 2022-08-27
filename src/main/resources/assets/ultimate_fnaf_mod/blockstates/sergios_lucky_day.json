@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultimate_fnaf_mod:block/sergios_lucky_day"
+    },
+    "facing=east": {
+      "model": "ultimate_fnaf_mod:block/sergios_lucky_day",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultimate_fnaf_mod:block/sergios_lucky_day",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultimate_fnaf_mod:block/sergios_lucky_day",
+      "y": 270
+    }
+  }
+}

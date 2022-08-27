@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/fazbox_2",
+    "up": "ultimate_fnaf_mod:blocks/fazbox_2",
+    "north": "ultimate_fnaf_mod:blocks/fazbox",
+    "east": "ultimate_fnaf_mod:blocks/fazbox",
+    "south": "ultimate_fnaf_mod:blocks/fazbox",
+    "west": "ultimate_fnaf_mod:blocks/fazbox",
+    "particle": "ultimate_fnaf_mod:blocks/fazbox_2"
+  }
+}

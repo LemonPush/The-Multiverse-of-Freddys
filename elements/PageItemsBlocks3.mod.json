@@ -1,0 +1,372 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Items",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Items",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Powerful substance,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Powerful substance,",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "use beforehand.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "use beforehand.",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "visit \"Mechanics\".",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "visit \"Mechanics\".",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Item needed for",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Item needed for",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Emotional Energy:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Emotional Energy:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "HP will be ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "HP will be ",
+          "x": 222,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Grants the player",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Grants the player",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Remnant Syringe:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Remnant Syringe:",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "ItemsBlocks4"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Items",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Items",
+          "x": 258,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "ItemsBlocks2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "player boosts.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "player boosts.",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Deathcoin:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Deathcoin:",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Saturation.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Saturation.",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Regeneration and ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Regeneration and ",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Empty Syringe:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Empty Syringe:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Anything under 500",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Anything under 500",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A base for getting",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "A base for getting",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "those boosts, don't",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "those boosts, don't",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Negative Syringe:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Negative Syringe:",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Positive Syringe:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Positive Syringe:",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Grants the player",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Grants the player",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Strength and",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Strength and",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Resistance.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Resistance.",
+          "x": 105,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "instantly killed.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "instantly killed.",
+          "x": 222,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

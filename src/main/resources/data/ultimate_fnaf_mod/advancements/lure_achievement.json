@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:lure"
+    },
+    "title": {
+      "translate": "advancements.lure_achievement.title"
+    },
+    "description": {
+      "translate": "advancements.lure_achievement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lure_achievement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "ultimate_fnaf_mod:goodlure_1",
+      "ultimate_fnaf_mod:goodlure_2",
+      "ultimate_fnaf_mod:goodlure_3",
+      "ultimate_fnaf_mod:goodlure_4",
+      "ultimate_fnaf_mod:goodlure_5",
+      "ultimate_fnaf_mod:goodlure_6",
+      "ultimate_fnaf_mod:goodlure_7",
+      "ultimate_fnaf_mod:goodlure_8",
+      "ultimate_fnaf_mod:goodlure_9"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:into_madness"
+}

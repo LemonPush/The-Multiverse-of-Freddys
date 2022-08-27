@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "ultimate_fnaf_mod:blocks/employee_door_bottom",
+    "top": "ultimate_fnaf_mod:blocks/employee_door_top"
+  }
+}

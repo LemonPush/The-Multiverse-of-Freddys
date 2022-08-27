@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:f_2_icon"
+    },
+    "title": {
+      "translate": "advancements.rageful.title"
+    },
+    "description": {
+      "translate": "advancements.rageful.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "rageful": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ultimate_fnaf_mod:revenge"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "ultimate_fnaf_mod:flipside_achi"
+}

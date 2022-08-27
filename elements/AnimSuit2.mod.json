@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Fanmail"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Fanmail"
+      },
+      {
+        "value": "Items.DIAMOND_CHESTPLATE"
+      },
+      {
+        "value": "CUSTOM:Fanmail"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Fanmail"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ScottSuit.body"
+    },
+    "name": "anim_suit_2",
+    "namespace": "mod"
+  }
+}

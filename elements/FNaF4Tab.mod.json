@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "FNaF 4",
+    "icon": {
+      "value": "CUSTOM:Fnaf4icon"
+    },
+    "showSearch": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultimate_fnaf_mod:block/scup"
+    },
+    "facing=east": {
+      "model": "ultimate_fnaf_mod:block/scup",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultimate_fnaf_mod:block/scup",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultimate_fnaf_mod:block/scup",
+      "y": 270
+    }
+  }
+}

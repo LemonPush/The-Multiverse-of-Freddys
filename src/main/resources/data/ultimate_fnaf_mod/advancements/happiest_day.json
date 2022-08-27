@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:cake_slice"
+    },
+    "title": {
+      "translate": "advancements.happiest_day.title"
+    },
+    "description": {
+      "translate": "advancements.happiest_day.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "happiest_day": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:cake_slice",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "recipes": [
+      "ultimate_fnaf_mod:cake",
+      "ultimate_fnaf_mod:cakepieces"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:into_madness"
+}

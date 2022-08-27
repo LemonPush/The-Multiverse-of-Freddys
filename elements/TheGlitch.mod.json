@@ -1,0 +1,55 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:GlitchyPlane"
+      },
+      {
+        "value": "CUSTOM:GlitchGreen"
+      },
+      {
+        "value": "CUSTOM:Theory"
+      },
+      {
+        "value": "CUSTOM:NegativeBiome"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Glitch"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:AgonyLava"
+    },
+    "airColor": {
+      "value": -12384194,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:Glitch"
+    },
+    "portalParticles": {
+      "value": "SPELL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Flipside Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:F1"
+    },
+    "texture": "shadow_remnant",
+    "portalTexture": "glitch",
+    "enablePortal": false
+  }
+}

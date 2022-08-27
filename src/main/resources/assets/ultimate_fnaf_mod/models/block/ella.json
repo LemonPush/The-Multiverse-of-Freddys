@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/135am",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/135am",
+    "particle": "ultimate_fnaf_mod:blocks/135am",
+    "2": "ultimate_fnaf_mod:blocks/135am"
+  }
+}

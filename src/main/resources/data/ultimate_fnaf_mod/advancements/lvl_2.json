@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:cupcake_2"
+    },
+    "title": {
+      "translate": "advancements.lvl_2.title"
+    },
+    "description": {
+      "translate": "advancements.lvl_2.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lvl_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:cupcake_2",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "ultimate_fnaf_mod:cupcake_3_recipe"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:lvl_1"
+}

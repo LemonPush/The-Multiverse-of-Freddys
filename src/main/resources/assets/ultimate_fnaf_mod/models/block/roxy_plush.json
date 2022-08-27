@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/roxyplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/roxyplush",
+    "particle": "ultimate_fnaf_mod:blocks/roxyplush",
+    "2": "ultimate_fnaf_mod:blocks/roxyplush"
+  }
+}

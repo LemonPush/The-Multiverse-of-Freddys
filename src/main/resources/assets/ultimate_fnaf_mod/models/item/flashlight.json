@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/flashlight",
+  "textures": {
+    "0": "ultimate_fnaf_mod:blocks/flashlight",
+    "particle": "ultimate_fnaf_mod:items/flashlight"
+  }
+}

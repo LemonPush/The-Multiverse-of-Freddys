@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "A.U. Mayhem",
+    "icon": {
+      "value": "CUSTOM:F3Icon"
+    },
+    "showSearch": true
+  }
+}

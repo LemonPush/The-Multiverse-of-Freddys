@@ -1,0 +1,385 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Cawthon's Revenge",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Cawthon's Revenge",
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Beware these",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Beware these",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "woody trunk filled",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "woody trunk filled",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "lands, you may find",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "lands, you may find",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "cool atmosphere fool",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "cool atmosphere fool",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "you! You will most",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "you! You will most",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "definitely find",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "definitely find",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Choppy's Woods",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Choppy's Woods",
+          "x": 114,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Don't let the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Don't let the",
+          "x": 123,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "some enemies here.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "some enemies here.",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Blacktomb Yard",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Blacktomb Yard",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A bone chilling",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "A bone chilling",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "graveyard where the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "graveyard where the",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "undead rise again.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "undead rise again.",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Pinwheel Funhouse",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Pinwheel Funhouse",
+          "x": 231,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "As lively and",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "As lively and",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Revengepage3"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cawthon's Revenge",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Cawthon's Revenge",
+          "x": 231,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "innocent as this place",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "innocent as this place",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Dusting Hills",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Dusting Hills",
+          "x": 114,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "looks, you'll still",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "looks, you'll still",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Revengepage1"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "unwanted attention.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "unwanted attention.",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "find yourself face",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "find yourself face",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to face with deadly",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to face with deadly",
+          "x": 222,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "forces.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "forces.",
+          "x": 222,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

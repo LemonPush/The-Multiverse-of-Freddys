@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/sub_tunnel",
+    "up": "ultimate_fnaf_mod:blocks/sub_tunnel",
+    "north": "ultimate_fnaf_mod:blocks/sub_tunnel",
+    "east": "ultimate_fnaf_mod:blocks/sub_tunnel",
+    "south": "ultimate_fnaf_mod:blocks/sub_tunnel",
+    "west": "ultimate_fnaf_mod:blocks/sub_tunnel",
+    "particle": "ultimate_fnaf_mod:blocks/sub_tunnel"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/omc_tree",
+    "up": "ultimate_fnaf_mod:blocks/omc_tree",
+    "north": "ultimate_fnaf_mod:blocks/omc_tree",
+    "east": "ultimate_fnaf_mod:blocks/omc_tree",
+    "south": "ultimate_fnaf_mod:blocks/omc_tree",
+    "west": "ultimate_fnaf_mod:blocks/omc_tree",
+    "particle": "ultimate_fnaf_mod:blocks/omc_tree"
+  }
+}

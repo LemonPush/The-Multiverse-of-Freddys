@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultimate_fnaf_mod:beak"
+    },
+    {
+      "item": "ultimate_fnaf_mod:claws"
+    },
+    {
+      "item": "ultimate_fnaf_mod:eyes"
+    }
+  ],
+  "result": {
+    "item": "ultimate_fnaf_mod:upgrade",
+    "count": 1
+  }
+}

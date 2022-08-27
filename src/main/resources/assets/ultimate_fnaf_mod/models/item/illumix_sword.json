@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/illumix_sword",
+  "textures": {
+    "2": "ultimate_fnaf_mod:blocks/illumix_sword",
+    "particle": "ultimate_fnaf_mod:items/illumix_sword"
+  }
+}

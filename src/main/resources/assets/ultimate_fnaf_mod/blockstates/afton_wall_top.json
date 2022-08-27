@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultimate_fnaf_mod:block/afton_wall_top"
+    },
+    "facing=east": {
+      "model": "ultimate_fnaf_mod:block/afton_wall_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultimate_fnaf_mod:block/afton_wall_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultimate_fnaf_mod:block/afton_wall_top",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "ultimate_fnaf_mod:block/afton_wall_top",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "ultimate_fnaf_mod:block/afton_wall_top",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/twistedwolfplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/twistedwolfplush",
+    "particle": "ultimate_fnaf_mod:blocks/twistedwolfplush",
+    "2": "ultimate_fnaf_mod:blocks/twistedwolfplush"
+  }
+}

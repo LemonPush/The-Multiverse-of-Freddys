@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/elchipplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/elchipplush",
+    "particle": "ultimate_fnaf_mod:blocks/elchipplush",
+    "1": "ultimate_fnaf_mod:blocks/elchipplush"
+  }
+}

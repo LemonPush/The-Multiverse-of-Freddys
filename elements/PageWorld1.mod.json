@@ -1,0 +1,306 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Overworld",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Overworld",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fredbear's Diner",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Fredbear's Diner",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fazbear's Pizza 93",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Fazbear's Pizza 93",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Circus Baby's",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Circus Baby's",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fazbear's Fright",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Fazbear's Fright",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "locations:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "locations:",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fazbear's Pizza 87",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Fazbear's Pizza 87",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll also find",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "You'll also find",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "both functioning",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "both functioning",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Pizza Simulator",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Pizza Simulator",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and abandoned",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and abandoned",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll encounter",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "You'll encounter",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "such as",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "such as",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "World2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Overworld",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Overworld",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "other strucutres",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "other strucutres",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Halloween House",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Halloween House",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Midnight Motorist",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Midnight Motorist",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Dreadbear Hub",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Dreadbear Hub",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "There is a new biome",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "There is a new biome",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"Haunted Woods\"",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "\"Haunted Woods\"",
+          "x": 231,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

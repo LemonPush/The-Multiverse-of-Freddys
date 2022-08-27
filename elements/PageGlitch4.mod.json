@@ -1,0 +1,228 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The Glitch",
+          "color": {
+            "value": -3407668,
+            "falpha": 0.0
+          },
+          "name": "The Glitch",
+          "x": 123,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Defeat the Anomaly,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Defeat the Anomaly,",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Give Eleanor a",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Give Eleanor a",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "remnant syringe and",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "remnant syringe and",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "take her necklace,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "take her necklace,",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mission",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mission",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Optional",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Optional",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "them, it's worth it.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "them, it's worth it.",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Find the Faz-Goo",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Find the Faz-Goo",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Player and trade with",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Player and trade with",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Glitch",
+          "color": {
+            "value": -3407668,
+            "falpha": 0.0
+          },
+          "name": "The Glitch",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Glitchpage2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "steal his remnant,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "steal his remnant,",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and free this world.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and free this world.",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "gives a boost.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "gives a boost.",
+          "x": 222,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Sub-Tunnel",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Sub-Tunnel",
+          "x": 186,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Coming Soon",
+          "width": 67,
+          "height": 20,
+          "name": "Coming Soon",
+          "x": 180,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A pocket dimension where",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "A pocket dimension where",
+          "x": 150,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the most dangerous entities of",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "the most dangerous entities of",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- ???",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- ???",
+          "x": 204,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "multiverse are kept far from",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "multiverse are kept far from",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "any other realities...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "any other realities...",
+          "x": 168,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "...for everyone's sake...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "...for everyone's sake...",
+          "x": 150,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- ???",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- ???",
+          "x": 150,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- ???",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- ???",
+          "x": 249,
+          "y": 143
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

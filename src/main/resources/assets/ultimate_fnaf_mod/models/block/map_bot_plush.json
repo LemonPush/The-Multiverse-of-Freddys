@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/mapbotplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/mapbotplush",
+    "particle": "ultimate_fnaf_mod:blocks/mapbotplush",
+    "1": "ultimate_fnaf_mod:blocks/mapbotplush"
+  }
+}

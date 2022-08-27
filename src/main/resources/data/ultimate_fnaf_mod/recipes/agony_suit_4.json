@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ultimate_fnaf_mod:afton_remnant"
+    },
+    "3": {
+      "item": "ultimate_fnaf_mod:afton_remnant"
+    },
+    "4": {
+      "item": "ultimate_fnaf_mod:springtrapsuit_boots"
+    },
+    "5": {
+      "item": "ultimate_fnaf_mod:afton_remnant"
+    },
+    "7": {
+      "item": "ultimate_fnaf_mod:afton_remnant"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:agonysuit_boots",
+    "count": 1
+  }
+}

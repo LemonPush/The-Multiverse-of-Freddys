@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:scrap_baby_claw"
+    },
+    "title": {
+      "translate": "advancements.claw_achi.title"
+    },
+    "description": {
+      "translate": "advancements.claw_achi.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "claw_achi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:scraps",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30,
+    "recipes": [
+      "ultimate_fnaf_mod:clawz",
+      "ultimate_fnaf_mod:clawz_2",
+      "ultimate_fnaf_mod:clawz_3"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:into_madness"
+}

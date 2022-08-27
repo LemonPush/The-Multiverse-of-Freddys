@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.CAKE"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "CUSTOM:MicroPhone6"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "Blocks.ICE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Icicle"
+    },
+    "name": "icicle_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/nightmarionneplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/nightmarionneplush",
+    "particle": "ultimate_fnaf_mod:blocks/nightmarionneplush",
+    "1": "ultimate_fnaf_mod:blocks/nightmarionneplush"
+  }
+}

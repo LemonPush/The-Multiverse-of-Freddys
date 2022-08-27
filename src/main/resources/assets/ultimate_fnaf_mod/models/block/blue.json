@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/blue",
+    "up": "ultimate_fnaf_mod:blocks/blue",
+    "north": "ultimate_fnaf_mod:blocks/blue",
+    "east": "ultimate_fnaf_mod:blocks/blue",
+    "south": "ultimate_fnaf_mod:blocks/blue",
+    "west": "ultimate_fnaf_mod:blocks/blue",
+    "particle": "ultimate_fnaf_mod:blocks/blue"
+  }
+}

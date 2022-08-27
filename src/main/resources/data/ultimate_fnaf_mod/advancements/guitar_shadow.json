@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:shadow_guitar"
+    },
+    "title": {
+      "translate": "advancements.guitar_shadow.title"
+    },
+    "description": {
+      "translate": "advancements.guitar_shadow.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "guitar_shadow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:shadow_guitar",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "ultimate_fnaf_mod:guitar_lvl_6"
+}

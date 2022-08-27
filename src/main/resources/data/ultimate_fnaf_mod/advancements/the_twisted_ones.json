@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:springlock_coil"
+    },
+    "title": {
+      "translate": "advancements.the_twisted_ones.title"
+    },
+    "description": {
+      "translate": "advancements.the_twisted_ones.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_twisted_ones": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:springlock_coil",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "ultimate_fnaf_mod:springhead"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:into_madness"
+}

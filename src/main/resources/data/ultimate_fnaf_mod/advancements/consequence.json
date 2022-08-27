@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:omc_tree"
+    },
+    "title": {
+      "translate": "advancements.consequence.title"
+    },
+    "description": {
+      "translate": "advancements.consequence.descr"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "consequence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "ultimate_fnaf_mod:consequences"
+      }
+    }
+  },
+  "parent": "ultimate_fnaf_mod:i_always_come_back"
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/afton_house",
+    "up": "ultimate_fnaf_mod:blocks/afton_house",
+    "north": "ultimate_fnaf_mod:blocks/afton_house",
+    "east": "ultimate_fnaf_mod:blocks/afton_house",
+    "south": "ultimate_fnaf_mod:blocks/afton_house",
+    "west": "ultimate_fnaf_mod:blocks/afton_house",
+    "particle": "ultimate_fnaf_mod:blocks/afton_house"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "springsuit_head",
+    "enableBody": true,
+    "textureBody": "springsuit_body",
+    "enableLeggings": true,
+    "textureLeggings": "springsuit_leggings",
+    "enableBoots": true,
+    "textureBoots": "springsuit_boots",
+    "onHelmetTick": {
+      "name": "SpringbonniesuitHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "SpringbonniesuitHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "SpringbonniesuitHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "SpringbonniesuitHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:FNaFExtras"
+    },
+    "armorTextureFile": "spring_",
+    "helmetName": "Spring Bonnie Head",
+    "bodyName": "Spring Bonnie Body",
+    "leggingsName": "Spring Bonnie Legs",
+    "bootsName": "Spring Bonnie Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelSpringBonniesuit",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "springbonniesuit.png",
+    "bodyModelName": "ModelSpringBonniesuit",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "springbonniesuit.png",
+    "leggingsModelName": "ModelSpringBonniesuit",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "springbonniesuit.png",
+    "bootsModelName": "ModelSpringBonniesuit",
+    "bootsModelPartL": "LeftBoot",
+    "bootsModelPartR": "RightBoot",
+    "bootsModelTexture": "springbonniesuit.png",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 20,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 15,
+    "toughness": 1.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Agony"
+      }
+    ]
+  }
+}

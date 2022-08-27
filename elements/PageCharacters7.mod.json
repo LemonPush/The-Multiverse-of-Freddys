@@ -1,0 +1,320 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Buff Mapbot:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Buff Mapbot:",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Buff Stuff",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Buff Stuff",
+          "x": 114,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mapbot",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mapbot",
+          "x": 123,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Breadbear:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Breadbear:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Remnant Syringe",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Remnant Syringe",
+          "x": 231,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Burntrap",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Burntrap",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Phone Dude:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Phone Dude:",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Rotten FLesh",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Rotten FLesh",
+          "x": 231,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Characters8"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Characters6"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Bread",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Bread",
+          "x": 123,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Phone Guy",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Phone Guy",
+          "x": 240,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Buff Stuff",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Buff Stuff",
+          "x": 114,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "N. Fredbear",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "N. Fredbear",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Freddy Fazbear",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Freddy Fazbear",
+          "x": 240,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Buff Helpy:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Buff Helpy:",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Wheelchair Burntrap:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Wheelchair Burntrap:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Stuffed Freddy:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Stuffed Freddy:",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Helpy ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Helpy ",
+          "x": 123,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Green Dye",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Green Dye",
+          "x": 231,
+          "y": 161
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultimate_fnaf_mod:block/the_cliffs"
+    },
+    "facing=east": {
+      "model": "ultimate_fnaf_mod:block/the_cliffs",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultimate_fnaf_mod:block/the_cliffs",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultimate_fnaf_mod:block/the_cliffs",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "ultimate_fnaf_mod:block/the_cliffs",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "ultimate_fnaf_mod:block/the_cliffs",
+      "x": 90
+    }
+  }
+}

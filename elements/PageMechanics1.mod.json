@@ -1,0 +1,358 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 123,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "When worn you'll",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "When worn you'll",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "accepts Faz-Coins.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "accepts Faz-Coins.",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "have Iron like",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "have Iron like",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Faz-Bag",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Faz-Bag",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Springlock Suits:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Springlock Suits:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "offer 6 things,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "offer 6 things,",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "armor, found in any",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "armor, found in any",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Golden Pack",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Golden Pack",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Mechanics2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Race Car",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Race Car",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Trading:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Trading:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "once you touch any",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "once you touch any",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "location or from",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "location or from",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Uniform Pack",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Uniform Pack",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Night Guards can",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Night Guards can",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Cake Slice",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Cake Slice",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "watrer source you'll",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "watrer source you'll",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the Guard. Danger is",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "the Guard. Danger is",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "take damage and get",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "take damage and get",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "So get Springlocked",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "So get Springlocked",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "noob.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "noob.",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Fizzy Faz",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Fizzy Faz",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Curse of Binding.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Curse of Binding.",
+          "x": 105,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

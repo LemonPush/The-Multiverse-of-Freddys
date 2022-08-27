@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:AftonWallTop"
+      },
+      {
+        "value": "CUSTOM:AftonWallBottom"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "oak_planks",
+    "namespace": "forge"
+  }
+}

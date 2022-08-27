@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:vr"
+    },
+    "title": {
+      "translate": "advancements.vr_ach.title"
+    },
+    "description": {
+      "translate": "advancements.vr_ach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "vr_ach": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:vr",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "ultimate_fnaf_mod:scott_recipe"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:i_always_come_back"
+}

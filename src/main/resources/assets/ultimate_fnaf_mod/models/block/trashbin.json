@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/trashbin",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/trashbin",
+    "particle": "ultimate_fnaf_mod:blocks/trashbin",
+    "0": "ultimate_fnaf_mod:blocks/trashbin"
+  }
+}

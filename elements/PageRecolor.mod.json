@@ -1,0 +1,358 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "A.U. Mayhem",
+          "color": {
+            "value": -16737844,
+            "falpha": 0.0
+          },
+          "name": "A.U. Mayhem",
+          "x": 123,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "things are swapped.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "things are swapped.",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Where certain",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Where certain",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "events or certain",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "events or certain",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "different from ours.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "different from ours.",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "In here you will",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "In here you will",
+          "x": 123,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "encounter different",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "encounter different",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "In a world where",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "In a world where",
+          "x": 123,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "characters seem",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "characters seem",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "versions of your",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "versions of your",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "from fan-games, to",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "from fan-games, to",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Apocalypse",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Apocalypse",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A hude wasteland",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "A hude wasteland",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "where fan-games",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "where fan-games",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "roam freely, the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "roam freely, the",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "place does look",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "place does look",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "familiar wouldn't",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "familiar wouldn't",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "you say so? Almost",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "you say so? Almost",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "as if it were ripped",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "as if it were ripped",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Recolorpage2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A.U. Mayhem",
+          "color": {
+            "value": -16737844,
+            "falpha": 0.0
+          },
+          "name": "A.U. Mayhem",
+          "x": 240,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "out of a previous",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "out of a previous",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "hoaxes,and A.U.s!",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "hoaxes,and A.U.s!",
+          "x": 105,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "beloved characters,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "beloved characters,",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "egg game.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "egg game.",
+          "x": 222,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

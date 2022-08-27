@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultimate_fnaf_mod:cake_slice"
+    },
+    {
+      "item": "ultimate_fnaf_mod:cake_slice"
+    },
+    {
+      "item": "ultimate_fnaf_mod:cake_slice"
+    },
+    {
+      "item": "ultimate_fnaf_mod:cake_slice"
+    },
+    {
+      "item": "ultimate_fnaf_mod:cake_slice"
+    },
+    {
+      "item": "ultimate_fnaf_mod:cake_slice"
+    },
+    {
+      "item": "ultimate_fnaf_mod:cake_slice"
+    },
+    {
+      "item": "ultimate_fnaf_mod:cake_slice"
+    },
+    {
+      "item": "ultimate_fnaf_mod:cake_slice"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

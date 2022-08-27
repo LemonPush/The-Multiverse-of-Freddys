@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/sunplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/sunplush",
+    "particle": "ultimate_fnaf_mod:blocks/sunplush",
+    "1": "ultimate_fnaf_mod:blocks/sunplush"
+  }
+}

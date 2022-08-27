@@ -1,0 +1,346 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Overworld",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Overworld",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ballons for Faz-",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Ballons for Faz-",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "pizza for Faz-Coins.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "pizza for Faz-Coins.",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Coins and Lures.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Coins and Lures.",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Kill the Freddy",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Kill the Freddy",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "at the locations",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "at the locations",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and trade with the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and trade with the",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Be sure to find",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Be sure to find",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Give the children",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Give the children",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tips you'll need:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Tips you'll need:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "World1"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Overworld",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Overworld",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Night Guard.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Night Guard.",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to deal more damage.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to deal more damage.",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Upgrade the Mic,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Upgrade the Mic,",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Guitar, or Cupcake",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Guitar, or Cupcake",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Right-Click the ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Right-Click the ",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Animdude Plush when",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Animdude Plush when",
+          "x": 222,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "in danger.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "in danger.",
+          "x": 222,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tips you'll need:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Tips you'll need:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tame characters,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Tame characters,",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "they'll help you",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "they'll help you",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "survive the night.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "survive the night.",
+          "x": 105,
+          "y": 179
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "World3"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "To-Do",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "To-Do",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Faz-Coins as ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Faz-Coins as ",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "possible.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "possible.",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "in the Ballpit,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "in the Ballpit,",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "location and get",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "location and get",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "once you get in ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "once you get in ",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "find the Flipside",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "find the Flipside",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Arcade and give",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Arcade and give",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1. Gather as many",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "1. Gather as many",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2. Look for a FNaF",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "2. Look for a FNaF",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "it coins order to",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "it coins order to",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to get Faz-Tickets.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to get Faz-Tickets.",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and give ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and give ",
+          "x": 258,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "William ",
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "name": "William ",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "3. Find           or",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "3. Find           or",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "them the Faz-Tickets",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "them the Faz-Tickets",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "in order to trade",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "in order to trade",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "with them. If you ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "with them. If you ",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Henry",
+          "color": {
+            "value": -13395712,
+            "falpha": 0.0
+          },
+          "name": "Henry",
+          "x": 263,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "find them in the wild",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "find them in the wild",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "To-Do",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "To-Do",
+          "x": 258,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "you'll have to tame",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "you'll have to tame",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "them first. If you",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "them first. If you",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "spawned them with",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "spawned them with",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "items then they will",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "items then they will",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "already be tamed.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "already be tamed.",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "ToDo2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

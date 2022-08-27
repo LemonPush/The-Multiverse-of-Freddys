@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:scott_suit_helmet"
+    },
+    "title": {
+      "translate": "advancements.good_ending.title"
+    },
+    "description": {
+      "translate": "advancements.good_ending.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "good_ending": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "minecraft:scott_loot"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:happy"
+}

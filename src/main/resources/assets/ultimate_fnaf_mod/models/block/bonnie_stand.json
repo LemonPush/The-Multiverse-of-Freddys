@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/bonnie_stand",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/bonnie_stand",
+    "particle": "ultimate_fnaf_mod:blocks/bonnie_stand",
+    "0": "ultimate_fnaf_mod:blocks/bonnie_stand"
+  }
+}

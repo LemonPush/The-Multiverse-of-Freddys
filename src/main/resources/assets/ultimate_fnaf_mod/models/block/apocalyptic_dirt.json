@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/apocalypse",
+    "up": "ultimate_fnaf_mod:blocks/apocalypse",
+    "north": "ultimate_fnaf_mod:blocks/apocalypse",
+    "east": "ultimate_fnaf_mod:blocks/apocalypse",
+    "south": "ultimate_fnaf_mod:blocks/apocalypse",
+    "west": "ultimate_fnaf_mod:blocks/apocalypse",
+    "particle": "ultimate_fnaf_mod:blocks/apocalypse"
+  }
+}

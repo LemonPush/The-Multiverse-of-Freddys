@@ -1,0 +1,153 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Meme Land",
+          "color": {
+            "value": -13395712,
+            "falpha": 0.0
+          },
+          "name": "Meme Land",
+          "x": 186,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Continue",
+          "onClick": {
+            "name": "Entry3"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Continue",
+          "x": 177,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "In this world everything",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "In this world everything",
+          "x": 150,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and anything crazy enough",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and anything crazy enough",
+          "x": 141,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Memes",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Memes",
+          "x": 141,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "can exist, Imagine the most",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "can exist, Imagine the most",
+          "x": 141,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "cringe worthy content in FNaF.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "cringe worthy content in FNaF.",
+          "x": 132,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "well thats here...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "well thats here...",
+          "x": 168,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Bootlegs",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Bootlegs",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Cringe",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Cringe",
+          "x": 186,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

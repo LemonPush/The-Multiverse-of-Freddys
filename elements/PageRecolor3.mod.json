@@ -1,0 +1,189 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "A.U. Mayhem",
+          "color": {
+            "value": -16737844,
+            "falpha": 0.0
+          },
+          "name": "A.U. Mayhem",
+          "x": 123,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Find The Glob, a",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Find The Glob, a",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "connective tissue",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "connective tissue",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Find Pink Guy",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Find Pink Guy",
+          "x": 240,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mission",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mission",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "that holds everyone",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "that holds everyone",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A.U. Mayhem",
+          "color": {
+            "value": -16737844,
+            "falpha": 0.0
+          },
+          "name": "A.U. Mayhem",
+          "x": 240,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Optional",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Optional",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Recolorpage2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "here as hostage.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "here as hostage.",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and make him pay for",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and make him pay for",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "that night in 85.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "that night in 85.",
+          "x": 222,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

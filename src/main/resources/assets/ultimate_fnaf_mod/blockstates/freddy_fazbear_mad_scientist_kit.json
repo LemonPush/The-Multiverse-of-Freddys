@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultimate_fnaf_mod:block/freddy_fazbear_mad_scientist_kit"
+    },
+    "facing=east": {
+      "model": "ultimate_fnaf_mod:block/freddy_fazbear_mad_scientist_kit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultimate_fnaf_mod:block/freddy_fazbear_mad_scientist_kit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultimate_fnaf_mod:block/freddy_fazbear_mad_scientist_kit",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "ultimate_fnaf_mod:block/freddy_fazbear_mad_scientist_kit",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "ultimate_fnaf_mod:block/freddy_fazbear_mad_scientist_kit",
+      "x": 90
+    }
+  }
+}

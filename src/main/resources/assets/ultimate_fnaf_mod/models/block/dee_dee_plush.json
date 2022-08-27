@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/deedeeplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/deedeeplush",
+    "particle": "ultimate_fnaf_mod:blocks/deedeeplush",
+    "2": "ultimate_fnaf_mod:blocks/deedeeplush"
+  }
+}

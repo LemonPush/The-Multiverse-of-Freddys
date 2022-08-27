@@ -1,0 +1,385 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Giving the child",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Giving the child",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Faz-Coins will",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Faz-Coins will",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "out of the machine.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "out of the machine.",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Crying Child:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Crying Child:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Pizzeria Starter",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Pizzeria Starter",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "give you in return",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "give you in return",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Mechanics6"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Mechanics4"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Giving the machine",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Giving the machine",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "comes with a risk",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "comes with a risk",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Buff Stuff",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Buff Stuff",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Positive Energy",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Positive Energy",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "that something or",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "that something or",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Faz-Tickets. This",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Faz-Tickets. This",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "someone might come",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "someone might come",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "a Present will",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "a Present will",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "with the following:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "with the following:",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The'll reward you",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "The'll reward you",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "set them free.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "set them free.",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Arcade Machine:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Arcade Machine:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Ballpit",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Ballpit",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Animdude Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Animdude Plush",
+          "x": 105,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Found in locations.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Found in locations.",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Found in the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Found in the",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ballpit.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Ballpit.",
+          "x": 222,
+          "y": 161
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GoldenBalloon"
+      },
+      {
+        "value": "CUSTOM:Knife"
+      },
+      {
+        "value": "CUSTOM:FredbearPlush"
+      },
+      {
+        "value": "CUSTOM:Taser"
+      },
+      {
+        "value": "CUSTOM:GreenBracelet"
+      },
+      {
+        "value": "CUSTOM:SpringBonniePlush"
+      },
+      {
+        "value": "CUSTOM:IceCream"
+      },
+      {
+        "value": "CUSTOM:MicroPhone"
+      },
+      {
+        "value": "CUSTOM:Guitar"
+      },
+      {
+        "value": "CUSTOM:Cupcake"
+      },
+      {
+        "value": "CUSTOM:Cassette"
+      },
+      {
+        "value": "CUSTOM:Crank"
+      },
+      {
+        "value": "CUSTOM:GoldenHeadWeapon"
+      },
+      {
+        "value": "CUSTOM:BalloonWeapon"
+      },
+      {
+        "value": "CUSTOM:FreddyPlush"
+      },
+      {
+        "value": "CUSTOM:BonniePlush"
+      },
+      {
+        "value": "CUSTOM:ChicaPlush"
+      },
+      {
+        "value": "CUSTOM:FoxyPlush"
+      },
+      {
+        "value": "CUSTOM:GoldenFreddyPlush"
+      },
+      {
+        "value": "CUSTOM:ToyFreddyPlush"
+      },
+      {
+        "value": "CUSTOM:ToyBonniePlush"
+      },
+      {
+        "value": "CUSTOM:ToyChicaPlush"
+      },
+      {
+        "value": "CUSTOM:ManglePlush"
+      },
+      {
+        "value": "CUSTOM:BalloonBoyToy"
+      },
+      {
+        "value": "CUSTOM:PuppetPlush"
+      },
+      {
+        "value": "CUSTOM:ShadowFreddyPlush"
+      },
+      {
+        "value": "CUSTOM:ShadowBonniePlush"
+      },
+      {
+        "value": "CUSTOM:SpringtrapPlush"
+      },
+      {
+        "value": "CUSTOM:HauntedFredbearPlush"
+      },
+      {
+        "value": "CUSTOM:CircusBabyPlush"
+      },
+      {
+        "value": "CUSTOM:BalloraPlush"
+      },
+      {
+        "value": "CUSTOM:FuntimeFreddyPlush"
+      },
+      {
+        "value": "CUSTOM:FuntimeFoxyPlush"
+      },
+      {
+        "value": "CUSTOM:JJPlush"
+      },
+      {
+        "value": "CUSTOM:PhantomFreddyPlush"
+      },
+      {
+        "value": "CUSTOM:PhantomChicaPlush"
+      },
+      {
+        "value": "CUSTOM:PhantomFoxyPlush"
+      },
+      {
+        "value": "CUSTOM:PhantomBBPlush"
+      },
+      {
+        "value": "CUSTOM:PhantomManglePlush"
+      },
+      {
+        "value": "CUSTOM:PhantomPuppetPlush"
+      },
+      {
+        "value": "CUSTOM:NightmareFreddyPlush"
+      },
+      {
+        "value": "CUSTOM:NightmareBonniePlush"
+      },
+      {
+        "value": "CUSTOM:NightmareChicaPlush"
+      },
+      {
+        "value": "CUSTOM:NightmareFoxyPlush"
+      },
+      {
+        "value": "CUSTOM:NightmareFredbearPlush"
+      },
+      {
+        "value": "CUSTOM:PlushtrapPlush"
+      },
+      {
+        "value": "CUSTOM:NightmarePlush"
+      },
+      {
+        "value": "CUSTOM:JackOBonniePlush"
+      },
+      {
+        "value": "CUSTOM:JackOChicaPlush"
+      },
+      {
+        "value": "CUSTOM:NightmareManglePlush"
+      },
+      {
+        "value": "CUSTOM:NightmareBBPlush"
+      },
+      {
+        "value": "CUSTOM:NightmarionnePlush"
+      },
+      {
+        "value": "CUSTOM:EnnardPlush"
+      },
+      {
+        "value": "CUSTOM:LolbitPlush"
+      },
+      {
+        "value": "CUSTOM:YenndoPlush"
+      },
+      {
+        "value": "CUSTOM:DarktrapPlush"
+      },
+      {
+        "value": "CUSTOM:MoltenFreddyPlush"
+      },
+      {
+        "value": "CUSTOM:ScraptrapPlush"
+      },
+      {
+        "value": "CUSTOM:ScrapBabyPlush"
+      },
+      {
+        "value": "CUSTOM:LeftyPlush"
+      },
+      {
+        "value": "CUSTOM:SecurityPuppetPlush"
+      },
+      {
+        "value": "CUSTOM:MusicManPlush"
+      },
+      {
+        "value": "CUSTOM:ElChipPlush"
+      },
+      {
+        "value": "CUSTOM:FuntimeChicaPlush"
+      },
+      {
+        "value": "CUSTOM:HelpyPlush"
+      },
+      {
+        "value": "CUSTOM:GlitchtrapPlush"
+      },
+      {
+        "value": "CUSTOM:DreadbearPlush"
+      },
+      {
+        "value": "CUSTOM:GrimmFoxyPlush"
+      },
+      {
+        "value": "CUSTOM:VannyPlush"
+      },
+      {
+        "value": "CUSTOM:UCNFredbearPlush"
+      },
+      {
+        "value": "CUSTOM:OMCPlush"
+      },
+      {
+        "value": "CUSTOM:DeeDeePlush"
+      },
+      {
+        "value": "CUSTOM:WFreddyPlush"
+      },
+      {
+        "value": "CUSTOM:WBonniePlush"
+      },
+      {
+        "value": "CUSTOM:WChicaPlush"
+      },
+      {
+        "value": "CUSTOM:WFoxyPlush"
+      },
+      {
+        "value": "CUSTOM:WGoldenFreddyPlush"
+      },
+      {
+        "value": "CUSTOM:CaptainFoxyPlush"
+      },
+      {
+        "value": "CUSTOM:GlamFreddyPlush"
+      },
+      {
+        "value": "CUSTOM:MontyPlush"
+      },
+      {
+        "value": "CUSTOM:RoxyPlush"
+      },
+      {
+        "value": "CUSTOM:GlamChicaPlush"
+      },
+      {
+        "value": "CUSTOM:SunPlush"
+      },
+      {
+        "value": "CUSTOM:DJMusicManPlush"
+      },
+      {
+        "value": "CUSTOM:StaffBotPlush"
+      },
+      {
+        "value": "CUSTOM:NightBotPlush"
+      },
+      {
+        "value": "CUSTOM:MoonPlush"
+      },
+      {
+        "value": "CUSTOM:BlobPlush"
+      },
+      {
+        "value": "CUSTOM:BurntrapPlush"
+      },
+      {
+        "value": "CUSTOM:FrostbearPlush"
+      },
+      {
+        "value": "CUSTOM:ShamrockPlush"
+      },
+      {
+        "value": "CUSTOM:ChocolatePlush"
+      },
+      {
+        "value": "CUSTOM:EasterPlush"
+      },
+      {
+        "value": "CUSTOM:VRPlush"
+      },
+      {
+        "value": "CUSTOM:HighScorePlush"
+      },
+      {
+        "value": "CUSTOM:SystemErrorPlush"
+      },
+      {
+        "value": "CUSTOM:RadioactivePlush"
+      },
+      {
+        "value": "CUSTOM:ToxicPlush"
+      },
+      {
+        "value": "CUSTOM:SwampPlush"
+      },
+      {
+        "value": "CUSTOM:DarkPlush"
+      },
+      {
+        "value": "CUSTOM:NeonBPlush"
+      },
+      {
+        "value": "CUSTOM:NeonCPlush"
+      },
+      {
+        "value": "CUSTOM:BurntPlush"
+      },
+      {
+        "value": "CUSTOM:ShadowPlush"
+      },
+      {
+        "value": "CUSTOM:HappyFrogPlush"
+      },
+      {
+        "value": "CUSTOM:HippoPlush"
+      },
+      {
+        "value": "CUSTOM:PigPlush"
+      },
+      {
+        "value": "CUSTOM:NeddPlush"
+      },
+      {
+        "value": "CUSTOM:ElephantPlush"
+      },
+      {
+        "value": "CUSTOM:CandyCadetPlush"
+      },
+      {
+        "value": "CUSTOM:RockFredPlush"
+      },
+      {
+        "value": "CUSTOM:RockBonniePlush"
+      },
+      {
+        "value": "CUSTOM:RockChicaPlush"
+      },
+      {
+        "value": "CUSTOM:RockFoxyPlush"
+      },
+      {
+        "value": "CUSTOM:MapBotPlush"
+      },
+      {
+        "value": "CUSTOM:Clowntrap"
+      },
+      {
+        "value": "CUSTOM:Forst"
+      },
+      {
+        "value": "CUSTOM:Arctic"
+      },
+      {
+        "value": "CUSTOM:FuntimePlush"
+      },
+      {
+        "value": "CUSTOM:Cupcakeplush"
+      },
+      {
+        "value": "CUSTOM:JumboGolden"
+      },
+      {
+        "value": "CUSTOM:JumbDreadbear"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "fnaf_dupe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="ultimate_fnaf_mod"
+version="1.0.0"
+displayName="The Multiverse of Freddy's"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="LemonPush"
+
+[[dependencies.ultimate_fnaf_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ultimate_fnaf_mod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.26]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

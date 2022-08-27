@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:remnant"
+    },
+    "title": {
+      "translate": "advancements.scifi.title"
+    },
+    "description": {
+      "translate": "advancements.scifi.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "scifi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:remnant",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "recipes": [
+      "ultimate_fnaf_mod:needle",
+      "ultimate_fnaf_mod:remnant_syringe",
+      "ultimate_fnaf_mod:hand_unit_recipe"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:more_to_fear"
+}

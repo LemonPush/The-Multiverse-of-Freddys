@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/witheredfreddyplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/witheredfreddyplush",
+    "particle": "ultimate_fnaf_mod:blocks/witheredfreddyplush",
+    "2": "ultimate_fnaf_mod:blocks/witheredfreddyplush"
+  }
+}

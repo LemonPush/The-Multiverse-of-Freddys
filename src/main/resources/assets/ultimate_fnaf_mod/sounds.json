@@ -1,0 +1,560 @@
+{
+  "deadeyes": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:deadeyes_v2",
+        "stream": false
+      }
+    ]
+  },
+  "chica1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:1_chica",
+        "stream": false
+      }
+    ]
+  },
+  "bonnie1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:1_bonnie",
+        "stream": false
+      }
+    ]
+  },
+  "death1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:1_death",
+        "stream": false
+      }
+    ]
+  },
+  "deathgolden1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:1_death_golden",
+        "stream": false
+      }
+    ]
+  },
+  "foxy1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:1_foxy",
+        "stream": false
+      }
+    ]
+  },
+  "freddy1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:1_freddy",
+        "stream": false
+      }
+    ]
+  },
+  "golden1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:1_golden",
+        "stream": false
+      }
+    ]
+  },
+  "walk1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:1_walk",
+        "stream": false
+      }
+    ]
+  },
+  "walkfoxy1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:1_walk_foxy",
+        "stream": false
+      }
+    ]
+  },
+  "walkgolden1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:1_walk_golden",
+        "stream": false
+      }
+    ]
+  },
+  "bb2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:2_bb",
+        "stream": false
+      }
+    ]
+  },
+  "death2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:2_death",
+        "stream": false
+      }
+    ]
+  },
+  "mangle2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:2_mangle",
+        "stream": false
+      }
+    ]
+  },
+  "puppet2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:2_puppet",
+        "stream": false
+      }
+    ]
+  },
+  "walk2": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:2_walk",
+        "stream": false
+      }
+    ]
+  },
+  "death3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:3_death",
+        "stream": false
+      }
+    ]
+  },
+  "mangle3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:3_mangle",
+        "stream": false
+      }
+    ]
+  },
+  "puppet3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:3_puppet",
+        "stream": false
+      }
+    ]
+  },
+  "shadow3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:3_shadow",
+        "stream": false
+      }
+    ]
+  },
+  "deathshadow3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:3_death_shadow",
+        "stream": false
+      }
+    ]
+  },
+  "bb4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:4_bb",
+        "stream": false
+      }
+    ]
+  },
+  "death4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:4_death",
+        "stream": false
+      }
+    ]
+  },
+  "dreadbear4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:4_dreadbear",
+        "stream": false
+      }
+    ]
+  },
+  "foxy4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:4_foxy",
+        "stream": false
+      }
+    ]
+  },
+  "fredbear4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:4_fredbear",
+        "stream": false
+      }
+    ]
+  },
+  "mangle4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:4_mangle",
+        "stream": false
+      }
+    ]
+  },
+  "deathshort4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:4_death_short",
+        "stream": false
+      }
+    ]
+  },
+  "deathnightmare4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:4_death_nightmare",
+        "stream": false
+      }
+    ]
+  },
+  "walk4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:4_walk",
+        "stream": false
+      }
+    ]
+  },
+  "walk3": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:3_walk",
+        "stream": false
+      }
+    ]
+  },
+  "freddy5": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:5_freddy",
+        "stream": false
+      }
+    ]
+  },
+  "lolbit5": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:5_lolbit",
+        "stream": false
+      }
+    ]
+  },
+  "deathshort5": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:5_death_short",
+        "stream": false
+      }
+    ]
+  },
+  "walk5": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:5_walk",
+        "stream": false
+      }
+    ]
+  },
+  "death6": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:6_death",
+        "stream": false
+      }
+    ]
+  },
+  "helpy6": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:6_helpy",
+        "stream": false
+      }
+    ]
+  },
+  "deathhelpy6": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:6_death_helpy",
+        "stream": false
+      }
+    ]
+  },
+  "lefty6": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:6_lefty",
+        "stream": false
+      }
+    ]
+  },
+  "walk6": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:6_walk",
+        "stream": false
+      }
+    ]
+  },
+  "death7": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:7_death",
+        "stream": false
+      }
+    ]
+  },
+  "fredbear7": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:7_fredbear",
+        "stream": false
+      }
+    ]
+  },
+  "summon7": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:7_summon",
+        "stream": false
+      }
+    ]
+  },
+  "xor7": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:7_xor",
+        "stream": false
+      }
+    ]
+  },
+  "deathglitchtrap8": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:8_death_glitchtrap",
+        "stream": false
+      }
+    ]
+  },
+  "deathplush8": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:8_death_plush",
+        "stream": false
+      }
+    ]
+  },
+  "death9": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:9_death",
+        "stream": false
+      }
+    ]
+  },
+  "death_f": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:f_death",
+        "stream": false
+      }
+    ]
+  },
+  "death_c": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:c_death",
+        "stream": false
+      }
+    ]
+  },
+  "death_ar": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:ar_death",
+        "stream": false
+      }
+    ]
+  },
+  "death_j": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:j_death",
+        "stream": false
+      }
+    ]
+  },
+  "death_p": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:p_death",
+        "stream": false
+      }
+    ]
+  },
+  "death_ti": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:ti_death",
+        "stream": false
+      }
+    ]
+  },
+  "deathhourglass_ti": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:ti_death_hourglass",
+        "stream": false
+      }
+    ]
+  },
+  "forgottenone_ti": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:ti_forgottenone",
+        "stream": false
+      }
+    ]
+  },
+  "mickey_ti": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:ti_mickey",
+        "stream": false
+      }
+    ]
+  },
+  "death_tjoc": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:tjoc_death",
+        "stream": false
+      }
+    ]
+  },
+  "puppet4": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:4_puppet",
+        "stream": false
+      }
+    ]
+  },
+  "death5": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:5_death",
+        "stream": false
+      }
+    ]
+  },
+  "walk_big": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:walk_big",
+        "stream": false
+      }
+    ]
+  },
+  "molten6": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:6_molten",
+        "stream": false
+      }
+    ]
+  },
+  "hurt1": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "ultimate_fnaf_mod:hurt",
+        "stream": false
+      }
+    ]
+  }
+}

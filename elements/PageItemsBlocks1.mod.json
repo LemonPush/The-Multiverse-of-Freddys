@@ -1,0 +1,358 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Items",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Items",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Right-Click to see",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Right-Click to see",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "or find Endos.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "or find Endos.",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "in the darkness.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "in the darkness.",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "visit \"Mechanics\"",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "visit \"Mechanics\"",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Flashlight:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Flashlight:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "used for going",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "used for going",
+          "x": 222,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to get Remnant, kill",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to get Remnant, kill",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Agony:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Agony:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "ItemsBlocks2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Items",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Items",
+          "x": 258,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Be worn as armor",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Be worn as armor",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Illusion Disc:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Illusion Disc:",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Possessed Metal:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Possessed Metal:",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Place in furnace",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Place in furnace",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Springlock Suits:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Springlock Suits:",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Can tame and be ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Can tame and be ",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Can tamed, fix, and",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Can tamed, fix, and",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "upgrade items.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "upgrade items.",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "invisible.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "invisible.",
+          "x": 222,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "for more info.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "for more info.",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Upgraded Suits:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Upgraded Suits:",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Springlock suits ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Springlock suits ",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "that can be near",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "that can be near",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "any water source.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "any water source.",
+          "x": 105,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

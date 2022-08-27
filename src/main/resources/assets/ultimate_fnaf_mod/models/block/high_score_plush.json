@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/highscoretoychicaplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/highscoretoychicaplush",
+    "particle": "ultimate_fnaf_mod:blocks/highscoretoychicaplush",
+    "0": "ultimate_fnaf_mod:blocks/highscoretoychicaplush"
+  }
+}

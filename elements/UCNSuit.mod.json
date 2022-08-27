@@ -1,0 +1,62 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ucn1",
+    "enableBody": true,
+    "textureBody": "ucn2",
+    "enableLeggings": true,
+    "textureLeggings": "ucn3",
+    "enableBoots": true,
+    "textureBoots": "ucn4",
+    "creativeTab": {
+      "value": "CUSTOM:FlipSideTab"
+    },
+    "armorTextureFile": "spring_",
+    "helmetName": "TOYSNHK Head",
+    "bodyName": "TOYSNHK Body",
+    "leggingsName": "TOYSNHK Legs",
+    "bootsName": "TOYSNHK Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelUCNsuit",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "ucnsuit.png",
+    "bodyModelName": "ModelUCNsuit",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "ucnsuit.png",
+    "leggingsModelName": "ModelUCNsuit",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "ucnsuit.png",
+    "bootsModelName": "ModelUCNsuit",
+    "bootsModelPartL": "LeftBoot",
+    "bootsModelPartR": "RightBoot",
+    "bootsModelTexture": "ucnsuit.png",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 30,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 30,
+    "toughness": 2.0,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Agony"
+      }
+    ]
+  }
+}

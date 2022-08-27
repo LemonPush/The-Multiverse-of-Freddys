@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ultimate_fnaf_mod:golden_remnant"
+    },
+    "3": {
+      "item": "ultimate_fnaf_mod:golden_remnant"
+    },
+    "4": {
+      "item": "ultimate_fnaf_mod:golden_suit_leggings"
+    },
+    "5": {
+      "item": "ultimate_fnaf_mod:golden_remnant"
+    },
+    "7": {
+      "item": "ultimate_fnaf_mod:golden_remnant"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:ucn_suit_leggings",
+    "count": 1
+  }
+}

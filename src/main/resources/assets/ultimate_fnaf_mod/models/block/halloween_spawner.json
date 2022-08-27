@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/halloween",
+    "up": "ultimate_fnaf_mod:blocks/halloween",
+    "north": "ultimate_fnaf_mod:blocks/halloween",
+    "east": "ultimate_fnaf_mod:blocks/halloween",
+    "south": "ultimate_fnaf_mod:blocks/halloween",
+    "west": "ultimate_fnaf_mod:blocks/halloween",
+    "particle": "ultimate_fnaf_mod:blocks/halloween"
+  }
+}

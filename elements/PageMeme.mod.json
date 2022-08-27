@@ -1,0 +1,162 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Meme Land",
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "name": "Meme Land",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "even looking at this",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "even looking at this",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "page? Go touch",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "page? Go touch",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "grass, there is",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "grass, there is",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Why are you",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Why are you",
+          "x": 123,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "you...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "you...",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Meme Land",
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "name": "Meme Land",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Just kill Xman &",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Just kill Xman &",
+          "x": 231,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "nothing here for",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "nothing here for",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Lapine Man.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Lapine Man.",
+          "x": 231,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

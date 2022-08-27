@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ultimate_fnaf_mod:block/dark_gray_slab"
+    },
+    "type=top": {
+      "model": "ultimate_fnaf_mod:block/dark_gray_slab_top"
+    },
+    "type=double": {
+      "model": "ultimate_fnaf_mod:block/dark_gray_slab_full"
+    }
+  }
+}

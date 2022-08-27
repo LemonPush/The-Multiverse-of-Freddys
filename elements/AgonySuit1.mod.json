@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AftonRemnant"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AftonRemnant"
+      },
+      {
+        "value": "CUSTOM:Springtrapsuit.helmet"
+      },
+      {
+        "value": "CUSTOM:AftonRemnant"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AftonRemnant"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Agonysuit.helmet"
+    },
+    "name": "agony_suit_1",
+    "namespace": "mod"
+  }
+}

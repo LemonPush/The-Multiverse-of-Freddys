@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:micro_phone_6"
+    },
+    "title": {
+      "translate": "advancements.micro_lvl_6.title"
+    },
+    "description": {
+      "translate": "advancements.micro_lvl_6.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "micro_lvl_6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:micro_phone_6",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "ultimate_fnaf_mod:golden_micro",
+      "ultimate_fnaf_mod:shadow_micro",
+      "ultimate_fnaf_mod:icicle_recipe"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:micro_lvl_5"
+}

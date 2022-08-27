@@ -1,0 +1,166 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "A.U. Mayhem",
+          "color": {
+            "value": -16737844,
+            "falpha": 0.0
+          },
+          "name": "A.U. Mayhem",
+          "x": 186,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Continue",
+          "onClick": {
+            "name": "Entry4"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Continue",
+          "x": 181,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A reality where anything",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "A reality where anything",
+          "x": 150,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "that can happen, will happen.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "that can happen, will happen.",
+          "x": 141,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Fan-Games",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Fan-Games",
+          "x": 186,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "rejoice in this land of",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "rejoice in this land of",
+          "x": 150,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "microsoft paint and unqiue",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "microsoft paint and unqiue",
+          "x": 141,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "takes on past characters,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "takes on past characters,",
+          "x": 150,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Hoaxes",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Hoaxes",
+          "x": 249,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Alternate Universe",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Alternate Universe",
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "new ones too!",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "new ones too!",
+          "x": 186,
+          "y": 116
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

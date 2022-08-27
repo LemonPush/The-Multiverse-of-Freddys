@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "plushtrapchaser_body"
+      },
+      "name": "default"
+    }
+  }
+}

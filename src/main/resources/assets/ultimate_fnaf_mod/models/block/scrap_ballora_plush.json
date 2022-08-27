@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/scrapballoraplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/scrapballoraplush",
+    "particle": "ultimate_fnaf_mod:blocks/scrapballoraplush",
+    "1": "ultimate_fnaf_mod:blocks/scrapballoraplush"
+  }
+}

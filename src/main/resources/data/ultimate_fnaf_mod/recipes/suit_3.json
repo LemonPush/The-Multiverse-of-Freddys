@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultimate_fnaf_mod:agony"
+    },
+    "1": {
+      "item": "ultimate_fnaf_mod:agony"
+    },
+    "2": {
+      "item": "ultimate_fnaf_mod:agony"
+    },
+    "3": {
+      "item": "ultimate_fnaf_mod:agony"
+    },
+    "4": {
+      "item": "ultimate_fnaf_mod:springbonniesuit_leggings"
+    },
+    "5": {
+      "item": "ultimate_fnaf_mod:agony"
+    },
+    "6": {
+      "item": "ultimate_fnaf_mod:agony"
+    },
+    "7": {
+      "item": "ultimate_fnaf_mod:agony"
+    },
+    "8": {
+      "item": "ultimate_fnaf_mod:agony"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:springtrapsuit_leggings",
+    "count": 1
+  }
+}

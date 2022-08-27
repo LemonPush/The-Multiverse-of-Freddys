@@ -1,0 +1,37 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "saw",
+    "customModelName": "Normal",
+    "name": "Buzzsaw",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:FlipSideTab"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 2031,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 8.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:PossessedMetal"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

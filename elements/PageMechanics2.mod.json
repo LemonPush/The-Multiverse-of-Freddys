@@ -1,0 +1,268 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Henry Emily can",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Henry Emily can",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "offer 3 things,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "offer 3 things,",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Trading:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Trading:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "offer 3 things,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "offer 3 things,",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "accepts Faz-Tickets.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "accepts Faz-Tickets.",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Mechanics3"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Mechanics"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Trading:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Trading:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Fredbear Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Fredbear Plush",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "William Afton can",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "William Afton can",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Faz-Blaster",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Faz-Blaster",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Present",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Present",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "accepts Faz-Tickets.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "accepts Faz-Tickets.",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- S. Bonnie Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- S. Bonnie Plush",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Car Keys",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Car Keys",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- S.C.U.P.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- S.C.U.P.",
+          "x": 222,
+          "y": 134
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

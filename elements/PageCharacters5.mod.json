@@ -1,0 +1,320 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Vanny:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Vanny:",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Glitchtrap:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Glitchtrap:",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "S. Bonnie Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "S. Bonnie Plush",
+          "x": 123,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "S. Bonnie Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "S. Bonnie Plush",
+          "x": 123,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Burntrap:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Burntrap:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Characters6"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Characters4"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "S. Bonnie Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "S. Bonnie Plush",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Michael:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Michael:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Taser",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Taser",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fredbear (UCN):",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Fredbear (UCN):",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fredbear Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Fredbear Plush",
+          "x": 123,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "There are also secret",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "There are also secret",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "characters you can",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "characters you can",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "aquire by giving",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "aquire by giving",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "certain characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "certain characters",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "specific items.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "specific items.",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Origins Puppet:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Origins Puppet:",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Puppet",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Puppet",
+          "x": 240,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+ Present",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "+ Present",
+          "x": 231,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

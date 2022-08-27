@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultimate_fnaf_mod:dragon_stick"
+    },
+    {
+      "item": "ultimate_fnaf_mod:vr"
+    },
+    {
+      "item": "ultimate_fnaf_mod:fanmail"
+    },
+    {
+      "item": "ultimate_fnaf_mod:rage_quit_plush"
+    },
+    {
+      "item": "ultimate_fnaf_mod:blue_remnant"
+    }
+  ],
+  "result": {
+    "item": "ultimate_fnaf_mod:scott_bag",
+    "count": 1
+  }
+}

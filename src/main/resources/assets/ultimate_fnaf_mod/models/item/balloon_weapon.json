@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/balloon",
+  "textures": {
+    "2": "ultimate_fnaf_mod:blocks/balloon",
+    "particle": "ultimate_fnaf_mod:items/soda"
+  }
+}

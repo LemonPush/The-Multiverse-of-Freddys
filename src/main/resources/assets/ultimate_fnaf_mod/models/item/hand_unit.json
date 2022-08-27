@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/handunit",
+  "textures": {
+    "1": "ultimate_fnaf_mod:blocks/handunit",
+    "particle": "ultimate_fnaf_mod:items/possessed_metal"
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "FNaF 4: Illus. Disc",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "FNaF 4: Illus. Disc",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "FNaF: Pizza",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "FNaF: Pizza",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "SL: Remnant",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "SL: Remnant",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "FNaF 3: Agony",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "FNaF 3: Agony",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Golden Freddy: ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Golden Freddy: ",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "FNaF 2: Soda",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "FNaF 2: Soda",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Unique Taming",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Unique Taming",
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "SB: Battery",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "SB: Battery",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "FFPS: Party Hat",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "FFPS: Party Hat",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "AR: Faz-Coin",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "AR: Faz-Coin",
+          "x": 105,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "UCN: Cake Slice",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "UCN: Cake Slice",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "HW: Mysterious Tape",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "HW: Mysterious Tape",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Characters3"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Characters"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Certain characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Certain characters",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Puppet:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Puppet:",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "require an item",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "require an item",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "before taming them.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "before taming them.",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Items used for",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Items used for",
+          "x": 123,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "taming and healing.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "taming and healing.",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Golden Balloon",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Golden Balloon",
+          "x": 240,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Green Bracelet",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Green Bracelet",
+          "x": 240,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "W. Golden Freddy:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "W. Golden Freddy:",
+          "x": 222,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Golden Balloon",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Golden Balloon",
+          "x": 240,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

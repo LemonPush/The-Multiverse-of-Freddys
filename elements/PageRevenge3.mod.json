@@ -1,0 +1,346 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Cawthon's Revenge",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Cawthon's Revenge",
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Space may be",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Space may be",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "awesome but don't",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "awesome but don't",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "go sight seeing or",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "go sight seeing or",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Scott Cawthon has",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Scott Cawthon has",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "changed his name",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "changed his name",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to Rage Quit...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to Rage Quit...",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Lunar Mines",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Lunar Mines",
+          "x": 114,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "forget to mention,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "forget to mention,",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "don't ask why.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "don't ask why.",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Another also...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Another also...",
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Rage Quit took some",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Rage Quit took some",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "into time to creating",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "into time to creating",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "minions who protect",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "minions who protect",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "great power, once ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "great power, once ",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "defeated you'll have",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "defeated you'll have",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Revengepage4"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cawthon's Revenge",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Cawthon's Revenge",
+          "x": 231,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "an advantage against",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "an advantage against",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Also before I",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Also before I",
+          "x": 123,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the creator.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "the creator.",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Revengepage2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "you're dead.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "you're dead.",
+          "x": 105,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

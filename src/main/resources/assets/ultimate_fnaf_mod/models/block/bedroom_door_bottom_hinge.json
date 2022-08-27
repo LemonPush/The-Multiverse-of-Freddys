@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "ultimate_fnaf_mod:blocks/bedroom_door_bottom",
+    "top": "ultimate_fnaf_mod:blocks/bedroom_door_top"
+  }
+}

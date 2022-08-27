@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/monty_claw",
+  "textures": {
+    "1": "ultimate_fnaf_mod:blocks/monty_claw",
+    "particle": "ultimate_fnaf_mod:items/monty_claw"
+  }
+}

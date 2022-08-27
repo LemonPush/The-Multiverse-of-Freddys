@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/golden_head",
+  "textures": {
+    "1": "ultimate_fnaf_mod:blocks/golden_head",
+    "particle": "ultimate_fnaf_mod:items/yellow_head"
+  }
+}

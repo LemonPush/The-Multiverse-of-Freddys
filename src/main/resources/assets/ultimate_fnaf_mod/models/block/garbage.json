@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/garbage",
+    "up": "ultimate_fnaf_mod:blocks/garbage",
+    "north": "ultimate_fnaf_mod:blocks/garbage",
+    "east": "ultimate_fnaf_mod:blocks/garbage",
+    "south": "ultimate_fnaf_mod:blocks/garbage",
+    "west": "ultimate_fnaf_mod:blocks/garbage",
+    "particle": "ultimate_fnaf_mod:blocks/garbage"
+  }
+}

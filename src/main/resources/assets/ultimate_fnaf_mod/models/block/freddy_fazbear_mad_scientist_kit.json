@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/boxoffazgoo",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/boxoffazgoo",
+    "particle": "ultimate_fnaf_mod:blocks/boxoffazgoo",
+    "1": "ultimate_fnaf_mod:blocks/boxoffazgoo"
+  }
+}

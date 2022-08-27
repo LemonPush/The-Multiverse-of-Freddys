@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ultimate_fnaf_mod:fanmail"
+    },
+    "3": {
+      "item": "ultimate_fnaf_mod:fanmail"
+    },
+    "4": {
+      "item": "minecraft:diamond_boots"
+    },
+    "5": {
+      "item": "ultimate_fnaf_mod:fanmail"
+    },
+    "7": {
+      "item": "ultimate_fnaf_mod:fanmail"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:scott_suit_boots",
+    "count": 1
+  }
+}

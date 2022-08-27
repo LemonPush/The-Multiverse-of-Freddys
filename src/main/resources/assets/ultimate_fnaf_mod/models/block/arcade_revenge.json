@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/arcade_revenge",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/arcade_revenge",
+    "particle": "ultimate_fnaf_mod:blocks/arcade_revenge",
+    "2": "ultimate_fnaf_mod:blocks/arcade_revenge"
+  }
+}

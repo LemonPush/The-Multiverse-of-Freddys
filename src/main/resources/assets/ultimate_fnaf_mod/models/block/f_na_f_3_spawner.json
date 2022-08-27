@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/map3",
+    "up": "ultimate_fnaf_mod:blocks/map3",
+    "north": "ultimate_fnaf_mod:blocks/map3",
+    "east": "ultimate_fnaf_mod:blocks/map3",
+    "south": "ultimate_fnaf_mod:blocks/map3",
+    "west": "ultimate_fnaf_mod:blocks/map3",
+    "particle": "ultimate_fnaf_mod:blocks/map3"
+  }
+}

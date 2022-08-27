@@ -1,0 +1,345 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Cawthon's Revenge",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Cawthon's Revenge",
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Scott Cawthon has",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Scott Cawthon has",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "had it with the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "had it with the",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "fanbase. ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "fanbase. ",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "released spin-offs",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "released spin-offs",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and troll games onto",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and troll games onto",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "his desperate fans",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "his desperate fans",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "FnaF creator",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "FnaF creator",
+          "x": 123,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Scott got angry then",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Scott got angry then",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "all out of spite to",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "all out of spite to",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Fazbear Hills",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Fazbear Hills",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The safest place",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "The safest place",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to be at when entering",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to be at when entering",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "FnaF World. You'll",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "FnaF World. You'll",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "see some friendly",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "see some friendly",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "characters who only",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "characters who only",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "pizza in exchange",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "pizza in exchange",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "of joining your party",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "of joining your party",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Revengepage2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cawthon's Revenge",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Cawthon's Revenge",
+          "x": 231,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and freeing this once",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and freeing this once",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "get them to shut up.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "get them to shut up.",
+          "x": 105,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "In this timeline",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "In this timeline",
+          "x": 123,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "happy world.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "happy world.",
+          "x": 222,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

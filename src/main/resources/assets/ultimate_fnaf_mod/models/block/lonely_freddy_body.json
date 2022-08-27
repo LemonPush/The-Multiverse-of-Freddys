@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/lonelyfreddy_body",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/lonelyfreddy_body",
+    "particle": "ultimate_fnaf_mod:blocks/lonelyfreddy_body",
+    "0": "ultimate_fnaf_mod:blocks/lonelyfreddy_body"
+  }
+}

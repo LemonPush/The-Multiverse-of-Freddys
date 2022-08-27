@@ -1,0 +1,56 @@
+{
+  "_fv": 33,
+  "_type": "fluid",
+  "definition": {
+    "name": "Lunar Lava",
+    "bucketName": "Lunar Lava Bucket",
+    "textureStill": "greenlava",
+    "textureFlowing": "greenlava",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 2,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "temperature": 300,
+    "type": "LAVA",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "CUSTOM:F2"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 0,
+    "emissiveRendering": true,
+    "tickRate": 10,
+    "flammability": 5,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "CUSTOM:Revenge"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:LunarMines"
+      }
+    ],
+    "onEntityCollides": {
+      "name": "GreenlavaMobplayerCollidesBlock"
+    }
+  }
+}

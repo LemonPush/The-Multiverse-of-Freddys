@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/scrapbaby_claw",
+  "textures": {
+    "1": "ultimate_fnaf_mod:blocks/scrapbaby_claw",
+    "particle": "ultimate_fnaf_mod:items/scrapbaby_claw"
+  }
+}

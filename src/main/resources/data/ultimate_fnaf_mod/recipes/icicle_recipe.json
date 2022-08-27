@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ice"
+    },
+    "1": {
+      "item": "minecraft:cake"
+    },
+    "2": {
+      "item": "minecraft:ice"
+    },
+    "3": {
+      "item": "minecraft:ice"
+    },
+    "4": {
+      "item": "ultimate_fnaf_mod:micro_phone_6"
+    },
+    "5": {
+      "item": "minecraft:ice"
+    },
+    "6": {
+      "item": "minecraft:ice"
+    },
+    "7": {
+      "item": "minecraft:ice"
+    },
+    "8": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:icicle",
+    "count": 1
+  }
+}

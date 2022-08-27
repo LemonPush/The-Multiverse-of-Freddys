@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/toychicaplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/toychicaplush",
+    "particle": "ultimate_fnaf_mod:blocks/toychicaplush",
+    "0": "ultimate_fnaf_mod:blocks/toychicaplush"
+  }
+}

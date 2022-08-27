@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/recycle_bottom",
+    "up": "ultimate_fnaf_mod:blocks/recycle_top",
+    "north": "ultimate_fnaf_mod:blocks/recycle",
+    "east": "ultimate_fnaf_mod:blocks/recycle",
+    "south": "ultimate_fnaf_mod:blocks/recycle",
+    "west": "ultimate_fnaf_mod:blocks/recycle",
+    "particle": "ultimate_fnaf_mod:blocks/recycle_bottom"
+  }
+}

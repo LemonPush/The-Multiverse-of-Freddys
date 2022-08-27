@@ -1,0 +1,294 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ennard:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Ennard:",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Darktrap:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Darktrap:",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ice Cream",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Ice Cream",
+          "x": 123,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Molten Freddy:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Molten Freddy:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Knife",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Knife",
+          "x": 240,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Scraptrap:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Scraptrap:",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Scrap Baby:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Scrap Baby:",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ice Cream",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Ice Cream",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Characters5"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Characters",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Characters",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Characters3"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Knife",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Knife",
+          "x": 123,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Lefty:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Lefty:",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nightmarionne:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Nightmarionne:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ice Cream",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Ice Cream",
+          "x": 123,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Remnant",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Remnant",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Green Bracelet",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Green Bracelet",
+          "x": 240,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Circus Baby:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Circus Baby:",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Puppet Plush",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Puppet Plush",
+          "x": 123,
+          "y": 80
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

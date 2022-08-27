@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/phantomballoonboyplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/phantomballoonboyplush",
+    "particle": "ultimate_fnaf_mod:blocks/phantomballoonboyplush",
+    "2": "ultimate_fnaf_mod:blocks/phantomballoonboyplush"
+  }
+}

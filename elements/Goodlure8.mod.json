@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EmotionalEnergy"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EmotionalEnergy"
+      },
+      {
+        "value": "CUSTOM:Lure8"
+      },
+      {
+        "value": "CUSTOM:EmotionalEnergy"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EmotionalEnergy"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TamedLure8"
+    },
+    "name": "goodlure_8",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/meme_land",
+    "up": "ultimate_fnaf_mod:blocks/meme_land",
+    "north": "ultimate_fnaf_mod:blocks/meme_land",
+    "east": "ultimate_fnaf_mod:blocks/meme_land",
+    "south": "ultimate_fnaf_mod:blocks/meme_land",
+    "west": "ultimate_fnaf_mod:blocks/meme_land",
+    "particle": "ultimate_fnaf_mod:blocks/meme_land"
+  }
+}

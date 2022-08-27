@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:f_3_icon"
+    },
+    "title": {
+      "translate": "advancements.oc_recolor.title"
+    },
+    "description": {
+      "translate": "advancements.oc_recolor.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "oc_recolor": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ultimate_fnaf_mod:deleted_mod_element"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "ultimate_fnaf_mod:flipside_achi"
+}

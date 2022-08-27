@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:puppet_plush"
+    },
+    "title": {
+      "translate": "advancements.strings.title"
+    },
+    "description": {
+      "translate": "advancements.strings.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "strings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:puppet_mask",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  },
+  "parent": "ultimate_fnaf_mod:tasty"
+}

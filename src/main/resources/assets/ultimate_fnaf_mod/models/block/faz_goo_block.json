@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/fazgoo_block",
+    "up": "ultimate_fnaf_mod:blocks/fazgoo_block",
+    "north": "ultimate_fnaf_mod:blocks/fazgoo_block",
+    "east": "ultimate_fnaf_mod:blocks/fazgoo_block",
+    "south": "ultimate_fnaf_mod:blocks/fazgoo_block",
+    "west": "ultimate_fnaf_mod:blocks/fazgoo_block",
+    "particle": "ultimate_fnaf_mod:blocks/fazgoo_block"
+  }
+}

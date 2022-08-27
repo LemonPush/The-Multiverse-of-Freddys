@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/captainfoxyplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/captainfoxyplush",
+    "particle": "ultimate_fnaf_mod:blocks/captainfoxyplush",
+    "2": "ultimate_fnaf_mod:blocks/captainfoxyplush"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/wall_bottom",
+    "up": "ultimate_fnaf_mod:blocks/pizzeria_wall_alt",
+    "north": "ultimate_fnaf_mod:blocks/pizzeria_wall_alt",
+    "east": "ultimate_fnaf_mod:blocks/pizzeria_wall_alt",
+    "south": "ultimate_fnaf_mod:blocks/pizzeria_wall_alt",
+    "west": "ultimate_fnaf_mod:blocks/pizzeria_wall_alt",
+    "particle": "ultimate_fnaf_mod:blocks/wall_bottom"
+  }
+}

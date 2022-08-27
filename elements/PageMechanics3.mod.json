@@ -1,0 +1,372 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Inorder to use",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Inorder to use",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "following you.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "following you.",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "you must first",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "you must first",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "know it worked if",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "know it worked if",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Paranormal Device:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Paranormal Device:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "yet, this beauty",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "yet, this beauty",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "right-click your",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "right-click your",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Mechanics4"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Mechanics2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Emotional Energy:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Emotional Energy:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "with the item on",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "with the item on",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "they twitch and stop",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "they twitch and stop",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The greatest item",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "The greatest item",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "hand click on the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "hand click on the",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "characters, then",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "characters, then",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "characters. You'll",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "characters. You'll",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "can help boost you",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "can help boost you",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and your tamed pets.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and your tamed pets.",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Also can be used for",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Also can be used for",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "upgrading the Mic,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "upgrading the Mic,",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Guitar, and Cupcake",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Guitar, and Cupcake",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to the final level.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to the final level.",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "It can also take",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "It can also take",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "you somewhere...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "you somewhere...",
+          "x": 222,
+          "y": 161
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

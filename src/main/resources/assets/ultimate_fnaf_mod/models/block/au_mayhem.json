@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/au_mayhem",
+    "up": "ultimate_fnaf_mod:blocks/au_mayhem",
+    "north": "ultimate_fnaf_mod:blocks/au_mayhem",
+    "east": "ultimate_fnaf_mod:blocks/au_mayhem",
+    "south": "ultimate_fnaf_mod:blocks/au_mayhem",
+    "west": "ultimate_fnaf_mod:blocks/au_mayhem",
+    "particle": "ultimate_fnaf_mod:blocks/au_mayhem"
+  }
+}

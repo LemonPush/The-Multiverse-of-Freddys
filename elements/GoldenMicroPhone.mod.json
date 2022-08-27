@@ -1,0 +1,32 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "microphone_ultimate",
+    "customModelName": "microphone7:default",
+    "name": "Golden MicroPhone",
+    "specialInfo": [
+      "Change for Regeneration"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:FNaFExtras"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 48.0,
+    "usageCount": 1561,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntitySwing": {
+      "name": "GoldenCupcakeLivingEntityIsHitWithTool"
+    }
+  }
+}

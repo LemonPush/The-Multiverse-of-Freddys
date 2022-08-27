@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:springbonniesuit_helmet"
+    },
+    "title": {
+      "translate": "advancements.frights.title"
+    },
+    "description": {
+      "translate": "advancements.frights.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "frights": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "ultimate_fnaf_mod:summon_afton"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:into_madness"
+}

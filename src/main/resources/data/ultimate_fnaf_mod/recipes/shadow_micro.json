@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultimate_fnaf_mod:shadow_remnant"
+    },
+    "1": {
+      "item": "minecraft:cake"
+    },
+    "2": {
+      "item": "ultimate_fnaf_mod:shadow_remnant"
+    },
+    "3": {
+      "item": "ultimate_fnaf_mod:shadow_remnant"
+    },
+    "4": {
+      "item": "ultimate_fnaf_mod:micro_phone_6"
+    },
+    "5": {
+      "item": "ultimate_fnaf_mod:shadow_remnant"
+    },
+    "6": {
+      "item": "ultimate_fnaf_mod:shadow_remnant"
+    },
+    "7": {
+      "item": "ultimate_fnaf_mod:shadow_remnant"
+    },
+    "8": {
+      "item": "ultimate_fnaf_mod:shadow_remnant"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:shadow_micro_phone",
+    "count": 1
+  }
+}

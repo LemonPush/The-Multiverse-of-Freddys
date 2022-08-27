@@ -1,0 +1,345 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The Glitch",
+          "color": {
+            "value": -3407668,
+            "falpha": 0.0
+          },
+          "name": "The Glitch",
+          "x": 123,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "domain lay in here.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "domain lay in here.",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "In this reality",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "In this reality",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "William Afton",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "William Afton",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the internet.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "the internet.",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Thanks to the ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Thanks to the ",
+          "x": 123,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "internet he was able",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "internet he was able",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Anomaly's",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "The Anomaly's",
+          "x": 123,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "managed to corrupt",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "managed to corrupt",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to drag FNaF content",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to drag FNaF content",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "his purple web of",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "his purple web of",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Glitchy Plains",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Glitchy Plains",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Afton's main",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Afton's main",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "sector, a glitched out",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "sector, a glitched out",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "land he calls home.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "land he calls home.",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Hiding himself in a",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Hiding himself in a",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "fortress, guarded",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "fortress, guarded",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "by globs of Agony and",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "by globs of Agony and",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Players who fell into",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Players who fell into",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Glitchpage2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Glitch",
+          "color": {
+            "value": -3407668,
+            "falpha": 0.0
+          },
+          "name": "The Glitch",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "his mind control.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "his mind control.",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "wickedness.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "wickedness.",
+          "x": 105,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "absorbing them into",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "absorbing them into",
+          "x": 105,
+          "y": 161
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/friendlyface_block",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/friendlyface_block",
+    "particle": "ultimate_fnaf_mod:blocks/friendlyface_block",
+    "2": "ultimate_fnaf_mod:blocks/friendlyface_block"
+  }
+}

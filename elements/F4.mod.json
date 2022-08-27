@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Meme Land",
+    "icon": {
+      "value": "CUSTOM:F4Icon"
+    },
+    "showSearch": true
+  }
+}

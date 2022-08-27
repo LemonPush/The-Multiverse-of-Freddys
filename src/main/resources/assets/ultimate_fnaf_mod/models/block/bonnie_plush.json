@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/bonnieplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/bonnieplush",
+    "particle": "ultimate_fnaf_mod:blocks/bonnieplush",
+    "0": "ultimate_fnaf_mod:blocks/bonnieplush"
+  }
+}

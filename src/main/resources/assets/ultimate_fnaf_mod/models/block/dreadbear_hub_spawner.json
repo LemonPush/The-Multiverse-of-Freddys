@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/dreadbear_hub",
+    "up": "ultimate_fnaf_mod:blocks/dreadbear_hub",
+    "north": "ultimate_fnaf_mod:blocks/dreadbear_hub",
+    "east": "ultimate_fnaf_mod:blocks/dreadbear_hub",
+    "south": "ultimate_fnaf_mod:blocks/dreadbear_hub",
+    "west": "ultimate_fnaf_mod:blocks/dreadbear_hub",
+    "particle": "ultimate_fnaf_mod:blocks/dreadbear_hub"
+  }
+}

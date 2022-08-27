@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/ragebase",
+    "up": "ultimate_fnaf_mod:blocks/ragebase",
+    "north": "ultimate_fnaf_mod:blocks/ragebase",
+    "east": "ultimate_fnaf_mod:blocks/ragebase",
+    "south": "ultimate_fnaf_mod:blocks/ragebase",
+    "west": "ultimate_fnaf_mod:blocks/ragebase",
+    "particle": "ultimate_fnaf_mod:blocks/ragebase"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/burntman",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/burntman",
+    "particle": "ultimate_fnaf_mod:blocks/burntman",
+    "2": "ultimate_fnaf_mod:blocks/burntman"
+  }
+}

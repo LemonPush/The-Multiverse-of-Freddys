@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:fredbear_plush"
+    },
+    "title": {
+      "translate": "advancements.the_bite.title"
+    },
+    "description": {
+      "translate": "advancements.the_bite.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_bite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:fredbear_plush",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  },
+  "parent": "ultimate_fnaf_mod:more_to_fear"
+}

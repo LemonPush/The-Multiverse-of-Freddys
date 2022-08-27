@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ultimate_fnaf_mod:box_of_organs"
+    },
+    {
+      "item": "ultimate_fnaf_mod:ella"
+    },
+    {
+      "item": "ultimate_fnaf_mod:eleanor_body"
+    },
+    {
+      "item": "ultimate_fnaf_mod:plushtrap_chaser_body"
+    },
+    {
+      "item": "ultimate_fnaf_mod:fetch_body"
+    }
+  ],
+  "result": {
+    "item": "ultimate_fnaf_mod:green_remnant",
+    "count": 1
+  }
+}

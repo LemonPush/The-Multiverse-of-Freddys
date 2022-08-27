@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ultimate_fnaf_mod:remnant"
+    },
+    "1": {
+      "item": "ultimate_fnaf_mod:remnant"
+    },
+    "2": {
+      "item": "ultimate_fnaf_mod:remnant"
+    },
+    "3": {
+      "item": "ultimate_fnaf_mod:remnant"
+    },
+    "4": {
+      "item": "ultimate_fnaf_mod:syringe"
+    },
+    "5": {
+      "item": "ultimate_fnaf_mod:remnant"
+    },
+    "6": {
+      "item": "ultimate_fnaf_mod:remnant"
+    },
+    "7": {
+      "item": "ultimate_fnaf_mod:remnant"
+    },
+    "8": {
+      "item": "ultimate_fnaf_mod:remnant"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:syringe_remnant",
+    "count": 1
+  }
+}

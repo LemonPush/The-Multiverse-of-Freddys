@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultimate_fnaf_mod:block/cutout"
+    },
+    "facing=east": {
+      "model": "ultimate_fnaf_mod:block/cutout",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultimate_fnaf_mod:block/cutout",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultimate_fnaf_mod:block/cutout",
+      "y": 270
+    }
+  }
+}

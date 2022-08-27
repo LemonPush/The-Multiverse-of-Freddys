@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/djmusicmanplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/djmusicmanplush",
+    "particle": "ultimate_fnaf_mod:blocks/djmusicmanplush",
+    "2": "ultimate_fnaf_mod:blocks/djmusicmanplush"
+  }
+}

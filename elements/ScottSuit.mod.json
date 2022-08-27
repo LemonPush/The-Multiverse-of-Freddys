@@ -1,0 +1,62 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "anim_1",
+    "enableBody": true,
+    "textureBody": "anim_2",
+    "enableLeggings": true,
+    "textureLeggings": "anim_3",
+    "enableBoots": true,
+    "textureBoots": "anim_4",
+    "creativeTab": {
+      "value": "CUSTOM:FlipSideTab"
+    },
+    "armorTextureFile": "armor_",
+    "helmetName": "Animdude's Helmet",
+    "bodyName": "Animdude's Body",
+    "leggingsName": "Animdude's Leggings",
+    "bootsName": "Animdude's Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelAnimdude_Suit",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "animdude_suit.png",
+    "bodyModelName": "ModelAnimdude_Suit",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "animdude_suit.png",
+    "leggingsModelName": "ModelAnimdude_Suit",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "animdude_suit.png",
+    "bootsModelName": "ModelAnimdude_Suit",
+    "bootsModelPartL": "LeftBoot",
+    "bootsModelPartR": "RightBoot",
+    "bootsModelTexture": "animdude_suit.png",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 50,
+    "damageValueHelmet": 5,
+    "damageValueBody": 10,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 5,
+    "enchantability": 40,
+    "toughness": 3.0,
+    "knockbackResistance": 0.30000000000000004,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Agony"
+      }
+    ]
+  }
+}

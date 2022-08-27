@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "ultimate_fnaf_mod:items/taser_animated"
+  }
+}

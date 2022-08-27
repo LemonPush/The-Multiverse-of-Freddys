@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Treasure Island",
+    "icon": {
+      "value": "CUSTOM:TreasureislandIcon"
+    },
+    "showSearch": true
+  }
+}

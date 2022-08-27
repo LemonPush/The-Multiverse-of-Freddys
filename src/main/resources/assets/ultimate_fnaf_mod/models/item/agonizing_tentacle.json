@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/agonizing_tentacles",
+  "textures": {
+    "0": "ultimate_fnaf_mod:blocks/agonizing_tentacles",
+    "particle": "ultimate_fnaf_mod:items/shadow_remnant"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/freddy_stand",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/freddy_stand",
+    "particle": "ultimate_fnaf_mod:blocks/freddy_stand",
+    "0": "ultimate_fnaf_mod:blocks/freddy_stand"
+  }
+}

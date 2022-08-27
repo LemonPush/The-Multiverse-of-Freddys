@@ -1,0 +1,293 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Overworld",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Overworld",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Frights content",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Frights content",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "meet a friend...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "meet a friend...",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "need Agony to",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "need Agony to",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Some of the Fazbear ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Some of the Fazbear ",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Course Dirt, you'll",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Course Dirt, you'll",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and beat the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and beat the",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Enter the Ball Pit",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Enter the Ball Pit",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Find the Pile of",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Find the Pile of",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tips you'll need:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Tips you'll need:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "World2"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Overworld",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Overworld",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Memories.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Memories.",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to find the Devil.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to find the Devil.",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Find the parts and",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Find the parts and",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "make Green Remnant",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "make Green Remnant",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Tips you'll need:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Tips you'll need:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "activate, others",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "activate, others",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "just need a simple",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "just need a simple",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Right-Click.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Right-Click.",
+          "x": 105,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

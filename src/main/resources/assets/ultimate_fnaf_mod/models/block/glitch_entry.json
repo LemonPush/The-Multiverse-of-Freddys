@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/the_glitch",
+    "up": "ultimate_fnaf_mod:blocks/the_glitch",
+    "north": "ultimate_fnaf_mod:blocks/the_glitch",
+    "east": "ultimate_fnaf_mod:blocks/the_glitch",
+    "south": "ultimate_fnaf_mod:blocks/the_glitch",
+    "west": "ultimate_fnaf_mod:blocks/the_glitch",
+    "particle": "ultimate_fnaf_mod:blocks/the_glitch"
+  }
+}

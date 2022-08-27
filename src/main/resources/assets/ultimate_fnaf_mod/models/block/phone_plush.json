@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/phoneplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/phoneplush",
+    "particle": "ultimate_fnaf_mod:blocks/phoneplush",
+    "2": "ultimate_fnaf_mod:blocks/phoneplush"
+  }
+}

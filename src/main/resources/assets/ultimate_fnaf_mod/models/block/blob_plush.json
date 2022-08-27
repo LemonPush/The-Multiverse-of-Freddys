@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/blobplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/blobplush",
+    "particle": "ultimate_fnaf_mod:blocks/blobplush",
+    "2": "ultimate_fnaf_mod:blocks/blobplush"
+  }
+}

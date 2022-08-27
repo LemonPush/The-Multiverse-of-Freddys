@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/circusbaby",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/circusbaby",
+    "particle": "ultimate_fnaf_mod:blocks/circusbaby",
+    "0": "ultimate_fnaf_mod:blocks/circusbaby"
+  }
+}

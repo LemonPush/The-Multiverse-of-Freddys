@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:scott_cawthon_plush"
+    },
+    "title": {
+      "translate": "advancements.flipside_achi.title"
+    },
+    "description": {
+      "translate": "advancements.flipside_achi.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "flipside_achi": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ultimate_fnaf_mod:the_flip_side"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "ultimate_fnaf_mod:into_madness"
+}

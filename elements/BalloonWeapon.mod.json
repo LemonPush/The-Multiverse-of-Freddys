@@ -1,0 +1,32 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "soda",
+    "customModelName": "balloon:default",
+    "name": "Balloon",
+    "specialInfo": [
+      "Let's fly"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:FNaFExtras"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 8.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "BalloonWeaponToolInInventoryTick"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/rockstarfreddyplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/rockstarfreddyplush",
+    "particle": "ultimate_fnaf_mod:blocks/rockstarfreddyplush",
+    "1": "ultimate_fnaf_mod:blocks/rockstarfreddyplush"
+  }
+}

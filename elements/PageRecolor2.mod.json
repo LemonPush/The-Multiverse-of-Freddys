@@ -1,0 +1,346 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "A.U. Mayhem",
+          "color": {
+            "value": -16737844,
+            "falpha": 0.0
+          },
+          "name": "A.U. Mayhem",
+          "x": 123,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "This is where",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "This is where",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "unwanted Hoaxes go",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "unwanted Hoaxes go",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to die due to their",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to die due to their",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "relevance.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "relevance.",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Junkyard",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Junkyard",
+          "x": 123,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "lack of lore",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "lack of lore",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "aren't like the ones",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "aren't like the ones",
+          "x": 222,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Utah",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Utah",
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Now this is ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Now this is ",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "what people have been",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "what people have been",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "waiting for, a land",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "waiting for, a land",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "where Glamrock Bonnie",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "where Glamrock Bonnie",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "lived! In here you'll",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "lived! In here you'll",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "find yourself roaming",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "find yourself roaming",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the Alternate",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "the Alternate",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Recolorpage3"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A.U. Mayhem",
+          "color": {
+            "value": -16737844,
+            "falpha": 0.0
+          },
+          "name": "A.U. Mayhem",
+          "x": 240,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Universe biome. Be ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Universe biome. Be ",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "everyone here in",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "everyone here in",
+          "x": 222,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "from your world.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "from your world.",
+          "x": 222,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "wary...you're in",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "wary...you're in",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "for a shock knowing",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "for a shock knowing",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "RecolorPage1"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

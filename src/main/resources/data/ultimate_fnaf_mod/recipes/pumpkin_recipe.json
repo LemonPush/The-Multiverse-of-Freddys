@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "1": {
+      "item": "minecraft:cake"
+    },
+    "2": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "3": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "4": {
+      "item": "ultimate_fnaf_mod:cupcake_6"
+    },
+    "5": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "6": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "7": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "8": {
+      "item": "minecraft:jack_o_lantern"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:pumpkin",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultimate_fnaf_mod:block/fredbear_body"
+    },
+    "facing=east": {
+      "model": "ultimate_fnaf_mod:block/fredbear_body",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultimate_fnaf_mod:block/fredbear_body",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultimate_fnaf_mod:block/fredbear_body",
+      "y": 270
+    }
+  }
+}

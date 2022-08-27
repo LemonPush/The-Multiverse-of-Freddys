@@ -1,0 +1,62 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "springtrapsuit_head",
+    "enableBody": true,
+    "textureBody": "springtrapsuit_body",
+    "enableLeggings": true,
+    "textureLeggings": "springtrapsuit_legs",
+    "enableBoots": true,
+    "textureBoots": "springtrapsuit_boots",
+    "creativeTab": {
+      "value": "CUSTOM:FNaFExtras"
+    },
+    "armorTextureFile": "spring_",
+    "helmetName": "Springtrap Head",
+    "bodyName": "Springtrap Body",
+    "leggingsName": "Springtrap Legs",
+    "bootsName": "Springtrap Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelSpringtrapsuit",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "springtrapsuit.png",
+    "bodyModelName": "ModelSpringtrapsuit",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "springtrapsuit.png",
+    "leggingsModelName": "ModelSpringtrapsuit",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "springtrapsuit.png",
+    "bootsModelName": "ModelSpringtrapsuit",
+    "bootsModelPartL": "LeftBoot",
+    "bootsModelPartR": "RightBoot",
+    "bootsModelTexture": "springtrapsuit.png",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 20,
+    "toughness": 1.5,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Agony"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/multiversalteleporter",
+  "textures": {
+    "0": "ultimate_fnaf_mod:blocks/multiversalteleporter",
+    "particle": "ultimate_fnaf_mod:items/multiversalteleporter"
+  }
+}

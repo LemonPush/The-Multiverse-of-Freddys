@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/funtimefreddy_body",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/funtimefreddy_body",
+    "particle": "ultimate_fnaf_mod:blocks/funtimefreddy_body",
+    "1": "ultimate_fnaf_mod:blocks/funtimefreddy_body"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/luckyboy",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/luckyboy",
+    "particle": "ultimate_fnaf_mod:blocks/luckyboy",
+    "1": "ultimate_fnaf_mod:blocks/luckyboy"
+  }
+}

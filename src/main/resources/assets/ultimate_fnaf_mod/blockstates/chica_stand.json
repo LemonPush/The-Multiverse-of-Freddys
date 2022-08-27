@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultimate_fnaf_mod:block/chica_stand"
+    },
+    "facing=east": {
+      "model": "ultimate_fnaf_mod:block/chica_stand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultimate_fnaf_mod:block/chica_stand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultimate_fnaf_mod:block/chica_stand",
+      "y": 270
+    }
+  }
+}

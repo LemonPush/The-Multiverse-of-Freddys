@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:illusion_disc"
+    },
+    "title": {
+      "translate": "advancements.more_to_fear.title"
+    },
+    "description": {
+      "translate": "advancements.more_to_fear.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "more_to_fear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:illusion_disc",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  },
+  "parent": "ultimate_fnaf_mod:into_madness"
+}

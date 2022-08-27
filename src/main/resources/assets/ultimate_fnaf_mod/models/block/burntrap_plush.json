@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/burntrapplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/burntrapplush",
+    "particle": "ultimate_fnaf_mod:blocks/burntrapplush",
+    "2": "ultimate_fnaf_mod:blocks/burntrapplush"
+  }
+}

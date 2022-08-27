@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:emotional_energy"
+    },
+    "title": {
+      "translate": "advancements.love.title"
+    },
+    "description": {
+      "translate": "advancements.love.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "love": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:emotional_energy",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "recipes": [
+      "ultimate_fnaf_mod:love_syringe_recipe"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:freedom"
+}

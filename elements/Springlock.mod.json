@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Springlocked",
+    "icon": "springlocks.png",
+    "color": {
+      "value": -10066432,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "SpringlockActiveTickCondition"
+    },
+    "onActiveTick": {
+      "name": "SpringlockActiveTickCondition"
+    }
+  }
+}

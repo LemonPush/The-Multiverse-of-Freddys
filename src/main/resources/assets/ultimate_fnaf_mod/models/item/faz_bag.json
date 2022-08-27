@@ -1,0 +1,7 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/faz-bag",
+  "textures": {
+    "2": "ultimate_fnaf_mod:blocks/faz-bag",
+    "particle": "ultimate_fnaf_mod:items/bag"
+  }
+}

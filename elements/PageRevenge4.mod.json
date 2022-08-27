@@ -1,0 +1,319 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Cawthon's Revenge",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Cawthon's Revenge",
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Defeat Rage Quit,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Defeat Rage Quit,",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "get his sword, and",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "get his sword, and",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the Chips to gain",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "the Chips to gain",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the advantage.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "the advantage.",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mission",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mission",
+          "x": 132,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "minions and take",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "minions and take",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Optional",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Optional",
+          "x": 258,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Find the Faz-Town",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Find the Faz-Town",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and have the folks",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and have the folks",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "join your fight.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "join your fight.",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cawthon's Revenge",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "Cawthon's Revenge",
+          "x": 231,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Trade with Chipper",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Trade with Chipper",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Defeat Rage Quit's",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Defeat Rage Quit's",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "for a big surpise.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "for a big surpise.",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Revengepage3"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "free this world.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "free this world.",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "* Chica's M. R.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "* Chica's M. R.",
+          "x": 114,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "* L.O.L.Z.H.A.X.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "* L.O.L.Z.H.A.X.",
+          "x": 114,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "* Dreamgeist",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "* Dreamgeist",
+          "x": 114,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "* Sockpuppet",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "* Sockpuppet",
+          "x": 114,
+          "y": 188
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

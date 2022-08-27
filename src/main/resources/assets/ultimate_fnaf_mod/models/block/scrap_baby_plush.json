@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/scrapbaby",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/scrapbaby",
+    "particle": "ultimate_fnaf_mod:blocks/scrapbaby",
+    "0": "ultimate_fnaf_mod:blocks/scrapbaby"
+  }
+}

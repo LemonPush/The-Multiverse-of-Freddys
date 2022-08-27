@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/frostbitebb",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/frostbitebb",
+    "particle": "ultimate_fnaf_mod:blocks/frostbitebb",
+    "2": "ultimate_fnaf_mod:blocks/frostbitebb"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "TJoC",
+    "icon": {
+      "value": "CUSTOM:TJoCIcon"
+    },
+    "showSearch": true
+  }
+}

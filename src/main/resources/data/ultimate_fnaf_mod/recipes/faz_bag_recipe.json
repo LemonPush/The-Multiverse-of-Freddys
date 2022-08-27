@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "3": {
+      "item": "minecraft:leather"
+    },
+    "4": {
+      "tag": "minecraft:wool"
+    },
+    "5": {
+      "item": "minecraft:leather"
+    },
+    "6": {
+      "tag": "minecraft:wool"
+    },
+    "7": {
+      "tag": "minecraft:wool"
+    },
+    "8": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "ultimate_fnaf_mod:faz_bag",
+    "count": 1
+  }
+}

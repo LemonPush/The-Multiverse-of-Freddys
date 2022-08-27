@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:f_4_icon"
+    },
+    "title": {
+      "translate": "advancements.what_if.title"
+    },
+    "description": {
+      "translate": "advancements.what_if.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "what_if": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "ultimate_fnaf_mod:au"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "ultimate_fnaf_mod:flipside_achi"
+}

@@ -1,0 +1,307 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The Glitch",
+          "color": {
+            "value": -3407668,
+            "falpha": 0.0
+          },
+          "name": "The Glitch",
+          "x": 123,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "In here you can",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "In here you can",
+          "x": 123,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "visit FNaF's very",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "visit FNaF's very",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "wild and looney ",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "wild and looney ",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Be careful, you may",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Be careful, you may",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "find...uninvited",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "find...uninvited",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Theory Time",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Theory Time",
+          "x": 114,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "takes on the lore.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "takes on the lore.",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- The Negative",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- The Negative",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Oh Merch galore!",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Oh Merch galore!",
+          "x": 240,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Blacklights",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "The Blacklights",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and others have taken",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and others have taken",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "other the franchise.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "other the franchise.",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Recolors lurk and so",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Recolors lurk and so",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "do some of Funko's",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "do some of Funko's",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and Quidd's...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "and Quidd's...",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Glitchpage4"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Glitch",
+          "color": {
+            "value": -3407668,
+            "falpha": 0.0
+          },
+          "name": "The Glitch",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Glitchpage1"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "guests...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "guests...",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "miscreations.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "miscreations.",
+          "x": 222,
+          "y": 143
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

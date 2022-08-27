@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "ultimate_fnaf_mod:possessed_metal"
+    },
+    "title": {
+      "translate": "advancements.possessed.title"
+    },
+    "description": {
+      "translate": "advancements.possessed.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "possessed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ultimate_fnaf_mod:possessed_metal",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75,
+    "recipes": [
+      "ultimate_fnaf_mod:metal_remnant"
+    ]
+  },
+  "parent": "ultimate_fnaf_mod:delicious"
+}

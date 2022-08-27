@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/rosie_porkchop_body",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/rosie_porkchop_body",
+    "particle": "ultimate_fnaf_mod:blocks/rosie_porkchop_body",
+    "1": "ultimate_fnaf_mod:blocks/rosie_porkchop_body"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/fetch_body",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/fetch_body",
+    "particle": "ultimate_fnaf_mod:blocks/fetch_body",
+    "2": "ultimate_fnaf_mod:blocks/fetch_body"
+  }
+}

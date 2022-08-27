@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "ultimate_fnaf_mod:block/f_na_f_mania_portal_ew"
+    },
+    "axis=x": {
+      "model": "ultimate_fnaf_mod:block/f_na_f_mania_portal_ns"
+    }
+  }
+}

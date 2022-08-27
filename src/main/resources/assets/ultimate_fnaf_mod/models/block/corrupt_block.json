@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ultimate_fnaf_mod:blocks/corrupt_cobblestone",
+    "up": "ultimate_fnaf_mod:blocks/corrupt_cobblestone",
+    "north": "ultimate_fnaf_mod:blocks/corrupt_cobblestone",
+    "east": "ultimate_fnaf_mod:blocks/corrupt_cobblestone",
+    "south": "ultimate_fnaf_mod:blocks/corrupt_cobblestone",
+    "west": "ultimate_fnaf_mod:blocks/corrupt_cobblestone",
+    "particle": "ultimate_fnaf_mod:blocks/corrupt_cobblestone"
+  }
+}

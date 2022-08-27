@@ -1,0 +1,90 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Apocalypse"
+      },
+      {
+        "value": "CUSTOM:BlacktombYard"
+      },
+      {
+        "value": "CUSTOM:ChoppysWoods"
+      },
+      {
+        "value": "CUSTOM:Consequences"
+      },
+      {
+        "value": "CUSTOM:Corrupt"
+      },
+      {
+        "value": "CUSTOM:DustingFields"
+      },
+      {
+        "value": "CUSTOM:FazbearHills"
+      },
+      {
+        "value": "CUSTOM:GlitchyPlane"
+      },
+      {
+        "value": "CUSTOM:HalloweenLand"
+      },
+      {
+        "value": "CUSTOM:Infested"
+      },
+      {
+        "value": "CUSTOM:Junkyard"
+      },
+      {
+        "value": "CUSTOM:LunarMines"
+      },
+      {
+        "value": "CUSTOM:NegativeBiome"
+      },
+      {
+        "value": "CUSTOM:PinwheelFunhouse"
+      },
+      {
+        "value": "CUSTOM:RainbowBiome"
+      },
+      {
+        "value": "CUSTOM:TheOutskirts"
+      },
+      {
+        "value": "CUSTOM:Utah"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:CorruptBrickstone"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 3,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "FNaF Mania Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:F5"
+    },
+    "texture": "shadow_remnant",
+    "portalTexture": "agony_lava",
+    "enablePortal": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:PizzeriaWall"
+      },
+      {
+        "value": "CUSTOM:PizzeriaWallFNaF2"
+      },
+      {
+        "value": "CUSTOM:PizzeriaWall2"
+      },
+      {
+        "value": "CUSTOM:Floor"
+      },
+      {
+        "value": "CUSTOM:Floor2"
+      },
+      {
+        "value": "CUSTOM:Floor3"
+      },
+      {
+        "value": "CUSTOM:Wall3"
+      },
+      {
+        "value": "CUSTOM:TopWallFNaF2"
+      },
+      {
+        "value": "CUSTOM:ConfettiWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "stone_bricks",
+    "namespace": "forge"
+  }
+}

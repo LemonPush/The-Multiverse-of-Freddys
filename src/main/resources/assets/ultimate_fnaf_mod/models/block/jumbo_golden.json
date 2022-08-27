@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/jumbo_goldenfreddyplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/jumbo_goldenfreddyplush",
+    "particle": "ultimate_fnaf_mod:blocks/jumbo_goldenfreddyplush",
+    "2": "ultimate_fnaf_mod:blocks/jumbo_goldenfreddyplush"
+  }
+}

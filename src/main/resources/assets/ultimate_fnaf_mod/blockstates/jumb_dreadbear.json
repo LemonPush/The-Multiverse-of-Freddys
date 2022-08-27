@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "ultimate_fnaf_mod:block/jumb_dreadbear"
+    },
+    "facing=east": {
+      "model": "ultimate_fnaf_mod:block/jumb_dreadbear",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ultimate_fnaf_mod:block/jumb_dreadbear",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ultimate_fnaf_mod:block/jumb_dreadbear",
+      "y": 270
+    }
+  }
+}

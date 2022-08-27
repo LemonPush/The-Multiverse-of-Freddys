@@ -1,0 +1,142 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Mechanics",
+          "onClick": {
+            "name": "Mechanics"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "Mechanics",
+          "x": 224,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "To-Do",
+          "onClick": {
+            "name": "ToDo"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "To-Do",
+          "x": 122,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Multiverse",
+          "onClick": {
+            "name": "MainFlipside1"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "Multiverse",
+          "x": 224,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Items/Blocks",
+          "onClick": {
+            "name": "ItemsBlocks"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "Items/Blocks",
+          "x": 122,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Characters",
+          "onClick": {
+            "name": "Characters"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "Characters",
+          "x": 122,
+          "y": 106
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Overworld",
+          "onClick": {
+            "name": "World1"
+          },
+          "width": 82,
+          "height": 20,
+          "name": "Overworld",
+          "x": 224,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Ultimate Guide",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "The Ultimate Guide",
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " The Ultimate Guide",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": " The Ultimate Guide",
+          "x": 222,
+          "y": 44
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

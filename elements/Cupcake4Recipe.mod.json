@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:FredbearPlush"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:Cupcake3"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      },
+      {
+        "value": "CUSTOM:Agony"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Cupcake4"
+    },
+    "name": "cupcake_4_recipe",
+    "namespace": "mod"
+  }
+}

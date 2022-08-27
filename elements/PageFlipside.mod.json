@@ -1,0 +1,370 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "FlipSide",
+          "color": {
+            "value": -16737895,
+            "falpha": 0.0
+          },
+          "name": "FlipSide",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Multiverse; in here",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Multiverse; in here",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "you can visit any",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "you can visit any",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Five Nights at",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Five Nights at",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "realities.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "realities.",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Scott Cawthon,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Scott Cawthon,",
+          "x": 123,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "now named Desk Man,",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "now named Desk Man,",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "guards these vast",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "guards these vast",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Welcome to the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Welcome to the",
+          "x": 123,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Freddy's related",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Freddy's related",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "realities and makes",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "realities and makes",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "sure none of them",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "sure none of them",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "stray too far.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "stray too far.",
+          "x": 105,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "There are only 4",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "There are only 4",
+          "x": 240,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "known realities for",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "known realities for",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "you to visit, however",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "you to visit, however",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "there is a 5th and",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "there is a 5th and",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "this one is not meant",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "this one is not meant",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "for any visitors...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "for any visitors...",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Be careful when",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Be careful when",
+          "x": 240,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "traveling into these",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "traveling into these",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "FlipSide",
+          "color": {
+            "value": -16737895,
+            "falpha": 0.0
+          },
+          "name": "FlipSide",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "frightening new",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "frightening new",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "worlds, be prepared",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "worlds, be prepared",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "for anything...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "for anything...",
+          "x": 222,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "dangerous...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "dangerous...",
+          "x": 222,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

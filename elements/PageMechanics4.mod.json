@@ -1,0 +1,385 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 276,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "page.png",
+          "use1Xscale": false,
+          "name": "page.png",
+          "x": 75,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Right-Click for",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Right-Click for",
+          "x": 105,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ball to the pit and",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "ball to the pit and",
+          "x": 105,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "balls, these balls",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "balls, these balls",
+          "x": 105,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "become possessed.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "become possessed.",
+          "x": 105,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ballpit:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Ballpit:",
+          "x": 105,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Vindicator",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Vindicator",
+          "x": 222,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "need to be in your",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "need to be in your",
+          "x": 105,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Mechanics5"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 366,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mechanics",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Mechanics",
+          "x": 249,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Mechanics3"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 15,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Villager",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Villager",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "killing anything",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "killing anything",
+          "x": 105,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Take the possessed",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Take the possessed",
+          "x": 105,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Pillager",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Pillager",
+          "x": 222,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "on the list. After",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "on the list. After",
+          "x": 105,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "inventory before",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "inventory before",
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "that the ball will",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "that the ball will",
+          "x": 105,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Evoker",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Evoker",
+          "x": 222,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Wandering Villager",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Wandering Villager",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Piglin",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Piglin",
+          "x": 222,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Piglin Brute",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Piglin Brute",
+          "x": 222,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Illusioner",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Illusioner",
+          "x": 222,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "- Witch",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "- Witch",
+          "x": 222,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "you'll get 9 Agony.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "you'll get 9 Agony.",
+          "x": 105,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "List:",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "List:",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Get inside...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Get inside...",
+          "x": 105,
+          "y": 179
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

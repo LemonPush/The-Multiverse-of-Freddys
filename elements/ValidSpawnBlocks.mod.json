@@ -1,0 +1,26 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Floor"
+      },
+      {
+        "value": "CUSTOM:Floor2"
+      },
+      {
+        "value": "CUSTOM:Floor3"
+      },
+      {
+        "value": "CUSTOM:Floor4"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "valid_spawn",
+    "namespace": "minecraft"
+  }
+}

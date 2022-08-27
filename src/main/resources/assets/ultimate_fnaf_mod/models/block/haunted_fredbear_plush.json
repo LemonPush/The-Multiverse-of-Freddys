@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/hauntedfredbearplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/hauntedfredbearplush",
+    "particle": "ultimate_fnaf_mod:blocks/hauntedfredbearplush",
+    "0": "ultimate_fnaf_mod:blocks/hauntedfredbearplush"
+  }
+}

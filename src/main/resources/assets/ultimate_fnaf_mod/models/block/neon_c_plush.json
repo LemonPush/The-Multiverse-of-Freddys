@@ -1,0 +1,8 @@
+{
+  "parent": "ultimate_fnaf_mod:custom/neonchicaplush",
+  "textures": {
+    "all": "ultimate_fnaf_mod:blocks/neonchicaplush",
+    "particle": "ultimate_fnaf_mod:blocks/neonchicaplush",
+    "1": "ultimate_fnaf_mod:blocks/neonchicaplush"
+  }
+}
