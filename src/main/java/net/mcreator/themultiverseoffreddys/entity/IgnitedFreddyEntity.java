@@ -21,6 +21,8 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.passive.TameableEntity;
+import net.minecraft.entity.passive.IronGolemEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.merchant.villager.VillagerEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -118,7 +120,7 @@ public class IgnitedFreddyEntity extends UltimateFnafModModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
+			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.5, false) {
 				@Override
 				protected double getAttackReachSqr(LivingEntity entity) {
 					return (double) (4.0 + entity.getWidth() * entity.getWidth());
@@ -129,7 +131,9 @@ public class IgnitedFreddyEntity extends UltimateFnafModModElements.ModElement {
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(5, new SwimGoal(this));
 			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
-			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, VillagerEntity.class, false, false));
+			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, IronGolemEntity.class, false, false));
+			this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, TameableEntity.class, false, false));
+			this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, VillagerEntity.class, false, false));
 		}
 
 		@Override
