@@ -59,7 +59,7 @@ public class ShadowNightmareBBEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 1.8f)).build("shadow_nightmare_bb").setRegistryName("shadow_nightmare_bb");
 
 	public ShadowNightmareBBEntity(UltimateFnafModModElements instance) {
-		super(instance, 319);
+		super(instance, 318);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShadowNightmareBBRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

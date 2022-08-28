@@ -62,7 +62,7 @@ public class WitheredMontyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("withered_monty").setRegistryName("withered_monty");
 
 	public WitheredMontyEntity(UltimateFnafModModElements instance) {
-		super(instance, 707);
+		super(instance, 706);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WitheredMontyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

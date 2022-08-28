@@ -34,7 +34,7 @@ public class BrokenFNaF4SpawnerBlock extends UltimateFnafModModElements.ModEleme
 	public static final Block block = null;
 
 	public BrokenFNaF4SpawnerBlock(UltimateFnafModModElements instance) {
-		super(instance, 565);
+		super(instance, 564);
 	}
 
 	@Override

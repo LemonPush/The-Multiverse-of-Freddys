@@ -42,7 +42,7 @@ public class ArcadeGlitchBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ArcadeGlitchBlock(UltimateFnafModModElements instance) {
-		super(instance, 394);
+		super(instance, 393);
 	}
 
 	@Override

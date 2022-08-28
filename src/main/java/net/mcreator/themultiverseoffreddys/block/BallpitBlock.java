@@ -64,7 +64,7 @@ public class BallpitBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BallpitBlock(UltimateFnafModModElements instance) {
-		super(instance, 166);
+		super(instance, 165);
 	}
 
 	@Override

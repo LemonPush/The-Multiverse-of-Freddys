@@ -28,7 +28,7 @@ import com.google.common.collect.ImmutableSet;
 @UltimateFnafModModElements.ModElement.Tag
 public class TheGlitchDimension extends UltimateFnafModModElements.ModElement {
 	public TheGlitchDimension(UltimateFnafModModElements instance) {
-		super(instance, 246);
+		super(instance, 245);
 	}
 
 	@Override

@@ -62,7 +62,7 @@ public class WitheredChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("withered_chica").setRegistryName("withered_chica");
 
 	public WitheredChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 443);
+		super(instance, 442);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WitheredChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

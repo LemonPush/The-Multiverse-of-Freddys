@@ -62,7 +62,7 @@ public class NeddBearEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("nedd_bear").setRegistryName("nedd_bear");
 
 	public NeddBearEntity(UltimateFnafModModElements instance) {
-		super(instance, 599);
+		super(instance, 598);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NeddBearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

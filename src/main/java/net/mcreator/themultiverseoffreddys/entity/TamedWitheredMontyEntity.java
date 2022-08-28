@@ -56,7 +56,7 @@ public class TamedWitheredMontyEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 1.8f)).build("tamed_withered_monty").setRegistryName("tamed_withered_monty");
 
 	public TamedWitheredMontyEntity(UltimateFnafModModElements instance) {
-		super(instance, 731);
+		super(instance, 730);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedWitheredMontyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

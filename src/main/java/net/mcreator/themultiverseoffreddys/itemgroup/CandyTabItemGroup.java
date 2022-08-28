@@ -13,7 +13,7 @@ import net.mcreator.themultiverseoffreddys.UltimateFnafModModElements;
 @UltimateFnafModModElements.ModElement.Tag
 public class CandyTabItemGroup extends UltimateFnafModModElements.ModElement {
 	public CandyTabItemGroup(UltimateFnafModModElements instance) {
-		super(instance, 1532);
+		super(instance, 1531);
 	}
 
 	@Override

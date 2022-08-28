@@ -37,7 +37,7 @@ public class PageRecolor3Gui extends UltimateFnafModModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public PageRecolor3Gui(UltimateFnafModModElements instance) {
-		super(instance, 1608);
+		super(instance, 1607);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

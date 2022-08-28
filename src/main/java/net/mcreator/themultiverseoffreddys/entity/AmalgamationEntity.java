@@ -59,7 +59,7 @@ public class AmalgamationEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("amalgamation").setRegistryName("amalgamation");
 
 	public AmalgamationEntity(UltimateFnafModModElements instance) {
-		super(instance, 165);
+		super(instance, 164);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AmalgamationRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

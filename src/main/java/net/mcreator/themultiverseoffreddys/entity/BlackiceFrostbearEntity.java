@@ -62,7 +62,7 @@ public class BlackiceFrostbearEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("blackice_frostbear").setRegistryName("blackice_frostbear");
 
 	public BlackiceFrostbearEntity(UltimateFnafModModElements instance) {
-		super(instance, 791);
+		super(instance, 790);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlackiceFrostbearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

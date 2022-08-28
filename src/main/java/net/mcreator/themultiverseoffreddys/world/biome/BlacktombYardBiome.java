@@ -38,7 +38,7 @@ public class BlacktombYardBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public BlacktombYardBiome(UltimateFnafModModElements instance) {
-		super(instance, 1465);
+		super(instance, 1464);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

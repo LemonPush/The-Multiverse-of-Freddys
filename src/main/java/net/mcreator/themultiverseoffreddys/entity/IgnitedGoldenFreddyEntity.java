@@ -66,7 +66,7 @@ public class IgnitedGoldenFreddyEntity extends UltimateFnafModModElements.ModEle
 			.size(0.4f, 0.7f)).build("ignited_golden_freddy").setRegistryName("ignited_golden_freddy");
 
 	public IgnitedGoldenFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 849);
+		super(instance, 848);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IgnitedGoldenFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

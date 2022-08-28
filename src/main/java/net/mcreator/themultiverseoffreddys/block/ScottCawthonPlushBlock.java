@@ -50,7 +50,7 @@ public class ScottCawthonPlushBlock extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public ScottCawthonPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 352);
+		super(instance, 351);
 	}
 
 	@Override

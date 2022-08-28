@@ -21,7 +21,7 @@ public class RainbowBiomeBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public RainbowBiomeBiome(UltimateFnafModModElements instance) {
-		super(instance, 1594);
+		super(instance, 1593);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

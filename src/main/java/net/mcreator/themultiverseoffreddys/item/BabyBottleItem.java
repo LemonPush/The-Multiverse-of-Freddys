@@ -36,7 +36,7 @@ public class BabyBottleItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public BabyBottleItem(UltimateFnafModModElements instance) {
-		super(instance, 230);
+		super(instance, 229);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class SwampPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public SwampPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 840);
+		super(instance, 839);
 	}
 
 	@Override

@@ -37,7 +37,7 @@ public class PageRevenge4Gui extends UltimateFnafModModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public PageRevenge4Gui(UltimateFnafModModElements instance) {
-		super(instance, 1590);
+		super(instance, 1589);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

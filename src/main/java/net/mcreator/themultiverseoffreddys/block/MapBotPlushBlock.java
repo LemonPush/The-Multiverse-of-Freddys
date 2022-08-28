@@ -40,7 +40,7 @@ public class MapBotPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public MapBotPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 740);
+		super(instance, 739);
 	}
 
 	@Override

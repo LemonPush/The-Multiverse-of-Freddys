@@ -56,7 +56,7 @@ public class TamedMinireenaEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 0.8f)).build("tamed_minireena").setRegistryName("tamed_minireena");
 
 	public TamedMinireenaEntity(UltimateFnafModModElements instance) {
-		super(instance, 1009);
+		super(instance, 1008);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedMinireenaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

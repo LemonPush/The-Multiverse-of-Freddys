@@ -37,7 +37,7 @@ public class UCNSuitItem extends UltimateFnafModModElements.ModElement {
 	public static final Item boots = null;
 
 	public UCNSuitItem(UltimateFnafModModElements instance) {
-		super(instance, 373);
+		super(instance, 372);
 	}
 
 	@Override

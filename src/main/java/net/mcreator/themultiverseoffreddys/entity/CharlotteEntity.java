@@ -57,7 +57,7 @@ public class CharlotteEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("charlotte").setRegistryName("charlotte");
 
 	public CharlotteEntity(UltimateFnafModModElements instance) {
-		super(instance, 415);
+		super(instance, 414);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CharlotteRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

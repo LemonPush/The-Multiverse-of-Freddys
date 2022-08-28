@@ -62,7 +62,7 @@ public class CircusBabyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("circus_baby").setRegistryName("circus_baby");
 
 	public CircusBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 567);
+		super(instance, 566);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CircusBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

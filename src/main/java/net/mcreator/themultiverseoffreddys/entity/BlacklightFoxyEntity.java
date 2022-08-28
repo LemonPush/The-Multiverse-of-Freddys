@@ -59,7 +59,7 @@ public class BlacklightFoxyEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("blacklight_foxy").setRegistryName("blacklight_foxy");
 
 	public BlacklightFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 286);
+		super(instance, 285);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlacklightFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

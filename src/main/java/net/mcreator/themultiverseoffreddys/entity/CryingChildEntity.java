@@ -44,7 +44,7 @@ public class CryingChildEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("crying_child").setRegistryName("crying_child");
 
 	public CryingChildEntity(UltimateFnafModModElements instance) {
-		super(instance, 521);
+		super(instance, 520);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CryingChildRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

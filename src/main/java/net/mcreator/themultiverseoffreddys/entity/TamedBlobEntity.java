@@ -56,7 +56,7 @@ public class TamedBlobEntity extends UltimateFnafModModElements.ModElement {
 			.size(1.8f, 3.6f)).build("tamed_blob").setRegistryName("tamed_blob");
 
 	public TamedBlobEntity(UltimateFnafModModElements instance) {
-		super(instance, 723);
+		super(instance, 722);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBlobRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

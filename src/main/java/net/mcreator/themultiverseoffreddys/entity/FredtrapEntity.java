@@ -60,7 +60,7 @@ public class FredtrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("fredtrap").setRegistryName("fredtrap");
 
 	public FredtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 293);
+		super(instance, 292);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FredtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

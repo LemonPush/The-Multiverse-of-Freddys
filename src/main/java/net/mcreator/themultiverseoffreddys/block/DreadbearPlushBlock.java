@@ -40,7 +40,7 @@ public class DreadbearPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public DreadbearPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 675);
+		super(instance, 674);
 	}
 
 	@Override

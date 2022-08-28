@@ -17,7 +17,7 @@ public class OthersiconItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public OthersiconItem(UltimateFnafModModElements instance) {
-		super(instance, 1087);
+		super(instance, 1086);
 	}
 
 	@Override

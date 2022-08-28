@@ -38,7 +38,7 @@ public class ShadowBBPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ShadowBBPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 327);
+		super(instance, 326);
 	}
 
 	@Override

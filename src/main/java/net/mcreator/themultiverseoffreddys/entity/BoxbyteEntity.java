@@ -59,7 +59,7 @@ public class BoxbyteEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("boxbyte").setRegistryName("boxbyte");
 
 	public BoxbyteEntity(UltimateFnafModModElements instance) {
-		super(instance, 478);
+		super(instance, 477);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BoxbyteRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

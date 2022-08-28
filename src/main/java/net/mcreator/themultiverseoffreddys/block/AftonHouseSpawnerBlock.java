@@ -34,7 +34,7 @@ public class AftonHouseSpawnerBlock extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public AftonHouseSpawnerBlock(UltimateFnafModModElements instance) {
-		super(instance, 566);
+		super(instance, 565);
 	}
 
 	@Override

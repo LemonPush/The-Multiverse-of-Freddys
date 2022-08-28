@@ -40,7 +40,7 @@ public class GlitchGreenBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public GlitchGreenBiome(UltimateFnafModModElements instance) {
-		super(instance, 1840);
+		super(instance, 1839);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

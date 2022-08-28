@@ -57,7 +57,7 @@ public class UpgradedGlamrockFreddyEntity extends UltimateFnafModModElements.Mod
 			.size(0.6f, 2.4f)).build("upgraded_glamrock_freddy").setRegistryName("upgraded_glamrock_freddy");
 
 	public UpgradedGlamrockFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 426);
+		super(instance, 425);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new UpgradedGlamrockFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -57,7 +57,7 @@ public class DisembodiedEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("disembodied").setRegistryName("disembodied");
 
 	public DisembodiedEntity(UltimateFnafModModElements instance) {
-		super(instance, 866);
+		super(instance, 865);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DisembodiedRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

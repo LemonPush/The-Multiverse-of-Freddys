@@ -59,7 +59,7 @@ public class WhiteRabbitEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("white_rabbit").setRegistryName("white_rabbit");
 
 	public WhiteRabbitEntity(UltimateFnafModModElements instance) {
-		super(instance, 474);
+		super(instance, 473);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WhiteRabbitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

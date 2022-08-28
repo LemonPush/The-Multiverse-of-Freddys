@@ -32,7 +32,7 @@ public class NoAIWitheredFreddyEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 2.4f)).build("no_ai_withered_freddy").setRegistryName("no_ai_withered_freddy");
 
 	public NoAIWitheredFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1681);
+		super(instance, 1680);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIWitheredFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

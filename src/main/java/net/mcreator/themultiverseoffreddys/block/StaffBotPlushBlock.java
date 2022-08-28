@@ -40,7 +40,7 @@ public class StaffBotPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public StaffBotPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 739);
+		super(instance, 738);
 	}
 
 	@Override

@@ -71,7 +71,7 @@ public class WitheredGoldenFreddyEntity extends UltimateFnafModModElements.ModEl
 			.size(0.6f, 1.8f)).build("withered_golden_freddy").setRegistryName("withered_golden_freddy");
 
 	public WitheredGoldenFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 445);
+		super(instance, 444);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WitheredGoldenFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

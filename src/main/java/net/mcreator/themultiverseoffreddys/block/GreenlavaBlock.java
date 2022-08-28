@@ -65,7 +65,7 @@ public class GreenlavaBlock extends UltimateFnafModModElements.ModElement {
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 
 	public GreenlavaBlock(UltimateFnafModModElements instance) {
-		super(instance, 491);
+		super(instance, 490);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());

@@ -40,7 +40,7 @@ public class MontyPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public MontyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 734);
+		super(instance, 733);
 	}
 
 	@Override

@@ -59,7 +59,7 @@ public class SparkyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("sparky").setRegistryName("sparky");
 
 	public SparkyEntity(UltimateFnafModModElements instance) {
-		super(instance, 305);
+		super(instance, 304);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SparkyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

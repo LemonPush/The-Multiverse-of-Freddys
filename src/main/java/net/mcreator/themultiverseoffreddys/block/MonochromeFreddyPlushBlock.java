@@ -38,7 +38,7 @@ public class MonochromeFreddyPlushBlock extends UltimateFnafModModElements.ModEl
 	public static final Block block = null;
 
 	public MonochromeFreddyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 234);
+		super(instance, 233);
 	}
 
 	@Override

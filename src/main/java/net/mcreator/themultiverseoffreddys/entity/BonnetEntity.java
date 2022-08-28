@@ -62,7 +62,7 @@ public class BonnetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("bonnet").setRegistryName("bonnet");
 
 	public BonnetEntity(UltimateFnafModModElements instance) {
-		super(instance, 575);
+		super(instance, 574);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BonnetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

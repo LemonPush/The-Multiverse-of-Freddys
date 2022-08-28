@@ -57,7 +57,7 @@ public class NightmareFreddyBearEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 3.6f)).build("nightmare_freddy_bear").setRegistryName("nightmare_freddy_bear");
 
 	public NightmareFreddyBearEntity(UltimateFnafModModElements instance) {
-		super(instance, 419);
+		super(instance, 418);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NightmareFreddyBearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -57,7 +57,7 @@ public class WitheredJollyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("withered_jolly").setRegistryName("withered_jolly");
 
 	public WitheredJollyEntity(UltimateFnafModModElements instance) {
-		super(instance, 891);
+		super(instance, 890);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WitheredJollyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

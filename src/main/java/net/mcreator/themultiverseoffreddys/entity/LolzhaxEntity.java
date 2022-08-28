@@ -54,7 +54,7 @@ public class LolzhaxEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("lolzhax").setRegistryName("lolzhax");
 
 	public LolzhaxEntity(UltimateFnafModModElements instance) {
-		super(instance, 485);
+		super(instance, 484);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LolzhaxRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

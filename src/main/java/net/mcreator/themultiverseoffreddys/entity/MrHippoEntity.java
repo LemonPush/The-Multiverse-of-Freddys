@@ -62,7 +62,7 @@ public class MrHippoEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("mr_hippo").setRegistryName("mr_hippo");
 
 	public MrHippoEntity(UltimateFnafModModElements instance) {
-		super(instance, 597);
+		super(instance, 596);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MrHippoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

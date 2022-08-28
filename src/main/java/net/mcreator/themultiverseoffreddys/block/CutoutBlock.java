@@ -55,7 +55,7 @@ public class CutoutBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public CutoutBlock(UltimateFnafModModElements instance) {
-		super(instance, 183);
+		super(instance, 182);
 	}
 
 	@Override

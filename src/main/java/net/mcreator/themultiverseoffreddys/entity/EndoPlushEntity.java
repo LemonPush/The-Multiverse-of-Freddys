@@ -62,7 +62,7 @@ public class EndoPlushEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("endo_plush").setRegistryName("endo_plush");
 
 	public EndoPlushEntity(UltimateFnafModModElements instance) {
-		super(instance, 659);
+		super(instance, 658);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EndoPlushRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

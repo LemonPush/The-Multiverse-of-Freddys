@@ -56,7 +56,7 @@ public class TamedLolbitEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("tamed_lolbit").setRegistryName("tamed_lolbit");
 
 	public TamedLolbitEntity(UltimateFnafModModElements instance) {
-		super(instance, 1013);
+		super(instance, 1012);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedLolbitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

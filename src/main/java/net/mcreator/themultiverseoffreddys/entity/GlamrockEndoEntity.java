@@ -62,7 +62,7 @@ public class GlamrockEndoEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("glamrock_endo").setRegistryName("glamrock_endo");
 
 	public GlamrockEndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 701);
+		super(instance, 700);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GlamrockEndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

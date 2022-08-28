@@ -32,7 +32,7 @@ public class NoAiEndoPlushEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_ai_endo_plush").setRegistryName("no_ai_endo_plush");
 
 	public NoAiEndoPlushEntity(UltimateFnafModModElements instance) {
-		super(instance, 690);
+		super(instance, 689);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiEndoPlushRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

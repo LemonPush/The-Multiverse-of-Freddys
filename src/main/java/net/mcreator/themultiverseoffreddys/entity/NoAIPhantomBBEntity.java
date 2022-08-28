@@ -32,7 +32,7 @@ public class NoAIPhantomBBEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("no_ai_phantom_bb").setRegistryName("no_ai_phantom_bb");
 
 	public NoAIPhantomBBEntity(UltimateFnafModModElements instance) {
-		super(instance, 1705);
+		super(instance, 1704);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIPhantomBBRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

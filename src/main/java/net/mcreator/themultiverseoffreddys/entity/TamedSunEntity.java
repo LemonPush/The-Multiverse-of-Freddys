@@ -63,7 +63,7 @@ public class TamedSunEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_sun").setRegistryName("tamed_sun");
 
 	public TamedSunEntity(UltimateFnafModModElements instance) {
-		super(instance, 716);
+		super(instance, 715);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedSunRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

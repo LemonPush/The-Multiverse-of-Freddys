@@ -32,7 +32,7 @@ public class NoveltyGlassesItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public NoveltyGlassesItem(UltimateFnafModModElements instance) {
-		super(instance, 176);
+		super(instance, 175);
 	}
 
 	@Override

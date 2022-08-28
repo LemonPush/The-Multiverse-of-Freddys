@@ -40,7 +40,7 @@ public class DJMusicManPlushBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public DJMusicManPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 738);
+		super(instance, 737);
 	}
 
 	@Override

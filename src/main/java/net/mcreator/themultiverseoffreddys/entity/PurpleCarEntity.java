@@ -42,7 +42,7 @@ public class PurpleCarEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("purple_car").setRegistryName("purple_car");
 
 	public PurpleCarEntity(UltimateFnafModModElements instance) {
-		super(instance, 1317);
+		super(instance, 1316);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PurpleCarRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

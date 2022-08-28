@@ -66,7 +66,7 @@ public class MotherEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("mother").setRegistryName("mother");
 
 	public MotherEntity(UltimateFnafModModElements instance) {
-		super(instance, 877);
+		super(instance, 876);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MotherRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -61,7 +61,7 @@ public class NightGuardEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.9f, 1.8f)).build("night_guard").setRegistryName("night_guard");
 
 	public NightGuardEntity(UltimateFnafModModElements instance) {
-		super(instance, 412);
+		super(instance, 411);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NightGuardRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

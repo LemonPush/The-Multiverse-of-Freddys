@@ -56,7 +56,7 @@ public class TamedVaccumEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_vaccum").setRegistryName("tamed_vaccum");
 
 	public TamedVaccumEntity(UltimateFnafModModElements instance) {
-		super(instance, 645);
+		super(instance, 644);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedVaccumRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

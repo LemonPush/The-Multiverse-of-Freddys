@@ -56,7 +56,7 @@ public class TamedSerpentMangleEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 2.4f)).build("tamed_serpent_mangle").setRegistryName("tamed_serpent_mangle");
 
 	public TamedSerpentMangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 816);
+		super(instance, 815);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedSerpentMangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

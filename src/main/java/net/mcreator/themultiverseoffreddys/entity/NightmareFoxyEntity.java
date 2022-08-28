@@ -62,7 +62,7 @@ public class NightmareFoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("nightmare_foxy").setRegistryName("nightmare_foxy");
 
 	public NightmareFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 538);
+		super(instance, 537);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NightmareFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

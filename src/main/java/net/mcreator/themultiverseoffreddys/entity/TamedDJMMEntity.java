@@ -56,7 +56,7 @@ public class TamedDJMMEntity extends UltimateFnafModModElements.ModElement {
 			.size(1.8f, 3.6f)).build("tamed_djmm").setRegistryName("tamed_djmm");
 
 	public TamedDJMMEntity(UltimateFnafModModElements instance) {
-		super(instance, 718);
+		super(instance, 717);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedDJMMRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

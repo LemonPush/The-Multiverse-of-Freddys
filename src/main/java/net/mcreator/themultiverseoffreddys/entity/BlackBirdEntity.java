@@ -59,7 +59,7 @@ public class BlackBirdEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.7f)).build("black_bird").setRegistryName("black_bird");
 
 	public BlackBirdEntity(UltimateFnafModModElements instance) {
-		super(instance, 211);
+		super(instance, 210);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlackBirdRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

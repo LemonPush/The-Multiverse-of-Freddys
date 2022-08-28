@@ -67,7 +67,7 @@ public class PurpleGuyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("purple_guy").setRegistryName("purple_guy");
 
 	public PurpleGuyEntity(UltimateFnafModModElements instance) {
-		super(instance, 312);
+		super(instance, 311);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PurpleGuyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

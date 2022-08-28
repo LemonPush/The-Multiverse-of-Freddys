@@ -37,7 +37,7 @@ public class FazbearHillsBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public FazbearHillsBiome(UltimateFnafModModElements instance) {
-		super(instance, 1463);
+		super(instance, 1462);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

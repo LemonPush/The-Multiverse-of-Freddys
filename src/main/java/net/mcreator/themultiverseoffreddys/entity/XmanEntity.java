@@ -62,7 +62,7 @@ public class XmanEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("xman").setRegistryName("xman");
 
 	public XmanEntity(UltimateFnafModModElements instance) {
-		super(instance, 340);
+		super(instance, 339);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new XmanRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -57,7 +57,7 @@ public class SaffronEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("saffron").setRegistryName("saffron");
 
 	public SaffronEntity(UltimateFnafModModElements instance) {
-		super(instance, 902);
+		super(instance, 901);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SaffronRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

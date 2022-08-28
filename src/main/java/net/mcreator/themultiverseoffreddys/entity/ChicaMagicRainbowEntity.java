@@ -62,7 +62,7 @@ public class ChicaMagicRainbowEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 1.8f)).build("chica_magic_rainbow").setRegistryName("chica_magic_rainbow");
 
 	public ChicaMagicRainbowEntity(UltimateFnafModModElements instance) {
-		super(instance, 484);
+		super(instance, 483);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChicaMagicRainbowRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

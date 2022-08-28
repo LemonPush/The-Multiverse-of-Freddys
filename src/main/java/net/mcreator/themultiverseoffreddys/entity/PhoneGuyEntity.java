@@ -62,7 +62,7 @@ public class PhoneGuyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("phone_guy").setRegistryName("phone_guy");
 
 	public PhoneGuyEntity(UltimateFnafModModElements instance) {
-		super(instance, 400);
+		super(instance, 399);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhoneGuyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

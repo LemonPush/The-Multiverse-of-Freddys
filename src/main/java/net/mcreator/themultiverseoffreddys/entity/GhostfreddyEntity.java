@@ -57,7 +57,7 @@ public class GhostfreddyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("ghostfreddy").setRegistryName("ghostfreddy");
 
 	public GhostfreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 468);
+		super(instance, 467);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GhostfreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

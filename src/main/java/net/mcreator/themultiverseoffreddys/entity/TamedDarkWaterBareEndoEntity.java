@@ -56,7 +56,7 @@ public class TamedDarkWaterBareEndoEntity extends UltimateFnafModModElements.Mod
 			.size(0.6f, 2.4f)).build("tamed_dark_water_bare_endo").setRegistryName("tamed_dark_water_bare_endo");
 
 	public TamedDarkWaterBareEndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 822);
+		super(instance, 821);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedDarkWaterBareEndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

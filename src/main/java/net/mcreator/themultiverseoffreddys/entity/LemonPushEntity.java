@@ -57,7 +57,7 @@ public class LemonPushEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("lemon_push").setRegistryName("lemon_push");
 
 	public LemonPushEntity(UltimateFnafModModElements instance) {
-		super(instance, 425);
+		super(instance, 424);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LemonPushRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

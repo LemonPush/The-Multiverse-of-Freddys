@@ -34,7 +34,7 @@ public class HalloweenSpawnerBlock extends UltimateFnafModModElements.ModElement
 	public static final Block block = null;
 
 	public HalloweenSpawnerBlock(UltimateFnafModModElements instance) {
-		super(instance, 432);
+		super(instance, 431);
 	}
 
 	@Override

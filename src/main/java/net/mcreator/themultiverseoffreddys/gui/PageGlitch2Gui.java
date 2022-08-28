@@ -38,7 +38,7 @@ public class PageGlitch2Gui extends UltimateFnafModModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public PageGlitch2Gui(UltimateFnafModModElements instance) {
-		super(instance, 1579);
+		super(instance, 1578);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

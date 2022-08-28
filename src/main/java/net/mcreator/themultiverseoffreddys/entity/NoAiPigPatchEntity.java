@@ -32,7 +32,7 @@ public class NoAiPigPatchEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_pig_patch").setRegistryName("no_ai_pig_patch");
 
 	public NoAiPigPatchEntity(UltimateFnafModModElements instance) {
-		super(instance, 1739);
+		super(instance, 1738);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiPigPatchRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

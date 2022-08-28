@@ -60,7 +60,7 @@ public class GlitchtrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("glitchtrap").setRegistryName("glitchtrap");
 
 	public GlitchtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 652);
+		super(instance, 651);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GlitchtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

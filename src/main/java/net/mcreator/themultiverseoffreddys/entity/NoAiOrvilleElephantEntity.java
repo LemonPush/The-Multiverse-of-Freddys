@@ -56,7 +56,7 @@ public class NoAiOrvilleElephantEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 2.4f)).build("no_ai_orville_elephant").setRegistryName("no_ai_orville_elephant");
 
 	public NoAiOrvilleElephantEntity(UltimateFnafModModElements instance) {
-		super(instance, 1741);
+		super(instance, 1740);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiOrvilleElephantRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -66,7 +66,7 @@ public class ShadowMaxieEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("shadow_maxie").setRegistryName("shadow_maxie");
 
 	public ShadowMaxieEntity(UltimateFnafModModElements instance) {
-		super(instance, 897);
+		super(instance, 896);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShadowMaxieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

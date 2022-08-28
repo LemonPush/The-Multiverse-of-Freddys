@@ -40,7 +40,7 @@ public class PigPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public PigPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 621);
+		super(instance, 620);
 	}
 
 	@Override

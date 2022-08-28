@@ -57,7 +57,7 @@ public class StuffedSuitEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("stuffed_suit").setRegistryName("stuffed_suit");
 
 	public StuffedSuitEntity(UltimateFnafModModElements instance) {
-		super(instance, 413);
+		super(instance, 412);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new StuffedSuitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

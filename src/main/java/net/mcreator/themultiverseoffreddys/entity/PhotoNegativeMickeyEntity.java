@@ -57,7 +57,7 @@ public class PhotoNegativeMickeyEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 1.8f)).build("photo_negative_mickey").setRegistryName("photo_negative_mickey");
 
 	public PhotoNegativeMickeyEntity(UltimateFnafModModElements instance) {
-		super(instance, 865);
+		super(instance, 864);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhotoNegativeMickeyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -13,7 +13,7 @@ import net.mcreator.themultiverseoffreddys.UltimateFnafModModElements;
 @UltimateFnafModModElements.ModElement.Tag
 public class F5ItemGroup extends UltimateFnafModModElements.ModElement {
 	public F5ItemGroup(UltimateFnafModModElements instance) {
-		super(instance, 1531);
+		super(instance, 1530);
 	}
 
 	@Override

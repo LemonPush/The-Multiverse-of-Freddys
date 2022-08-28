@@ -41,7 +41,7 @@ public class TrashGUIGui extends UltimateFnafModModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public TrashGUIGui(UltimateFnafModModElements instance) {
-		super(instance, 1794);
+		super(instance, 1793);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

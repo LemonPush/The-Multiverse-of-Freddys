@@ -33,7 +33,7 @@ public class BigFistItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public BigFistItem(UltimateFnafModModElements instance) {
-		super(instance, 371);
+		super(instance, 370);
 	}
 
 	@Override

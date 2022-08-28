@@ -51,7 +51,7 @@ public class EllaBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public EllaBlock(UltimateFnafModModElements instance) {
-		super(instance, 172);
+		super(instance, 171);
 	}
 
 	@Override

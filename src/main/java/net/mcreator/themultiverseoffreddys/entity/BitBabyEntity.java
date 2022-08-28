@@ -62,7 +62,7 @@ public class BitBabyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("bit_baby").setRegistryName("bit_baby");
 
 	public BitBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 755);
+		super(instance, 754);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BitBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

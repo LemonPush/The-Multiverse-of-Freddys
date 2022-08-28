@@ -58,7 +58,7 @@ public class AgonyLavaBlock extends UltimateFnafModModElements.ModElement {
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 
 	public AgonyLavaBlock(UltimateFnafModModElements instance) {
-		super(instance, 268);
+		super(instance, 267);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());

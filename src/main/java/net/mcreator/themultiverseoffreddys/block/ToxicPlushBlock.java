@@ -40,7 +40,7 @@ public class ToxicPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ToxicPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 838);
+		super(instance, 837);
 	}
 
 	@Override

@@ -62,7 +62,7 @@ public class HelpyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("helpy").setRegistryName("helpy");
 
 	public HelpyEntity(UltimateFnafModModElements instance) {
-		super(instance, 601);
+		super(instance, 600);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HelpyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

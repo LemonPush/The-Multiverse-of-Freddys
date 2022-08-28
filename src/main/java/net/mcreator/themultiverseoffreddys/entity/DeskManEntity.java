@@ -43,7 +43,7 @@ public class DeskManEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.9f, 1.8f)).build("desk_man").setRegistryName("desk_man");
 
 	public DeskManEntity(UltimateFnafModModElements instance) {
-		super(instance, 351);
+		super(instance, 350);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DeskManRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

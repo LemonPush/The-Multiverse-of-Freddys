@@ -56,7 +56,7 @@ public class TamedFoxyThePirateFoxEntity extends UltimateFnafModModElements.ModE
 			.size(0.6f, 2.4f)).build("tamed_foxy_the_pirate_fox").setRegistryName("tamed_foxy_the_pirate_fox");
 
 	public TamedFoxyThePirateFoxEntity(UltimateFnafModModElements instance) {
-		super(instance, 933);
+		super(instance, 932);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedFoxyThePirateFoxRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

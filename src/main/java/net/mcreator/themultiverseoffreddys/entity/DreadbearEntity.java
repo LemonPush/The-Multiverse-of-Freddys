@@ -62,7 +62,7 @@ public class DreadbearEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 4.5f)).build("dreadbear").setRegistryName("dreadbear");
 
 	public DreadbearEntity(UltimateFnafModModElements instance) {
-		super(instance, 660);
+		super(instance, 659);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DreadbearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

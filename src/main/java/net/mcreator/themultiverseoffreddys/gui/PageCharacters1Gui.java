@@ -37,7 +37,7 @@ public class PageCharacters1Gui extends UltimateFnafModModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public PageCharacters1Gui(UltimateFnafModModElements instance) {
-		super(instance, 1622);
+		super(instance, 1621);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

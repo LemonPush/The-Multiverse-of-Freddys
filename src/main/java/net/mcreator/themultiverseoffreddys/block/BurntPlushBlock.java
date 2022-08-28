@@ -40,7 +40,7 @@ public class BurntPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BurntPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 681);
+		super(instance, 680);
 	}
 
 	@Override

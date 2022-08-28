@@ -56,7 +56,7 @@ public class TamedBroilerBabyEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 3.6f)).build("tamed_broiler_baby").setRegistryName("tamed_broiler_baby");
 
 	public TamedBroilerBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 777);
+		super(instance, 776);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBroilerBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

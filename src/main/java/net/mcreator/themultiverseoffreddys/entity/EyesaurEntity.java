@@ -57,7 +57,7 @@ public class EyesaurEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("eyesaur").setRegistryName("eyesaur");
 
 	public EyesaurEntity(UltimateFnafModModElements instance) {
-		super(instance, 861);
+		super(instance, 860);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EyesaurRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

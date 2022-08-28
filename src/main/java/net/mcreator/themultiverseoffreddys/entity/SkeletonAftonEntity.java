@@ -57,7 +57,7 @@ public class SkeletonAftonEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("skeleton_afton").setRegistryName("skeleton_afton");
 
 	public SkeletonAftonEntity(UltimateFnafModModElements instance) {
-		super(instance, 229);
+		super(instance, 228);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SkeletonAftonRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

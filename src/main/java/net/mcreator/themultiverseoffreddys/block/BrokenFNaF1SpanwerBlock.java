@@ -34,7 +34,7 @@ public class BrokenFNaF1SpanwerBlock extends UltimateFnafModModElements.ModEleme
 	public static final Block block = null;
 
 	public BrokenFNaF1SpanwerBlock(UltimateFnafModModElements instance) {
-		super(instance, 507);
+		super(instance, 506);
 	}
 
 	@Override

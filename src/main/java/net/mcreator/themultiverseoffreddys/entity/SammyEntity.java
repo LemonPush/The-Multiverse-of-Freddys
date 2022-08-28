@@ -59,7 +59,7 @@ public class SammyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.9f, 2.4f)).build("sammy").setRegistryName("sammy");
 
 	public SammyEntity(UltimateFnafModModElements instance) {
-		super(instance, 292);
+		super(instance, 291);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SammyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -57,7 +57,7 @@ public class BeaverEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("beaver").setRegistryName("beaver");
 
 	public BeaverEntity(UltimateFnafModModElements instance) {
-		super(instance, 857);
+		super(instance, 856);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BeaverRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

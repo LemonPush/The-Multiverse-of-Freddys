@@ -57,7 +57,7 @@ public class CatEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("cat").setRegistryName("cat");
 
 	public CatEntity(UltimateFnafModModElements instance) {
-		super(instance, 886);
+		super(instance, 885);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CatRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

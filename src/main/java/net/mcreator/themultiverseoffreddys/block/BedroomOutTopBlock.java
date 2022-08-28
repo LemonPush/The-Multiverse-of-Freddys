@@ -26,7 +26,7 @@ public class BedroomOutTopBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BedroomOutTopBlock(UltimateFnafModModElements instance) {
-		super(instance, 152);
+		super(instance, 150);
 	}
 
 	@Override

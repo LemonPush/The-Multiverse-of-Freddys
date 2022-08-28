@@ -62,7 +62,7 @@ public class MoonEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("moon").setRegistryName("moon");
 
 	public MoonEntity(UltimateFnafModModElements instance) {
-		super(instance, 696);
+		super(instance, 695);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MoonRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

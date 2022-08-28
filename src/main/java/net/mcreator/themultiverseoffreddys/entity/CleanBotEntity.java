@@ -59,7 +59,7 @@ public class CleanBotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("clean_bot").setRegistryName("clean_bot");
 
 	public CleanBotEntity(UltimateFnafModModElements instance) {
-		super(instance, 700);
+		super(instance, 699);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CleanBotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

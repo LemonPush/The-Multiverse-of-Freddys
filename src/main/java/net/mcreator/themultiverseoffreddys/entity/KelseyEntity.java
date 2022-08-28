@@ -52,7 +52,7 @@ public class KelseyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("kelsey").setRegistryName("kelsey");
 
 	public KelseyEntity(UltimateFnafModModElements instance) {
-		super(instance, 207);
+		super(instance, 206);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new KelseyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

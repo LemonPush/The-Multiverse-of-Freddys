@@ -56,7 +56,7 @@ public class TamedArcticBalloraEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 2.4f)).build("tamed_arctic_ballora").setRegistryName("tamed_arctic_ballora");
 
 	public TamedArcticBalloraEntity(UltimateFnafModModElements instance) {
-		super(instance, 810);
+		super(instance, 809);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedArcticBalloraRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

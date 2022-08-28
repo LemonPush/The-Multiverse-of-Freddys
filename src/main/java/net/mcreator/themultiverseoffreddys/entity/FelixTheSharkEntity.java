@@ -64,7 +64,7 @@ public class FelixTheSharkEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("felix_the_shark").setRegistryName("felix_the_shark");
 
 	public FelixTheSharkEntity(UltimateFnafModModElements instance) {
-		super(instance, 223);
+		super(instance, 222);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FelixTheSharkRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

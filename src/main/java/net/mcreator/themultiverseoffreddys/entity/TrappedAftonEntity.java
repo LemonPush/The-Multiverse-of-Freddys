@@ -59,7 +59,7 @@ public class TrappedAftonEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("trapped_afton").setRegistryName("trapped_afton");
 
 	public TrappedAftonEntity(UltimateFnafModModElements instance) {
-		super(instance, 160);
+		super(instance, 159);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TrappedAftonRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

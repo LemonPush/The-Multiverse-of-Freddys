@@ -32,7 +32,7 @@ public class NoAiElChipEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_el_chip").setRegistryName("no_ai_el_chip");
 
 	public NoAiElChipEntity(UltimateFnafModModElements instance) {
-		super(instance, 1752);
+		super(instance, 1751);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiElChipRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

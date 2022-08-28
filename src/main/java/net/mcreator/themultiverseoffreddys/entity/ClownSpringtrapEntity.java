@@ -62,7 +62,7 @@ public class ClownSpringtrapEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 1.8f)).build("clown_springtrap").setRegistryName("clown_springtrap");
 
 	public ClownSpringtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 782);
+		super(instance, 781);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ClownSpringtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

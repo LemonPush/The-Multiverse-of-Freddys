@@ -40,7 +40,7 @@ public class RockChicaPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public RockChicaPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 627);
+		super(instance, 626);
 	}
 
 	@Override

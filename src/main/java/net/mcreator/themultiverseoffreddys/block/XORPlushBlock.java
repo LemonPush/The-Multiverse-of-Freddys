@@ -40,7 +40,7 @@ public class XORPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public XORPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 405);
+		super(instance, 404);
 	}
 
 	@Override

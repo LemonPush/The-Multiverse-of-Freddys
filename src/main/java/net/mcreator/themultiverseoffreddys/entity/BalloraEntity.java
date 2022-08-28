@@ -62,7 +62,7 @@ public class BalloraEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("ballora").setRegistryName("ballora");
 
 	public BalloraEntity(UltimateFnafModModElements instance) {
-		super(instance, 568);
+		super(instance, 567);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BalloraRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

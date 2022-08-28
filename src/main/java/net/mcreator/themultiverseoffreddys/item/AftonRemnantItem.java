@@ -18,7 +18,7 @@ public class AftonRemnantItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public AftonRemnantItem(UltimateFnafModModElements instance) {
-		super(instance, 374);
+		super(instance, 373);
 	}
 
 	@Override

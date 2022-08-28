@@ -63,7 +63,7 @@ public class NoSuitEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_suit").setRegistryName("no_suit");
 
 	public NoSuitEntity(UltimateFnafModModElements instance) {
-		super(instance, 516);
+		super(instance, 515);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoSuitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

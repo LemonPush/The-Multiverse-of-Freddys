@@ -66,7 +66,7 @@ public class GoldenBonnieEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("golden_bonnie").setRegistryName("golden_bonnie");
 
 	public GoldenBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 306);
+		super(instance, 305);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GoldenBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

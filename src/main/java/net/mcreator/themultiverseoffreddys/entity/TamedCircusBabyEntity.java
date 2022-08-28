@@ -63,7 +63,7 @@ public class TamedCircusBabyEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 3.6f)).build("tamed_circus_baby").setRegistryName("tamed_circus_baby");
 
 	public TamedCircusBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1003);
+		super(instance, 1002);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedCircusBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

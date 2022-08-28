@@ -62,7 +62,7 @@ public class BucketEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("bucket").setRegistryName("bucket");
 
 	public BucketEntity(UltimateFnafModModElements instance) {
-		super(instance, 592);
+		super(instance, 591);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BucketRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

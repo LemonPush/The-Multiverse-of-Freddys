@@ -38,7 +38,7 @@ public class UCNSpringBonniePlushBlock extends UltimateFnafModModElements.ModEle
 	public static final Block block = null;
 
 	public UCNSpringBonniePlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 359);
+		super(instance, 358);
 	}
 
 	@Override

@@ -43,7 +43,7 @@ public class NoAiPhoneGuyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_phone_guy").setRegistryName("no_ai_phone_guy");
 
 	public NoAiPhoneGuyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1773);
+		super(instance, 1772);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiPhoneGuyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -26,7 +26,7 @@ public class CheckeredWall2Block extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public CheckeredWall2Block(UltimateFnafModModElements instance) {
-		super(instance, 158);
+		super(instance, 157);
 	}
 
 	@Override

@@ -56,7 +56,7 @@ public class TamedVannyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_vanny").setRegistryName("tamed_vanny");
 
 	public TamedVannyEntity(UltimateFnafModModElements instance) {
-		super(instance, 722);
+		super(instance, 721);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedVannyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

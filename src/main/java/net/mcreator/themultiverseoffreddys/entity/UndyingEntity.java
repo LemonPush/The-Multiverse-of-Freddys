@@ -57,7 +57,7 @@ public class UndyingEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("undying").setRegistryName("undying");
 
 	public UndyingEntity(UltimateFnafModModElements instance) {
-		super(instance, 871);
+		super(instance, 870);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new UndyingRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

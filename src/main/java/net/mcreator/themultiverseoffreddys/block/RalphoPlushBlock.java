@@ -48,7 +48,7 @@ public class RalphoPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public RalphoPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 178);
+		super(instance, 177);
 	}
 
 	@Override

@@ -62,7 +62,7 @@ public class CrateEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("crate").setRegistryName("crate");
 
 	public CrateEntity(UltimateFnafModModElements instance) {
-		super(instance, 591);
+		super(instance, 590);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CrateRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

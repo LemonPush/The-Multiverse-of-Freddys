@@ -40,7 +40,7 @@ public class HeadlessFoxyBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public HeadlessFoxyBlock(UltimateFnafModModElements instance) {
-		super(instance, 353);
+		super(instance, 352);
 	}
 
 	@Override

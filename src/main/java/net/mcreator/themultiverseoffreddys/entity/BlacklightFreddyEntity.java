@@ -59,7 +59,7 @@ public class BlacklightFreddyEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("blacklight_freddy").setRegistryName("blacklight_freddy");
 
 	public BlacklightFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 283);
+		super(instance, 282);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlacklightFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

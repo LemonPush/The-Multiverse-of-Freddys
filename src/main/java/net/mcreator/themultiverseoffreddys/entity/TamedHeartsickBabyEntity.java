@@ -56,7 +56,7 @@ public class TamedHeartsickBabyEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 3.6f)).build("tamed_heartsick_baby").setRegistryName("tamed_heartsick_baby");
 
 	public TamedHeartsickBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 813);
+		super(instance, 812);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedHeartsickBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

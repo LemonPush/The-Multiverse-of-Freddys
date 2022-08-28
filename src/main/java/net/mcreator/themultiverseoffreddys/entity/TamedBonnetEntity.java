@@ -56,7 +56,7 @@ public class TamedBonnetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.8f)).build("tamed_bonnet").setRegistryName("tamed_bonnet");
 
 	public TamedBonnetEntity(UltimateFnafModModElements instance) {
-		super(instance, 1012);
+		super(instance, 1011);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBonnetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

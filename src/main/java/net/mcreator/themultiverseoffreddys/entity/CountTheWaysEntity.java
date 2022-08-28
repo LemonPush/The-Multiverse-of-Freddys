@@ -59,7 +59,7 @@ public class CountTheWaysEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.7f)).build("count_the_ways").setRegistryName("count_the_ways");
 
 	public CountTheWaysEntity(UltimateFnafModModElements instance) {
-		super(instance, 202);
+		super(instance, 201);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CountTheWaysRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

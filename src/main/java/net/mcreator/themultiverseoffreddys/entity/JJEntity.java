@@ -62,7 +62,7 @@ public class JJEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("jj").setRegistryName("jj");
 
 	public JJEntity(UltimateFnafModModElements instance) {
-		super(instance, 440);
+		super(instance, 439);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new JJRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

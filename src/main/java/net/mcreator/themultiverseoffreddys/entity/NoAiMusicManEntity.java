@@ -32,7 +32,7 @@ public class NoAiMusicManEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_music_man").setRegistryName("no_ai_music_man");
 
 	public NoAiMusicManEntity(UltimateFnafModModElements instance) {
-		super(instance, 1753);
+		super(instance, 1752);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiMusicManRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

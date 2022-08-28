@@ -17,7 +17,7 @@ public class ARiconItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public ARiconItem(UltimateFnafModModElements instance) {
-		super(instance, 1076);
+		super(instance, 1075);
 	}
 
 	@Override

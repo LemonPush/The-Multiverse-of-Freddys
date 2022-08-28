@@ -38,7 +38,7 @@ public class TheManInRoomPlushBlock extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public TheManInRoomPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 238);
+		super(instance, 237);
 	}
 
 	@Override

@@ -64,7 +64,7 @@ public class BlacklightSpringtrapEntity extends UltimateFnafModModElements.ModEl
 			.size(0.6f, 1.8f)).build("blacklight_springtrap").setRegistryName("blacklight_springtrap");
 
 	public BlacklightSpringtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 291);
+		super(instance, 290);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlacklightSpringtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

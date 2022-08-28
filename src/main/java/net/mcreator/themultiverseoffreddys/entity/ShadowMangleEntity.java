@@ -62,7 +62,7 @@ public class ShadowMangleEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("shadow_mangle").setRegistryName("shadow_mangle");
 
 	public ShadowMangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 657);
+		super(instance, 656);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShadowMangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

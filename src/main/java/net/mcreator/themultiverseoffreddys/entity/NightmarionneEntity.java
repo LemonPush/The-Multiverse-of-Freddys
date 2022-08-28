@@ -62,7 +62,7 @@ public class NightmarionneEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 4.5f)).build("nightmarionne").setRegistryName("nightmarionne");
 
 	public NightmarionneEntity(UltimateFnafModModElements instance) {
-		super(instance, 547);
+		super(instance, 546);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NightmarionneRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

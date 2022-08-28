@@ -56,7 +56,7 @@ public class TamedNightmarionneEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 3.6f)).build("tamed_nightmarionne").setRegistryName("tamed_nightmarionne");
 
 	public TamedNightmarionneEntity(UltimateFnafModModElements instance) {
-		super(instance, 995);
+		super(instance, 994);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedNightmarionneRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

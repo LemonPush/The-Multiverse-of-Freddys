@@ -62,7 +62,7 @@ public class PhantomBalloonBoyEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 1.8f)).build("phantom_balloon_boy").setRegistryName("phantom_balloon_boy");
 
 	public PhantomBalloonBoyEntity(UltimateFnafModModElements instance) {
-		super(instance, 512);
+		super(instance, 511);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhantomBalloonBoyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

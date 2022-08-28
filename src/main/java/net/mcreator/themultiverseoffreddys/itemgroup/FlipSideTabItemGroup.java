@@ -13,7 +13,7 @@ import net.mcreator.themultiverseoffreddys.UltimateFnafModModElements;
 @UltimateFnafModModElements.ModElement.Tag
 public class FlipSideTabItemGroup extends UltimateFnafModModElements.ModElement {
 	public FlipSideTabItemGroup(UltimateFnafModModElements instance) {
-		super(instance, 1227);
+		super(instance, 1226);
 	}
 
 	@Override

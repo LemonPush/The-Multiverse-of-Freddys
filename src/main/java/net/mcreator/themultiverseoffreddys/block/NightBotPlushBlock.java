@@ -40,7 +40,7 @@ public class NightBotPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public NightBotPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 741);
+		super(instance, 740);
 	}
 
 	@Override

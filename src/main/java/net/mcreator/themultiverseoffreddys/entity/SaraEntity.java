@@ -57,7 +57,7 @@ public class SaraEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("sara").setRegistryName("sara");
 
 	public SaraEntity(UltimateFnafModModElements instance) {
-		super(instance, 901);
+		super(instance, 900);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SaraRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

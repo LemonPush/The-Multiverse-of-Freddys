@@ -54,7 +54,7 @@ public class DreamgeistEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("dreamgeist").setRegistryName("dreamgeist");
 
 	public DreamgeistEntity(UltimateFnafModModElements instance) {
-		super(instance, 486);
+		super(instance, 485);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DreamgeistRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

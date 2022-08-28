@@ -59,7 +59,7 @@ public class BVGoldenEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("bv_golden").setRegistryName("bv_golden");
 
 	public BVGoldenEntity(UltimateFnafModModElements instance) {
-		super(instance, 275);
+		super(instance, 274);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BVGoldenRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -56,7 +56,7 @@ public class TamedPanEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_pan").setRegistryName("tamed_pan");
 
 	public TamedPanEntity(UltimateFnafModModElements instance) {
-		super(instance, 643);
+		super(instance, 642);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedPanRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

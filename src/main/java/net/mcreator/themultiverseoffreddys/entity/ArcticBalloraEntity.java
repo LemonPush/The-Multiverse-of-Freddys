@@ -62,7 +62,7 @@ public class ArcticBalloraEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("arctic_ballora").setRegistryName("arctic_ballora");
 
 	public ArcticBalloraEntity(UltimateFnafModModElements instance) {
-		super(instance, 792);
+		super(instance, 791);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ArcticBalloraRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -59,7 +59,7 @@ public class GoldenToyFreddyEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.4f)).build("golden_toy_freddy").setRegistryName("golden_toy_freddy");
 
 	public GoldenToyFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 308);
+		super(instance, 307);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GoldenToyFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

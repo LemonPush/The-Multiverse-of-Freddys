@@ -62,7 +62,7 @@ public class OMCEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("omc").setRegistryName("omc");
 
 	public OMCEntity(UltimateFnafModModElements instance) {
-		super(instance, 399);
+		super(instance, 398);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new OMCRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

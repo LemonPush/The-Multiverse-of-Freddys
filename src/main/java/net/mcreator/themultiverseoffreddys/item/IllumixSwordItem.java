@@ -17,7 +17,7 @@ public class IllumixSwordItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public IllumixSwordItem(UltimateFnafModModElements instance) {
-		super(instance, 382);
+		super(instance, 381);
 	}
 
 	@Override

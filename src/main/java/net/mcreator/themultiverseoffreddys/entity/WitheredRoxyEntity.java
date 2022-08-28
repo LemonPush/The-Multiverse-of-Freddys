@@ -62,7 +62,7 @@ public class WitheredRoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("withered_roxy").setRegistryName("withered_roxy");
 
 	public WitheredRoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 708);
+		super(instance, 707);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WitheredRoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -57,7 +57,7 @@ public class AntonetteEntity extends UltimateFnafModModElements.ModElement {
 			.build("antonette").setRegistryName("antonette");
 
 	public AntonetteEntity(UltimateFnafModModElements instance) {
-		super(instance, 895);
+		super(instance, 894);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AntonetteRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

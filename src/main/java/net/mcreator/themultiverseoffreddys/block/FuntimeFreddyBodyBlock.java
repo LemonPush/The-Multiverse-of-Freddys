@@ -51,7 +51,7 @@ public class FuntimeFreddyBodyBlock extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public FuntimeFreddyBodyBlock(UltimateFnafModModElements instance) {
-		super(instance, 168);
+		super(instance, 167);
 	}
 
 	@Override

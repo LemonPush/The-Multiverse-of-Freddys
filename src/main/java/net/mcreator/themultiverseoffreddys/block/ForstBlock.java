@@ -40,7 +40,7 @@ public class ForstBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ForstBlock(UltimateFnafModModElements instance) {
-		super(instance, 842);
+		super(instance, 841);
 	}
 
 	@Override

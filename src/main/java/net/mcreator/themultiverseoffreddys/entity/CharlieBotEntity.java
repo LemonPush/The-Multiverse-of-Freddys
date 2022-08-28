@@ -51,7 +51,7 @@ public class CharlieBotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("charlie_bot").setRegistryName("charlie_bot");
 
 	public CharlieBotEntity(UltimateFnafModModElements instance) {
-		super(instance, 159);
+		super(instance, 158);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CharlieBotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

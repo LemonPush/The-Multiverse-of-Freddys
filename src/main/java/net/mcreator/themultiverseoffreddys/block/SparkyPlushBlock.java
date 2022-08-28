@@ -38,7 +38,7 @@ public class SparkyPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public SparkyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 323);
+		super(instance, 322);
 	}
 
 	@Override

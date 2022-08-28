@@ -56,7 +56,7 @@ public class TamedAeronautToyFreddyEntity extends UltimateFnafModModElements.Mod
 			.size(0.6f, 2.4f)).build("tamed_aeronaut_toy_freddy").setRegistryName("tamed_aeronaut_toy_freddy");
 
 	public TamedAeronautToyFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 825);
+		super(instance, 824);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedAeronautToyFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -63,7 +63,7 @@ public class TamedPhantomPuppetEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 2.4f)).build("tamed_phantom_puppet").setRegistryName("tamed_phantom_puppet");
 
 	public TamedPhantomPuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 967);
+		super(instance, 966);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedPhantomPuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -56,7 +56,7 @@ public class TamedHighscoreToyChicaEntity extends UltimateFnafModModElements.Mod
 			.size(0.6f, 2.4f)).build("tamed_highscore_toy_chica").setRegistryName("tamed_highscore_toy_chica");
 
 	public TamedHighscoreToyChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 770);
+		super(instance, 769);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedHighscoreToyChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

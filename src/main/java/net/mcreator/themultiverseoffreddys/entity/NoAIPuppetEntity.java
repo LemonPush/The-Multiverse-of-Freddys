@@ -32,7 +32,7 @@ public class NoAIPuppetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_puppet").setRegistryName("no_ai_puppet");
 
 	public NoAIPuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 1687);
+		super(instance, 1686);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIPuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

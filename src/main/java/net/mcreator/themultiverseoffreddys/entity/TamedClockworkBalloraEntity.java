@@ -56,7 +56,7 @@ public class TamedClockworkBalloraEntity extends UltimateFnafModModElements.ModE
 			.size(0.6f, 2.4f)).build("tamed_clockwork_ballora").setRegistryName("tamed_clockwork_ballora");
 
 	public TamedClockworkBalloraEntity(UltimateFnafModModElements instance) {
-		super(instance, 826);
+		super(instance, 825);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedClockworkBalloraRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

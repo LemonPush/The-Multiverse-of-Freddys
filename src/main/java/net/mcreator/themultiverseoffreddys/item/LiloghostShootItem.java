@@ -43,7 +43,7 @@ public class LiloghostShootItem extends UltimateFnafModModElements.ModElement {
 			.size(0.5f, 0.5f)).build("projectile_liloghost_shoot").setRegistryName("projectile_liloghost_shoot");
 
 	public LiloghostShootItem(UltimateFnafModModElements instance) {
-		super(instance, 1664);
+		super(instance, 1663);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LiloghostShootRenderer.ModelRegisterHandler());
 	}
 

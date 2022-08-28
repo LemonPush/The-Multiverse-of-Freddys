@@ -66,7 +66,7 @@ public class FlamingSpringtrapEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 1.8f)).build("flaming_springtrap").setRegistryName("flaming_springtrap");
 
 	public FlamingSpringtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 763);
+		super(instance, 762);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FlamingSpringtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

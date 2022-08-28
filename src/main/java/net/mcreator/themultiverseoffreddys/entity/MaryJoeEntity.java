@@ -52,7 +52,7 @@ public class MaryJoeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("mary_joe").setRegistryName("mary_joe");
 
 	public MaryJoeEntity(UltimateFnafModModElements instance) {
-		super(instance, 222);
+		super(instance, 221);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MaryJoeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

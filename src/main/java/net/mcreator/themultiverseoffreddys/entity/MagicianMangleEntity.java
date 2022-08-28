@@ -62,7 +62,7 @@ public class MagicianMangleEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("magician_mangle").setRegistryName("magician_mangle");
 
 	public MagicianMangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 781);
+		super(instance, 780);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MagicianMangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

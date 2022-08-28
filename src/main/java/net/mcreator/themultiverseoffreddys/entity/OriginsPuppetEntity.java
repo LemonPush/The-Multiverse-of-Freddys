@@ -57,7 +57,7 @@ public class OriginsPuppetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("origins_puppet").setRegistryName("origins_puppet");
 
 	public OriginsPuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 414);
+		super(instance, 413);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new OriginsPuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

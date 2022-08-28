@@ -40,7 +40,7 @@ public class RadioactivePlushBlock extends UltimateFnafModModElements.ModElement
 	public static final Block block = null;
 
 	public RadioactivePlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 837);
+		super(instance, 836);
 	}
 
 	@Override

@@ -62,7 +62,7 @@ public class LapineManEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("lapine_man").setRegistryName("lapine_man");
 
 	public LapineManEntity(UltimateFnafModModElements instance) {
-		super(instance, 347);
+		super(instance, 346);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LapineManRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

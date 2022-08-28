@@ -56,7 +56,7 @@ public class TamedSunkenToyBonnieEntity extends UltimateFnafModModElements.ModEl
 			.size(0.6f, 2.4f)).build("tamed_sunken_toy_bonnie").setRegistryName("tamed_sunken_toy_bonnie");
 
 	public TamedSunkenToyBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 824);
+		super(instance, 823);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedSunkenToyBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -32,7 +32,7 @@ public class NoAiScraptrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_scraptrap").setRegistryName("no_ai_scraptrap");
 
 	public NoAiScraptrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 1755);
+		super(instance, 1754);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiScraptrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

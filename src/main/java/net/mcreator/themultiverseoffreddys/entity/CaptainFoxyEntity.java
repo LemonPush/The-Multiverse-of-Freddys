@@ -62,7 +62,7 @@ public class CaptainFoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("captain_foxy").setRegistryName("captain_foxy");
 
 	public CaptainFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 662);
+		super(instance, 661);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CaptainFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

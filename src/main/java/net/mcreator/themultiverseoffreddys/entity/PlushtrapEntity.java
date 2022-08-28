@@ -62,7 +62,7 @@ public class PlushtrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("plushtrap").setRegistryName("plushtrap");
 
 	public PlushtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 540);
+		super(instance, 539);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PlushtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

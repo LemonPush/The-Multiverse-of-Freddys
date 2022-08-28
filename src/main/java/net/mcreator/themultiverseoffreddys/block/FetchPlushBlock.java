@@ -38,7 +38,7 @@ public class FetchPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public FetchPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 237);
+		super(instance, 236);
 	}
 
 	@Override

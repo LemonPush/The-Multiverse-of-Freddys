@@ -40,7 +40,7 @@ import com.google.common.collect.ImmutableSet;
 @UltimateFnafModModElements.ModElement.Tag
 public class SubTunnelDimension extends UltimateFnafModModElements.ModElement {
 	public SubTunnelDimension(UltimateFnafModModElements instance) {
-		super(instance, 910);
+		super(instance, 909);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

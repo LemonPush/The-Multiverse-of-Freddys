@@ -56,7 +56,7 @@ public class TamedHappyFrogEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("tamed_happy_frog").setRegistryName("tamed_happy_frog");
 
 	public TamedHappyFrogEntity(UltimateFnafModModElements instance) {
-		super(instance, 1024);
+		super(instance, 1023);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedHappyFrogRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

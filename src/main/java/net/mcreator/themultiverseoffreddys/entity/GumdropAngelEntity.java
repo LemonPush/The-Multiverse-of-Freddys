@@ -58,7 +58,7 @@ public class GumdropAngelEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("gumdrop_angel").setRegistryName("gumdrop_angel");
 
 	public GumdropAngelEntity(UltimateFnafModModElements instance) {
-		super(instance, 215);
+		super(instance, 214);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GumdropAngelRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

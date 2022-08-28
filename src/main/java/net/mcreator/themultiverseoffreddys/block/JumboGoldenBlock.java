@@ -44,7 +44,7 @@ public class JumboGoldenBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public JumboGoldenBlock(UltimateFnafModModElements instance) {
-		super(instance, 503);
+		super(instance, 502);
 	}
 
 	@Override

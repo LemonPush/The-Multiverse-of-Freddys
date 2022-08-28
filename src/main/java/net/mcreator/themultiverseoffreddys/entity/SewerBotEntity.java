@@ -62,7 +62,7 @@ public class SewerBotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("sewer_bot").setRegistryName("sewer_bot");
 
 	public SewerBotEntity(UltimateFnafModModElements instance) {
-		super(instance, 704);
+		super(instance, 703);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SewerBotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

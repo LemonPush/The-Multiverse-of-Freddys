@@ -26,7 +26,7 @@ public class BedroomBottomBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BedroomBottomBlock(UltimateFnafModModElements instance) {
-		super(instance, 151);
+		super(instance, 149);
 	}
 
 	@Override

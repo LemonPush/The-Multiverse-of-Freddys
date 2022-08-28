@@ -62,7 +62,7 @@ public class Endo04Entity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("endo_04").setRegistryName("endo_04");
 
 	public Endo04Entity(UltimateFnafModModElements instance) {
-		super(instance, 548);
+		super(instance, 547);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new Endo04Renderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

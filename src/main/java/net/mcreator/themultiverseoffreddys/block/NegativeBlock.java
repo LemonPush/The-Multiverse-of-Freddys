@@ -28,7 +28,7 @@ public class NegativeBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public NegativeBlock(UltimateFnafModModElements instance) {
-		super(instance, 301);
+		super(instance, 300);
 	}
 
 	@Override

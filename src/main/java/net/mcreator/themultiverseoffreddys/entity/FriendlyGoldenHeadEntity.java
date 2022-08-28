@@ -56,7 +56,7 @@ public class FriendlyGoldenHeadEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 3.6f)).build("friendly_golden_head").setRegistryName("friendly_golden_head");
 
 	public FriendlyGoldenHeadEntity(UltimateFnafModModElements instance) {
-		super(instance, 433);
+		super(instance, 432);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FriendlyGoldenHeadRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

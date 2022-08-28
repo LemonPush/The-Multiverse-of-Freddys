@@ -57,7 +57,7 @@ public class RageEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.7f)).build("rage").setRegistryName("rage");
 
 	public RageEntity(UltimateFnafModModElements instance) {
-		super(instance, 488);
+		super(instance, 487);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RageRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -40,7 +40,7 @@ public class ClowntrapBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ClowntrapBlock(UltimateFnafModModElements instance) {
-		super(instance, 839);
+		super(instance, 838);
 	}
 
 	@Override

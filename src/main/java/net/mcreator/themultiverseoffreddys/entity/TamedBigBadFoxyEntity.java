@@ -56,7 +56,7 @@ public class TamedBigBadFoxyEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.4f)).build("tamed_big_bad_foxy").setRegistryName("tamed_big_bad_foxy");
 
 	public TamedBigBadFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 821);
+		super(instance, 820);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBigBadFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

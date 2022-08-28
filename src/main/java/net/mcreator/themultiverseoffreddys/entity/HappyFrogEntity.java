@@ -62,7 +62,7 @@ public class HappyFrogEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("happy_frog").setRegistryName("happy_frog");
 
 	public HappyFrogEntity(UltimateFnafModModElements instance) {
-		super(instance, 596);
+		super(instance, 595);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HappyFrogRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

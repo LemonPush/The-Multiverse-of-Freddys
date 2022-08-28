@@ -40,7 +40,7 @@ public class DeeDeePlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public DeeDeePlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 404);
+		super(instance, 403);
 	}
 
 	@Override

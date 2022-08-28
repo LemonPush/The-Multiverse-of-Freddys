@@ -57,7 +57,7 @@ public class PlutoEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("pluto").setRegistryName("pluto");
 
 	public PlutoEntity(UltimateFnafModModElements instance) {
-		super(instance, 873);
+		super(instance, 872);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PlutoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

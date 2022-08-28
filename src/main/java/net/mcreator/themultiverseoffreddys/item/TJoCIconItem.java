@@ -17,7 +17,7 @@ public class TJoCIconItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public TJoCIconItem(UltimateFnafModModElements instance) {
-		super(instance, 1221);
+		super(instance, 1220);
 	}
 
 	@Override

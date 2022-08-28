@@ -59,7 +59,7 @@ public class BlacklightChicaEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.4f)).build("blacklight_chica").setRegistryName("blacklight_chica");
 
 	public BlacklightChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 285);
+		super(instance, 284);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlacklightChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

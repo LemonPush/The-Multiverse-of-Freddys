@@ -59,7 +59,7 @@ public class BVFuntimeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("bv_funtime").setRegistryName("bv_funtime");
 
 	public BVFuntimeEntity(UltimateFnafModModElements instance) {
-		super(instance, 279);
+		super(instance, 278);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BVFuntimeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

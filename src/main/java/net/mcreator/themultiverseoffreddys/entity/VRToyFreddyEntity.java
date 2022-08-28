@@ -62,7 +62,7 @@ public class VRToyFreddyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("vr_toy_freddy").setRegistryName("vr_toy_freddy");
 
 	public VRToyFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 752);
+		super(instance, 751);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new VRToyFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

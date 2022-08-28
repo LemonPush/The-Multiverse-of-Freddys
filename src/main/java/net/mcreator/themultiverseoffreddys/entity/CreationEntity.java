@@ -57,7 +57,7 @@ public class CreationEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("creation").setRegistryName("creation");
 
 	public CreationEntity(UltimateFnafModModElements instance) {
-		super(instance, 850);
+		super(instance, 849);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CreationRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

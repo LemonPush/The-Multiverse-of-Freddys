@@ -56,7 +56,7 @@ public class NoAiYenndoEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("no_ai_yenndo").setRegistryName("no_ai_yenndo");
 
 	public NoAiYenndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 1733);
+		super(instance, 1732);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiYenndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

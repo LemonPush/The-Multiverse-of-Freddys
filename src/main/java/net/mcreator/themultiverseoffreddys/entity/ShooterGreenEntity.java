@@ -51,7 +51,7 @@ public class ShooterGreenEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("shooter_green").setRegistryName("shooter_green");
 
 	public ShooterGreenEntity(UltimateFnafModModElements instance) {
-		super(instance, 257);
+		super(instance, 256);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShooterGreenRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

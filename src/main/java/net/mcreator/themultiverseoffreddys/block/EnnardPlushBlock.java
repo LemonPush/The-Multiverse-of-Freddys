@@ -40,7 +40,7 @@ public class EnnardPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public EnnardPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 583);
+		super(instance, 582);
 	}
 
 	@Override

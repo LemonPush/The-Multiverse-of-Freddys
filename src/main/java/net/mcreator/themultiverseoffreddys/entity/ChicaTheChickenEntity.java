@@ -62,7 +62,7 @@ public class ChicaTheChickenEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.4f)).build("chica_the_chicken").setRegistryName("chica_the_chicken");
 
 	public ChicaTheChickenEntity(UltimateFnafModModElements instance) {
-		super(instance, 494);
+		super(instance, 493);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChicaTheChickenRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

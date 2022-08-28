@@ -56,7 +56,7 @@ public class TamedHardcoreChicaEntity extends UltimateFnafModModElements.ModElem
 			.size(0.5f, 2.4f)).build("tamed_hardcore_chica").setRegistryName("tamed_hardcore_chica");
 
 	public TamedHardcoreChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 673);
+		super(instance, 672);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedHardcoreChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

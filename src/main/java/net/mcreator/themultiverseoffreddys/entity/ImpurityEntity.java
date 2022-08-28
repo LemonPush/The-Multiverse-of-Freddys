@@ -57,7 +57,7 @@ public class ImpurityEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("impurity").setRegistryName("impurity");
 
 	public ImpurityEntity(UltimateFnafModModElements instance) {
-		super(instance, 869);
+		super(instance, 868);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ImpurityRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

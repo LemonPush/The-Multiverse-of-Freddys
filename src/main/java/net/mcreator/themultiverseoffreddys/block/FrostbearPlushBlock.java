@@ -40,7 +40,7 @@ public class FrostbearPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public FrostbearPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 830);
+		super(instance, 829);
 	}
 
 	@Override

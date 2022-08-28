@@ -50,7 +50,7 @@ public class GirlEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.4f, 0.7f)).build("girl").setRegistryName("girl");
 
 	public GirlEntity(UltimateFnafModModElements instance) {
-		super(instance, 430);
+		super(instance, 429);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GirlRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

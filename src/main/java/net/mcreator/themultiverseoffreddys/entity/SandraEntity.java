@@ -59,7 +59,7 @@ public class SandraEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("sandra").setRegistryName("sandra");
 
 	public SandraEntity(UltimateFnafModModElements instance) {
-		super(instance, 338);
+		super(instance, 337);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SandraRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -63,7 +63,7 @@ public class TamedDreadbearEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 3.6f)).build("tamed_dreadbear").setRegistryName("tamed_dreadbear");
 
 	public TamedDreadbearEntity(UltimateFnafModModElements instance) {
-		super(instance, 989);
+		super(instance, 988);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedDreadbearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

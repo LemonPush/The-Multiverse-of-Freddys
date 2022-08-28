@@ -13,7 +13,7 @@ import net.mcreator.themultiverseoffreddys.UltimateFnafModModElements;
 @UltimateFnafModModElements.ModElement.Tag
 public class ARTabItemGroup extends UltimateFnafModModElements.ModElement {
 	public ARTabItemGroup(UltimateFnafModModElements instance) {
-		super(instance, 1077);
+		super(instance, 1076);
 	}
 
 	@Override

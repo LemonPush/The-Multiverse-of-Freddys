@@ -56,7 +56,7 @@ public class TamedFireworkFreddyEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 2.4f)).build("tamed_firework_freddy").setRegistryName("tamed_firework_freddy");
 
 	public TamedFireworkFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 774);
+		super(instance, 773);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedFireworkFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

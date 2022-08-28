@@ -62,7 +62,7 @@ public class RockstarFoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("rockstar_foxy").setRegistryName("rockstar_foxy");
 
 	public RockstarFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 605);
+		super(instance, 604);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RockstarFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

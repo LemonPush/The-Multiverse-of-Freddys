@@ -40,7 +40,7 @@ public class PuppetPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public PuppetPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 456);
+		super(instance, 455);
 	}
 
 	@Override

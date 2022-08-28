@@ -62,7 +62,7 @@ public class FrostEndoEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("frost_endo").setRegistryName("frost_endo");
 
 	public FrostEndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 705);
+		super(instance, 704);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FrostEndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

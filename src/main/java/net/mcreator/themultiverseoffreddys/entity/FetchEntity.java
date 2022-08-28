@@ -58,7 +58,7 @@ public class FetchEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("fetch").setRegistryName("fetch");
 
 	public FetchEntity(UltimateFnafModModElements instance) {
-		super(instance, 203);
+		super(instance, 202);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FetchRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

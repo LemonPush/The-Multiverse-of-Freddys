@@ -57,7 +57,7 @@ public class ShadowFlumptyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("shadow_flumpty").setRegistryName("shadow_flumpty");
 
 	public ShadowFlumptyEntity(UltimateFnafModModElements instance) {
-		super(instance, 863);
+		super(instance, 862);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShadowFlumptyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -51,7 +51,7 @@ public class PizzaKitBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public PizzaKitBlock(UltimateFnafModModElements instance) {
-		super(instance, 192);
+		super(instance, 191);
 	}
 
 	@Override

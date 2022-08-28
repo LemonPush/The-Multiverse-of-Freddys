@@ -56,7 +56,7 @@ public class TamedChocolatebonnieEntity extends UltimateFnafModModElements.ModEl
 			.size(0.6f, 2.4f)).build("tamed_chocolatebonnie").setRegistryName("tamed_chocolatebonnie");
 
 	public TamedChocolatebonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 766);
+		super(instance, 765);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedChocolatebonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

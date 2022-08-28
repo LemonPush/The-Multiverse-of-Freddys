@@ -56,7 +56,7 @@ public class NoAIFuntimeFoxyEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 3.6f)).build("no_ai_funtime_foxy").setRegistryName("no_ai_funtime_foxy");
 
 	public NoAIFuntimeFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1726);
+		super(instance, 1725);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIFuntimeFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

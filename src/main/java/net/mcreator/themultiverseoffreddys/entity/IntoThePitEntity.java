@@ -57,7 +57,7 @@ public class IntoThePitEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.7f)).build("into_the_pit").setRegistryName("into_the_pit");
 
 	public IntoThePitEntity(UltimateFnafModModElements instance) {
-		super(instance, 200);
+		super(instance, 199);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IntoThePitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

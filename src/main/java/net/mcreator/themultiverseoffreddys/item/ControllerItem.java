@@ -32,7 +32,7 @@ public class ControllerItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public ControllerItem(UltimateFnafModModElements instance) {
-		super(instance, 185);
+		super(instance, 184);
 	}
 
 	@Override

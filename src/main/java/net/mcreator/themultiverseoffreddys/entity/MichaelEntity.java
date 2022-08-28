@@ -59,7 +59,7 @@ public class MichaelEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("michael").setRegistryName("michael");
 
 	public MichaelEntity(UltimateFnafModModElements instance) {
-		super(instance, 614);
+		super(instance, 613);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MichaelRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

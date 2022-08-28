@@ -51,7 +51,7 @@ public class TheManInRoom1280Entity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 0.9f)).build("the_man_in_room_1280").setRegistryName("the_man_in_room_1280");
 
 	public TheManInRoom1280Entity(UltimateFnafModModElements instance) {
-		super(instance, 210);
+		super(instance, 209);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TheManInRoom1280Renderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

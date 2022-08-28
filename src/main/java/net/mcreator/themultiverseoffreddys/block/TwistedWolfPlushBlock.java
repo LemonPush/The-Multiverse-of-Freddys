@@ -38,7 +38,7 @@ public class TwistedWolfPlushBlock extends UltimateFnafModModElements.ModElement
 	public static final Block block = null;
 
 	public TwistedWolfPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 233);
+		super(instance, 232);
 	}
 
 	@Override

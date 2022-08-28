@@ -59,7 +59,7 @@ public class LonelyFreddyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("lonely_freddy").setRegistryName("lonely_freddy");
 
 	public LonelyFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 204);
+		super(instance, 203);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LonelyFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

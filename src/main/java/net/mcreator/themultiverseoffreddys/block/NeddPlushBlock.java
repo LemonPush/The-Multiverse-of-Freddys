@@ -40,7 +40,7 @@ public class NeddPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public NeddPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 622);
+		super(instance, 621);
 	}
 
 	@Override

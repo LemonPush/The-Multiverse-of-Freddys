@@ -40,7 +40,7 @@ public class JackOChicaPlushBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public JackOChicaPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 558);
+		super(instance, 557);
 	}
 
 	@Override

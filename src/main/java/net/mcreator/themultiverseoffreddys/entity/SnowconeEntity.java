@@ -61,7 +61,7 @@ public class SnowconeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("snowcone").setRegistryName("snowcone");
 
 	public SnowconeEntity(UltimateFnafModModElements instance) {
-		super(instance, 482);
+		super(instance, 481);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SnowconeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

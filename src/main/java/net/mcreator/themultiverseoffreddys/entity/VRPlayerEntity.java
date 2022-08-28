@@ -48,7 +48,7 @@ public class VRPlayerEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.7999999999999998f)).build("vr_player").setRegistryName("vr_player");
 
 	public VRPlayerEntity(UltimateFnafModModElements instance) {
-		super(instance, 249);
+		super(instance, 248);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new VRPlayerRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

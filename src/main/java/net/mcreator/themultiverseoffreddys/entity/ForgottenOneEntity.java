@@ -66,7 +66,7 @@ public class ForgottenOneEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("forgotten_one").setRegistryName("forgotten_one");
 
 	public ForgottenOneEntity(UltimateFnafModModElements instance) {
-		super(instance, 876);
+		super(instance, 875);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ForgottenOneRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -40,7 +40,7 @@ public class GlamChicaPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public GlamChicaPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 736);
+		super(instance, 735);
 	}
 
 	@Override

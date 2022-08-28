@@ -32,7 +32,7 @@ public class NoAiShadowMangleEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("no_ai_shadow_mangle").setRegistryName("no_ai_shadow_mangle");
 
 	public NoAiShadowMangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 1778);
+		super(instance, 1777);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiShadowMangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

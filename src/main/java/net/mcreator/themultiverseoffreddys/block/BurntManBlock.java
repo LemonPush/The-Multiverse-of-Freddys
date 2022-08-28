@@ -52,7 +52,7 @@ public class BurntManBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BurntManBlock(UltimateFnafModModElements instance) {
-		super(instance, 180);
+		super(instance, 179);
 	}
 
 	@Override

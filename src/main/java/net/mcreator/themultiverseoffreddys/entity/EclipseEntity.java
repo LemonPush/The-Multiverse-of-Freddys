@@ -57,7 +57,7 @@ public class EclipseEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("eclipse").setRegistryName("eclipse");
 
 	public EclipseEntity(UltimateFnafModModElements instance) {
-		super(instance, 427);
+		super(instance, 426);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EclipseRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

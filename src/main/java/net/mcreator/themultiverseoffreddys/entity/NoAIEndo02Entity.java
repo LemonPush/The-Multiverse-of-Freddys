@@ -32,7 +32,7 @@ public class NoAIEndo02Entity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_endo_02").setRegistryName("no_ai_endo_02");
 
 	public NoAIEndo02Entity(UltimateFnafModModElements instance) {
-		super(instance, 1689);
+		super(instance, 1688);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIEndo02Renderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

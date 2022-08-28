@@ -62,7 +62,7 @@ public class BlackheartBonnieEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("blackheart_bonnie").setRegistryName("blackheart_bonnie");
 
 	public BlackheartBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 795);
+		super(instance, 794);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlackheartBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

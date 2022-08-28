@@ -59,7 +59,7 @@ public class NightHareEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 4.5f)).build("night_hare").setRegistryName("night_hare");
 
 	public NightHareEntity(UltimateFnafModModElements instance) {
-		super(instance, 295);
+		super(instance, 294);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NightHareRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -59,7 +59,7 @@ public class BVFredbearEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("bv_fredbear").setRegistryName("bv_fredbear");
 
 	public BVFredbearEntity(UltimateFnafModModElements instance) {
-		super(instance, 281);
+		super(instance, 280);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BVFredbearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

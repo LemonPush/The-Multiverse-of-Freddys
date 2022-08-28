@@ -33,7 +33,7 @@ public class AftonWallBottomBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public AftonWallBottomBlock(UltimateFnafModModElements instance) {
-		super(instance, 155);
+		super(instance, 153);
 	}
 
 	@Override

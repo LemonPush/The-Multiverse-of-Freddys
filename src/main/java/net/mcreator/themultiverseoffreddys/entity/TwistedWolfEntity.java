@@ -59,7 +59,7 @@ public class TwistedWolfEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("twisted_wolf").setRegistryName("twisted_wolf");
 
 	public TwistedWolfEntity(UltimateFnafModModElements instance) {
-		super(instance, 162);
+		super(instance, 161);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TwistedWolfRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

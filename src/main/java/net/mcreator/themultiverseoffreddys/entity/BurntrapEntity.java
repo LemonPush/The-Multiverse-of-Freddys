@@ -62,7 +62,7 @@ public class BurntrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("burntrap").setRegistryName("burntrap");
 
 	public BurntrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 711);
+		super(instance, 710);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BurntrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

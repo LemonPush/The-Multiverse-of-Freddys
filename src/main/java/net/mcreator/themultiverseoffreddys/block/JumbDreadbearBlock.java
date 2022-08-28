@@ -44,7 +44,7 @@ public class JumbDreadbearBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public JumbDreadbearBlock(UltimateFnafModModElements instance) {
-		super(instance, 683);
+		super(instance, 682);
 	}
 
 	@Override

@@ -62,7 +62,7 @@ public class ElChipEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("el_chip").setRegistryName("el_chip");
 
 	public ElChipEntity(UltimateFnafModModElements instance) {
-		super(instance, 608);
+		super(instance, 607);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ElChipRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

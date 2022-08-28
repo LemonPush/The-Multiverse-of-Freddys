@@ -56,7 +56,7 @@ public class MalhareEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("malhare").setRegistryName("malhare");
 
 	public MalhareEntity(UltimateFnafModModElements instance) {
-		super(instance, 247);
+		super(instance, 246);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MalhareRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

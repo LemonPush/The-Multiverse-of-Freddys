@@ -56,7 +56,7 @@ public class TamedGlamrockChicaEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 2.4f)).build("tamed_glamrock_chica").setRegistryName("tamed_glamrock_chica");
 
 	public TamedGlamrockChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 715);
+		super(instance, 714);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedGlamrockChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

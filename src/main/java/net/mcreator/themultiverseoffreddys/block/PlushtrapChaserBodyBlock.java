@@ -51,7 +51,7 @@ public class PlushtrapChaserBodyBlock extends UltimateFnafModModElements.ModElem
 	public static final Block block = null;
 
 	public PlushtrapChaserBodyBlock(UltimateFnafModModElements instance) {
-		super(instance, 171);
+		super(instance, 170);
 	}
 
 	@Override

@@ -59,7 +59,7 @@ public class GraveweedEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("graveweed").setRegistryName("graveweed");
 
 	public GraveweedEntity(UltimateFnafModModElements instance) {
-		super(instance, 476);
+		super(instance, 475);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GraveweedRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

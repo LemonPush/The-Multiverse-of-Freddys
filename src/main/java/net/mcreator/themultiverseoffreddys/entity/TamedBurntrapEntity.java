@@ -63,7 +63,7 @@ public class TamedBurntrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_burntrap").setRegistryName("tamed_burntrap");
 
 	public TamedBurntrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 724);
+		super(instance, 723);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBurntrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

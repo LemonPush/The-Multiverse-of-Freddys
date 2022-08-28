@@ -62,7 +62,7 @@ public class LeftyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("lefty").setRegistryName("lefty");
 
 	public LeftyEntity(UltimateFnafModModElements instance) {
-		super(instance, 615);
+		super(instance, 614);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LeftyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

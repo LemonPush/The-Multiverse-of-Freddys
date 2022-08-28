@@ -56,7 +56,7 @@ public class NoAiBonnetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.8f)).build("no_ai_bonnet").setRegistryName("no_ai_bonnet");
 
 	public NoAiBonnetEntity(UltimateFnafModModElements instance) {
-		super(instance, 1731);
+		super(instance, 1730);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiBonnetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

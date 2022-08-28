@@ -56,7 +56,7 @@ public class TamedElChipEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_el_chip").setRegistryName("tamed_el_chip");
 
 	public TamedElChipEntity(UltimateFnafModModElements instance) {
-		super(instance, 1037);
+		super(instance, 1036);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedElChipRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -62,7 +62,7 @@ public class GreatEscapeGoldenFreddyEntity extends UltimateFnafModModElements.Mo
 			.size(0.6f, 2.4f)).build("great_escape_golden_freddy").setRegistryName("great_escape_golden_freddy");
 
 	public GreatEscapeGoldenFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 808);
+		super(instance, 807);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GreatEscapeGoldenFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -18,7 +18,7 @@ public class PezDispenserItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public PezDispenserItem(UltimateFnafModModElements instance) {
-		super(instance, 365);
+		super(instance, 364);
 	}
 
 	@Override

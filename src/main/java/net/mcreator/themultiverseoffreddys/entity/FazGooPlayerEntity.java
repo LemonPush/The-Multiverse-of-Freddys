@@ -74,7 +74,7 @@ public class FazGooPlayerEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("faz_goo_player").setRegistryName("faz_goo_player");
 
 	public FazGooPlayerEntity(UltimateFnafModModElements instance) {
-		super(instance, 228);
+		super(instance, 227);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FazGooPlayerRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

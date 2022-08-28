@@ -40,7 +40,7 @@ public class PhonePlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public PhonePlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 403);
+		super(instance, 402);
 	}
 
 	@Override

@@ -34,7 +34,7 @@ public class UtahBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public UtahBiome(UltimateFnafModModElements instance) {
-		super(instance, 1543);
+		super(instance, 1542);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

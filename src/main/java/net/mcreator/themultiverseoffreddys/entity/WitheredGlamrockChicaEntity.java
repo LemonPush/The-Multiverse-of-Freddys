@@ -62,7 +62,7 @@ public class WitheredGlamrockChicaEntity extends UltimateFnafModModElements.ModE
 			.size(0.6f, 2.4f)).build("withered_glamrock_chica").setRegistryName("withered_glamrock_chica");
 
 	public WitheredGlamrockChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 706);
+		super(instance, 705);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WitheredGlamrockChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

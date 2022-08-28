@@ -63,7 +63,7 @@ public class NoAICircusBabyEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 3.6f)).build("no_ai_circus_baby").setRegistryName("no_ai_circus_baby");
 
 	public NoAICircusBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1723);
+		super(instance, 1722);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAICircusBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

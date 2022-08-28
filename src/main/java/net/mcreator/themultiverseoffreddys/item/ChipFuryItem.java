@@ -30,7 +30,7 @@ public class ChipFuryItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public ChipFuryItem(UltimateFnafModModElements instance) {
-		super(instance, 381);
+		super(instance, 380);
 	}
 
 	@Override

@@ -52,7 +52,7 @@ public class ChoppysWoodsBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public ChoppysWoodsBiome(UltimateFnafModModElements instance) {
-		super(instance, 1464);
+		super(instance, 1463);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

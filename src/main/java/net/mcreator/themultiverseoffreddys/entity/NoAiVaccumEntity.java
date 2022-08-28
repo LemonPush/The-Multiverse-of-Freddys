@@ -32,7 +32,7 @@ public class NoAiVaccumEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_ai_vaccum").setRegistryName("no_ai_vaccum");
 
 	public NoAiVaccumEntity(UltimateFnafModModElements instance) {
-		super(instance, 651);
+		super(instance, 650);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiVaccumRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

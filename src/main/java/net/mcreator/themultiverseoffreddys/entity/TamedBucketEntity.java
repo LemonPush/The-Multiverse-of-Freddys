@@ -56,7 +56,7 @@ public class TamedBucketEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_bucket").setRegistryName("tamed_bucket");
 
 	public TamedBucketEntity(UltimateFnafModModElements instance) {
-		super(instance, 642);
+		super(instance, 641);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBucketRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

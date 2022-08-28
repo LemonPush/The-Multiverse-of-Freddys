@@ -32,7 +32,7 @@ public class KitchenPanItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public KitchenPanItem(UltimateFnafModModElements instance) {
-		super(instance, 177);
+		super(instance, 176);
 	}
 
 	@Override

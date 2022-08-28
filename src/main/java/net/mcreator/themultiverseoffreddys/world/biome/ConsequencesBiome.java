@@ -53,7 +53,7 @@ public class ConsequencesBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public ConsequencesBiome(UltimateFnafModModElements instance) {
-		super(instance, 1115);
+		super(instance, 1114);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

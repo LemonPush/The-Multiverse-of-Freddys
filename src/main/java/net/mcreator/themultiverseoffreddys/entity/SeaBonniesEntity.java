@@ -42,7 +42,7 @@ public class SeaBonniesEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("sea_bonnies").setRegistryName("sea_bonnies");
 
 	public SeaBonniesEntity(UltimateFnafModModElements instance) {
-		super(instance, 220);
+		super(instance, 219);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SeaBonniesRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

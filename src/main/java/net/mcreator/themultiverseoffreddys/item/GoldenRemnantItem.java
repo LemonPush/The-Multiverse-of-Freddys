@@ -18,7 +18,7 @@ public class GoldenRemnantItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public GoldenRemnantItem(UltimateFnafModModElements instance) {
-		super(instance, 372);
+		super(instance, 371);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class ChaserGreenEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.7999999999999998f)).build("chaser_green").setRegistryName("chaser_green");
 
 	public ChaserGreenEntity(UltimateFnafModModElements instance) {
-		super(instance, 251);
+		super(instance, 250);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChaserGreenRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

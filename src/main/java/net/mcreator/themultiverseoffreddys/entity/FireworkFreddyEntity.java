@@ -62,7 +62,7 @@ public class FireworkFreddyEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("firework_freddy").setRegistryName("firework_freddy");
 
 	public FireworkFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 758);
+		super(instance, 757);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FireworkFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

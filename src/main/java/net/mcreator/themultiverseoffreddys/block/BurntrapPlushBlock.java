@@ -40,7 +40,7 @@ public class BurntrapPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BurntrapPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 745);
+		super(instance, 744);
 	}
 
 	@Override

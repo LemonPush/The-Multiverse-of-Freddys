@@ -40,7 +40,7 @@ public class ArcticBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ArcticBlock(UltimateFnafModModElements instance) {
-		super(instance, 841);
+		super(instance, 840);
 	}
 
 	@Override

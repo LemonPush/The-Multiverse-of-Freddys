@@ -59,7 +59,7 @@ public class BobEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("bob").setRegistryName("bob");
 
 	public BobEntity(UltimateFnafModModElements instance) {
-		super(instance, 339);
+		super(instance, 338);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BobRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

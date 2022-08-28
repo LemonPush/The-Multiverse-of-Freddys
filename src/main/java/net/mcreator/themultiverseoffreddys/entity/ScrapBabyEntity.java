@@ -62,7 +62,7 @@ public class ScrapBabyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("scrap_baby").setRegistryName("scrap_baby");
 
 	public ScrapBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 613);
+		super(instance, 612);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ScrapBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

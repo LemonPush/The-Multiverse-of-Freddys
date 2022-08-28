@@ -38,7 +38,7 @@ public class ScrapBalloraPlushBlock extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public ScrapBalloraPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 358);
+		super(instance, 357);
 	}
 
 	@Override

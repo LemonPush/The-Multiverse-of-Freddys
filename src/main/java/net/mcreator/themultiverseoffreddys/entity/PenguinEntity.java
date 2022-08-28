@@ -57,7 +57,7 @@ public class PenguinEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.8f)).build("penguin").setRegistryName("penguin");
 
 	public PenguinEntity(UltimateFnafModModElements instance) {
-		super(instance, 882);
+		super(instance, 881);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PenguinRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

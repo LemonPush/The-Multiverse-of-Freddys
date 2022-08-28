@@ -62,7 +62,7 @@ public class MinireenaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("minireena").setRegistryName("minireena");
 
 	public MinireenaEntity(UltimateFnafModModElements instance) {
-		super(instance, 572);
+		super(instance, 571);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MinireenaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -17,7 +17,7 @@ public class TreasureislandIconItem extends UltimateFnafModModElements.ModElemen
 	public static final Item block = null;
 
 	public TreasureislandIconItem(UltimateFnafModModElements instance) {
-		super(instance, 1223);
+		super(instance, 1222);
 	}
 
 	@Override

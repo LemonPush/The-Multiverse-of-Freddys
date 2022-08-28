@@ -32,7 +32,7 @@ public class NoAINightmareFoxyEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 3.6f)).build("no_ai_nightmare_foxy").setRegistryName("no_ai_nightmare_foxy");
 
 	public NoAINightmareFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1713);
+		super(instance, 1712);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAINightmareFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

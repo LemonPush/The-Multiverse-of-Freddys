@@ -29,7 +29,7 @@ public class ApocalypticDirtBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public ApocalypticDirtBlock(UltimateFnafModModElements instance) {
-		super(instance, 267);
+		super(instance, 266);
 	}
 
 	@Override

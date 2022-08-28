@@ -37,7 +37,7 @@ public class ScottSuitItem extends UltimateFnafModModElements.ModElement {
 	public static final Item boots = null;
 
 	public ScottSuitItem(UltimateFnafModModElements instance) {
-		super(instance, 370);
+		super(instance, 369);
 	}
 
 	@Override

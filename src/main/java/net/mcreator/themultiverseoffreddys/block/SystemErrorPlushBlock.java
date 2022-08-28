@@ -40,7 +40,7 @@ public class SystemErrorPlushBlock extends UltimateFnafModModElements.ModElement
 	public static final Block block = null;
 
 	public SystemErrorPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 836);
+		super(instance, 835);
 	}
 
 	@Override

@@ -62,7 +62,7 @@ public class MontyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("monty").setRegistryName("monty");
 
 	public MontyEntity(UltimateFnafModModElements instance) {
-		super(instance, 692);
+		super(instance, 691);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MontyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

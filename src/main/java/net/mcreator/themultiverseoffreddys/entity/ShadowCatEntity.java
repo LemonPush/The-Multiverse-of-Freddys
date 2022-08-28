@@ -66,7 +66,7 @@ public class ShadowCatEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("shadow_cat").setRegistryName("shadow_cat");
 
 	public ShadowCatEntity(UltimateFnafModModElements instance) {
-		super(instance, 888);
+		super(instance, 887);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShadowCatRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

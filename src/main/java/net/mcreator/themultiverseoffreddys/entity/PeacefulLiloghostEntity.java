@@ -45,7 +45,7 @@ public class PeacefulLiloghostEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.9f, 1.8f)).build("peaceful_liloghost").setRegistryName("peaceful_liloghost");
 
 	public PeacefulLiloghostEntity(UltimateFnafModModElements instance) {
-		super(instance, 926);
+		super(instance, 925);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PeacefulLiloghostRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

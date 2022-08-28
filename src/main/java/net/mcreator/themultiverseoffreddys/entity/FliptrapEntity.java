@@ -44,7 +44,7 @@ public class FliptrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("fliptrap").setRegistryName("fliptrap");
 
 	public FliptrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 916);
+		super(instance, 915);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FliptrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

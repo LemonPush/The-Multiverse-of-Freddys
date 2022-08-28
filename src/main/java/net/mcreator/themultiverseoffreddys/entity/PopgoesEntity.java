@@ -57,7 +57,7 @@ public class PopgoesEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("popgoes").setRegistryName("popgoes");
 
 	public PopgoesEntity(UltimateFnafModModElements instance) {
-		super(instance, 899);
+		super(instance, 898);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PopgoesRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

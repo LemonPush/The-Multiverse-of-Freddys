@@ -39,7 +39,7 @@ public class NoAINoSuitEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_ai_no_suit").setRegistryName("no_ai_no_suit");
 
 	public NoAINoSuitEntity(UltimateFnafModModElements instance) {
-		super(instance, 1697);
+		super(instance, 1696);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAINoSuitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

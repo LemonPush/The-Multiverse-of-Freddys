@@ -56,7 +56,7 @@ public class TamedBlackheartBonnieEntity extends UltimateFnafModModElements.ModE
 			.size(0.6f, 2.4f)).build("tamed_blackheart_bonnie").setRegistryName("tamed_blackheart_bonnie");
 
 	public TamedBlackheartBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 814);
+		super(instance, 813);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBlackheartBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

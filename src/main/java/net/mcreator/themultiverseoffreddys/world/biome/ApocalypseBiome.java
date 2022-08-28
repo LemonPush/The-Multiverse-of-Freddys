@@ -40,7 +40,7 @@ public class ApocalypseBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public ApocalypseBiome(UltimateFnafModModElements instance) {
-		super(instance, 1380);
+		super(instance, 1379);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

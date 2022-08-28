@@ -62,7 +62,7 @@ public class NightmareMangleEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 4.5f)).build("nightmare_mangle").setRegistryName("nightmare_mangle");
 
 	public NightmareMangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 545);
+		super(instance, 544);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NightmareMangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

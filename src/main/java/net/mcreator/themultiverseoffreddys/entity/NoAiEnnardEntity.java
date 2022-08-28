@@ -56,7 +56,7 @@ public class NoAiEnnardEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("no_ai_ennard").setRegistryName("no_ai_ennard");
 
 	public NoAiEnnardEntity(UltimateFnafModModElements instance) {
-		super(instance, 1729);
+		super(instance, 1728);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiEnnardRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

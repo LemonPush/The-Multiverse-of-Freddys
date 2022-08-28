@@ -56,7 +56,7 @@ public class TamedCleanBotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_clean_bot").setRegistryName("tamed_clean_bot");
 
 	public TamedCleanBotEntity(UltimateFnafModModElements instance) {
-		super(instance, 726);
+		super(instance, 725);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedCleanBotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -62,7 +62,7 @@ public class PhantomFreddyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("phantom_freddy").setRegistryName("phantom_freddy");
 
 	public PhantomFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 509);
+		super(instance, 508);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhantomFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

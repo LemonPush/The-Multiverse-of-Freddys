@@ -42,7 +42,7 @@ public class PinwheelFunhouseBiome extends UltimateFnafModModElements.ModElement
 	public static Biome biome;
 
 	public PinwheelFunhouseBiome(UltimateFnafModModElements instance) {
-		super(instance, 1466);
+		super(instance, 1465);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

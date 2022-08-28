@@ -55,7 +55,7 @@ public class PhantomToyChicaEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.4f)).build("phantom_toy_chica").setRegistryName("phantom_toy_chica");
 
 	public PhantomToyChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 317);
+		super(instance, 316);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhantomToyChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

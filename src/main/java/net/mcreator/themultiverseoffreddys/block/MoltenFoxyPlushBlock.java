@@ -38,7 +38,7 @@ public class MoltenFoxyPlushBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public MoltenFoxyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 357);
+		super(instance, 356);
 	}
 
 	@Override

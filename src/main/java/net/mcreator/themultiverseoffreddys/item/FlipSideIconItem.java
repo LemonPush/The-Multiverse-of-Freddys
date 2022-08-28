@@ -17,7 +17,7 @@ public class FlipSideIconItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public FlipSideIconItem(UltimateFnafModModElements instance) {
-		super(instance, 1226);
+		super(instance, 1225);
 	}
 
 	@Override

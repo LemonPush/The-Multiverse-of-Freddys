@@ -38,7 +38,7 @@ public class BlackbirdPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BlackbirdPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 239);
+		super(instance, 238);
 	}
 
 	@Override

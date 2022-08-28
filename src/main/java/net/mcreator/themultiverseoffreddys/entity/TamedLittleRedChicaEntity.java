@@ -56,7 +56,7 @@ public class TamedLittleRedChicaEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 2.4f)).build("tamed_little_red_chica").setRegistryName("tamed_little_red_chica");
 
 	public TamedLittleRedChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 829);
+		super(instance, 828);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedLittleRedChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

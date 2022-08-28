@@ -56,7 +56,7 @@ public class TamedPaperPalsEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 1.8f)).build("tamed_paper_pals").setRegistryName("tamed_paper_pals");
 
 	public TamedPaperPalsEntity(UltimateFnafModModElements instance) {
-		super(instance, 1093);
+		super(instance, 1092);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedPaperPalsRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

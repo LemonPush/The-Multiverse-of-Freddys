@@ -62,7 +62,7 @@ public class AeronautToyFreddyEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("aeronaut_toy_freddy").setRegistryName("aeronaut_toy_freddy");
 
 	public AeronautToyFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 805);
+		super(instance, 804);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AeronautToyFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

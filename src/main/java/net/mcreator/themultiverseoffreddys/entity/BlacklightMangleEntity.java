@@ -61,7 +61,7 @@ public class BlacklightMangleEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("blacklight_mangle").setRegistryName("blacklight_mangle");
 
 	public BlacklightMangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 289);
+		super(instance, 288);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlacklightMangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

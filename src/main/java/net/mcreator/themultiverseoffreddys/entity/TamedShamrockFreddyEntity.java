@@ -56,7 +56,7 @@ public class TamedShamrockFreddyEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 2.4f)).build("tamed_shamrock_freddy").setRegistryName("tamed_shamrock_freddy");
 
 	public TamedShamrockFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 765);
+		super(instance, 764);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedShamrockFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

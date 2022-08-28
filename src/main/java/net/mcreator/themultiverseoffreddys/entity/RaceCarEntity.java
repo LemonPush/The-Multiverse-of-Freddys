@@ -42,7 +42,7 @@ public class RaceCarEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.3f)).build("race_car").setRegistryName("race_car");
 
 	public RaceCarEntity(UltimateFnafModModElements instance) {
-		super(instance, 1482);
+		super(instance, 1481);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RaceCarRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

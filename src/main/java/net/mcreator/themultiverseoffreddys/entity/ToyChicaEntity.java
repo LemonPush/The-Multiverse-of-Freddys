@@ -62,7 +62,7 @@ public class ToyChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("toy_chica").setRegistryName("toy_chica");
 
 	public ToyChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 436);
+		super(instance, 435);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ToyChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

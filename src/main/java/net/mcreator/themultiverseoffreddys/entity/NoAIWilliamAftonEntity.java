@@ -46,7 +46,7 @@ public class NoAIWilliamAftonEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.9f, 1.8f)).build("no_ai_william_afton").setRegistryName("no_ai_william_afton");
 
 	public NoAIWilliamAftonEntity(UltimateFnafModModElements instance) {
-		super(instance, 1699);
+		super(instance, 1698);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIWilliamAftonRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

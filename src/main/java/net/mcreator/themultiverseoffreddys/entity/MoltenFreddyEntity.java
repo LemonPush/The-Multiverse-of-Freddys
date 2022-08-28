@@ -62,7 +62,7 @@ public class MoltenFreddyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("molten_freddy").setRegistryName("molten_freddy");
 
 	public MoltenFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 611);
+		super(instance, 610);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MoltenFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

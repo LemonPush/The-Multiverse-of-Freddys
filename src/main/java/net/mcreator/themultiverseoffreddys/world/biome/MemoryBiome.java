@@ -21,7 +21,7 @@ public class MemoryBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public MemoryBiome(UltimateFnafModModElements instance) {
-		super(instance, 1666);
+		super(instance, 1665);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

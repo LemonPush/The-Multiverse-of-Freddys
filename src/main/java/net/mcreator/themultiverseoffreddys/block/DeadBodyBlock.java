@@ -53,7 +53,7 @@ public class DeadBodyBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public DeadBodyBlock(UltimateFnafModModElements instance) {
-		super(instance, 173);
+		super(instance, 172);
 	}
 
 	@Override

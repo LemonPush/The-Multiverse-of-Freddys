@@ -56,7 +56,7 @@ public class TamedPlushkinChicaEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 0.9f)).build("tamed_plushkin_chica").setRegistryName("tamed_plushkin_chica");
 
 	public TamedPlushkinChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 1070);
+		super(instance, 1069);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedPlushkinChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

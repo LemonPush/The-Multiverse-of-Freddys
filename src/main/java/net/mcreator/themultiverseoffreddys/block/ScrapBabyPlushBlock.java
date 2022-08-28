@@ -40,7 +40,7 @@ public class ScrapBabyPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ScrapBabyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 635);
+		super(instance, 634);
 	}
 
 	@Override

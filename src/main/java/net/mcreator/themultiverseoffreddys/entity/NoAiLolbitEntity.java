@@ -56,7 +56,7 @@ public class NoAiLolbitEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("no_ai_lolbit").setRegistryName("no_ai_lolbit");
 
 	public NoAiLolbitEntity(UltimateFnafModModElements instance) {
-		super(instance, 1732);
+		super(instance, 1731);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiLolbitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

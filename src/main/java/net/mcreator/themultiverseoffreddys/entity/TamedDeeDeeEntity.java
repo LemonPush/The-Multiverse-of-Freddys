@@ -56,7 +56,7 @@ public class TamedDeeDeeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_dee_dee").setRegistryName("tamed_dee_dee");
 
 	public TamedDeeDeeEntity(UltimateFnafModModElements instance) {
-		super(instance, 1045);
+		super(instance, 1044);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedDeeDeeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

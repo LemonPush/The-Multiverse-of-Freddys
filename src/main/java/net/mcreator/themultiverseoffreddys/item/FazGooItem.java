@@ -18,7 +18,7 @@ public class FazGooItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public FazGooItem(UltimateFnafModModElements instance) {
-		super(instance, 231);
+		super(instance, 230);
 	}
 
 	@Override

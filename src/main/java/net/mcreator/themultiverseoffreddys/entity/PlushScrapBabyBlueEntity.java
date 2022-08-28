@@ -54,7 +54,7 @@ public class PlushScrapBabyBlueEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 0.9f)).build("plush_scrap_baby_blue").setRegistryName("plush_scrap_baby_blue");
 
 	public PlushScrapBabyBlueEntity(UltimateFnafModModElements instance) {
-		super(instance, 667);
+		super(instance, 666);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PlushScrapBabyBlueRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

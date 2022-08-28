@@ -43,7 +43,7 @@ public class RevengeEntryBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public RevengeEntryBlock(UltimateFnafModModElements instance) {
-		super(instance, 388);
+		super(instance, 387);
 	}
 
 	@Override

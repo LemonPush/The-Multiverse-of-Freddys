@@ -40,7 +40,7 @@ public class FuntimeChicaPlushBlock extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public FuntimeChicaPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 632);
+		super(instance, 631);
 	}
 
 	@Override

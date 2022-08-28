@@ -32,7 +32,7 @@ public class NoAIJJEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_aijj").setRegistryName("no_aijj");
 
 	public NoAIJJEntity(UltimateFnafModModElements instance) {
-		super(instance, 1688);
+		super(instance, 1687);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIJJRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

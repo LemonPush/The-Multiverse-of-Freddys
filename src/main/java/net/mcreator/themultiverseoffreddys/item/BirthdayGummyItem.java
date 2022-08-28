@@ -30,7 +30,7 @@ public class BirthdayGummyItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public BirthdayGummyItem(UltimateFnafModModElements instance) {
-		super(instance, 187);
+		super(instance, 186);
 	}
 
 	@Override

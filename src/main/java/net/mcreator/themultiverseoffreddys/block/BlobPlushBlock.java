@@ -40,7 +40,7 @@ public class BlobPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BlobPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 744);
+		super(instance, 743);
 	}
 
 	@Override

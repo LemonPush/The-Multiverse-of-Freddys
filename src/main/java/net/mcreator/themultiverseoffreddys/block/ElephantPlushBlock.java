@@ -40,7 +40,7 @@ public class ElephantPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ElephantPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 623);
+		super(instance, 622);
 	}
 
 	@Override

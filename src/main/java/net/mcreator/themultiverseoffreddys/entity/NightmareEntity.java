@@ -62,7 +62,7 @@ public class NightmareEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("nightmare").setRegistryName("nightmare");
 
 	public NightmareEntity(UltimateFnafModModElements instance) {
-		super(instance, 541);
+		super(instance, 540);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NightmareRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

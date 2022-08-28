@@ -59,7 +59,7 @@ public class MonochromeFreddyEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("monochrome_freddy").setRegistryName("monochrome_freddy");
 
 	public MonochromeFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 163);
+		super(instance, 162);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MonochromeFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

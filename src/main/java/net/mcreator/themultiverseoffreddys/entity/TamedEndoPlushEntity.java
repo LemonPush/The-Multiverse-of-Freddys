@@ -56,7 +56,7 @@ public class TamedEndoPlushEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 1.8f)).build("tamed_endo_plush").setRegistryName("tamed_endo_plush");
 
 	public TamedEndoPlushEntity(UltimateFnafModModElements instance) {
-		super(instance, 687);
+		super(instance, 686);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedEndoPlushRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

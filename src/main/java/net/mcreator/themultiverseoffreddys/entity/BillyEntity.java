@@ -59,7 +59,7 @@ public class BillyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("billy").setRegistryName("billy");
 
 	public BillyEntity(UltimateFnafModModElements instance) {
-		super(instance, 337);
+		super(instance, 336);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BillyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

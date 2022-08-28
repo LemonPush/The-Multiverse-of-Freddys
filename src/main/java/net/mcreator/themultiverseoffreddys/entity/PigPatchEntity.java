@@ -62,7 +62,7 @@ public class PigPatchEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("pig_patch").setRegistryName("pig_patch");
 
 	public PigPatchEntity(UltimateFnafModModElements instance) {
-		super(instance, 598);
+		super(instance, 597);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PigPatchRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -40,7 +40,7 @@ public class ElChipPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ElChipPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 631);
+		super(instance, 630);
 	}
 
 	@Override

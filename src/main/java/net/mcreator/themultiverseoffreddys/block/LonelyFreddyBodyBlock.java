@@ -51,7 +51,7 @@ public class LonelyFreddyBodyBlock extends UltimateFnafModModElements.ModElement
 	public static final Block block = null;
 
 	public LonelyFreddyBodyBlock(UltimateFnafModModElements instance) {
-		super(instance, 170);
+		super(instance, 169);
 	}
 
 	@Override

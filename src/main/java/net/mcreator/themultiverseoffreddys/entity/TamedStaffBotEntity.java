@@ -56,7 +56,7 @@ public class TamedStaffBotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_staff_bot").setRegistryName("tamed_staff_bot");
 
 	public TamedStaffBotEntity(UltimateFnafModModElements instance) {
-		super(instance, 719);
+		super(instance, 718);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedStaffBotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

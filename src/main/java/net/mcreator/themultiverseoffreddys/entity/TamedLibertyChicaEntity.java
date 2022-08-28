@@ -56,7 +56,7 @@ public class TamedLibertyChicaEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("tamed_liberty_chica").setRegistryName("tamed_liberty_chica");
 
 	public TamedLibertyChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 775);
+		super(instance, 774);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedLibertyChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -53,7 +53,7 @@ public class HenryEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.9f, 1.8f)).build("henry").setRegistryName("henry");
 
 	public HenryEntity(UltimateFnafModModElements instance) {
-		super(instance, 616);
+		super(instance, 615);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HenryRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

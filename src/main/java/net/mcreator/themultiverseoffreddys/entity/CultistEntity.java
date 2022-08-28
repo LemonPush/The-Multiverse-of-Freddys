@@ -57,7 +57,7 @@ public class CultistEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("cultist").setRegistryName("cultist");
 
 	public CultistEntity(UltimateFnafModModElements instance) {
-		super(instance, 282);
+		super(instance, 281);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CultistRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

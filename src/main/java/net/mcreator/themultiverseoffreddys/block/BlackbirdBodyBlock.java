@@ -55,7 +55,7 @@ public class BlackbirdBodyBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BlackbirdBodyBlock(UltimateFnafModModElements instance) {
-		super(instance, 181);
+		super(instance, 180);
 	}
 
 	@Override

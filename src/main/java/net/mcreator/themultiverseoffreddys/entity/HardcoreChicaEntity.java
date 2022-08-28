@@ -62,7 +62,7 @@ public class HardcoreChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("hardcore_chica").setRegistryName("hardcore_chica");
 
 	public HardcoreChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 655);
+		super(instance, 654);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HardcoreChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

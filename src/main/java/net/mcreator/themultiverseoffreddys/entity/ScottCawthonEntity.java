@@ -57,7 +57,7 @@ public class ScottCawthonEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 4.5f)).build("scott_cawthon").setRegistryName("scott_cawthon");
 
 	public ScottCawthonEntity(UltimateFnafModModElements instance) {
-		super(instance, 411);
+		super(instance, 410);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ScottCawthonRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

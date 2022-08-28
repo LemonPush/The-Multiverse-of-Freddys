@@ -57,7 +57,7 @@ public class TogetherForeverEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.7f)).build("together_forever").setRegistryName("together_forever");
 
 	public TogetherForeverEntity(UltimateFnafModModElements instance) {
-		super(instance, 221);
+		super(instance, 220);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TogetherForeverRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

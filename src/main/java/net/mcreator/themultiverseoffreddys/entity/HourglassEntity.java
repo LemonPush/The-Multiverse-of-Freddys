@@ -57,7 +57,7 @@ public class HourglassEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("hourglass").setRegistryName("hourglass");
 
 	public HourglassEntity(UltimateFnafModModElements instance) {
-		super(instance, 875);
+		super(instance, 874);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HourglassRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

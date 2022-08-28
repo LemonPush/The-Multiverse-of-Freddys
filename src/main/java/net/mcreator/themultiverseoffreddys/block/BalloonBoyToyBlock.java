@@ -40,7 +40,7 @@ public class BalloonBoyToyBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BalloonBoyToyBlock(UltimateFnafModModElements instance) {
-		super(instance, 454);
+		super(instance, 453);
 	}
 
 	@Override

@@ -62,7 +62,7 @@ public class VaccumEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("vaccum").setRegistryName("vaccum");
 
 	public VaccumEntity(UltimateFnafModModElements instance) {
-		super(instance, 595);
+		super(instance, 594);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new VaccumRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

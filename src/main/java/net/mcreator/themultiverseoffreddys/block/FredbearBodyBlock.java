@@ -51,7 +51,7 @@ public class FredbearBodyBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public FredbearBodyBlock(UltimateFnafModModElements instance) {
-		super(instance, 174);
+		super(instance, 173);
 	}
 
 	@Override

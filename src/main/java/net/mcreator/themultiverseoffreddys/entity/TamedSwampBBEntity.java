@@ -56,7 +56,7 @@ public class TamedSwampBBEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_swamp_bb").setRegistryName("tamed_swamp_bb");
 
 	public TamedSwampBBEntity(UltimateFnafModModElements instance) {
-		super(instance, 819);
+		super(instance, 818);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedSwampBBRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

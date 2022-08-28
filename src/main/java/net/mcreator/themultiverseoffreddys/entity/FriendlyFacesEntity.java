@@ -63,7 +63,7 @@ public class FriendlyFacesEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("friendly_faces").setRegistryName("friendly_faces");
 
 	public FriendlyFacesEntity(UltimateFnafModModElements instance) {
-		super(instance, 219);
+		super(instance, 218);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FriendlyFacesRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

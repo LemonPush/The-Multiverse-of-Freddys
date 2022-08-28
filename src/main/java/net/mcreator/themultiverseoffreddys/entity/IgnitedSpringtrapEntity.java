@@ -57,7 +57,7 @@ public class IgnitedSpringtrapEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 1.8f)).build("ignited_springtrap").setRegistryName("ignited_springtrap");
 
 	public IgnitedSpringtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 851);
+		super(instance, 850);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IgnitedSpringtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

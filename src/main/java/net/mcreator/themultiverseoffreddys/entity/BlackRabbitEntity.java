@@ -57,7 +57,7 @@ public class BlackRabbitEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("black_rabbit").setRegistryName("black_rabbit");
 
 	public BlackRabbitEntity(UltimateFnafModModElements instance) {
-		super(instance, 904);
+		super(instance, 903);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlackRabbitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

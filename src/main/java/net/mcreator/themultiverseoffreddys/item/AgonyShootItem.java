@@ -43,7 +43,7 @@ public class AgonyShootItem extends UltimateFnafModModElements.ModElement {
 			.size(0.5f, 0.5f)).build("projectile_agony_shoot").setRegistryName("projectile_agony_shoot");
 
 	public AgonyShootItem(UltimateFnafModModElements instance) {
-		super(instance, 1232);
+		super(instance, 1231);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AgonyShootRenderer.ModelRegisterHandler());
 	}
 

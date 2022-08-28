@@ -55,7 +55,7 @@ public class PizzaMonsterEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("pizza_monster").setRegistryName("pizza_monster");
 
 	public PizzaMonsterEntity(UltimateFnafModModElements instance) {
-		super(instance, 218);
+		super(instance, 217);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PizzaMonsterRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -62,7 +62,7 @@ public class YenndoEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("yenndo").setRegistryName("yenndo");
 
 	public YenndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 577);
+		super(instance, 576);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new YenndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

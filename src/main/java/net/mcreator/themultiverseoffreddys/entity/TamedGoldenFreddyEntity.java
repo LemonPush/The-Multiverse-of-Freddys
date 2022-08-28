@@ -56,7 +56,7 @@ public class TamedGoldenFreddyEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("tamed_golden_freddy").setRegistryName("tamed_golden_freddy");
 
 	public TamedGoldenFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 934);
+		super(instance, 933);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedGoldenFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

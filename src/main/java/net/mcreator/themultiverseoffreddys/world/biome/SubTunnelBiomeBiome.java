@@ -39,7 +39,7 @@ public class SubTunnelBiomeBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public SubTunnelBiomeBiome(UltimateFnafModModElements instance) {
-		super(instance, 1517);
+		super(instance, 1516);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

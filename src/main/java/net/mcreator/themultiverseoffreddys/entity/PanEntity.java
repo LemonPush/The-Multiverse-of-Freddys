@@ -62,7 +62,7 @@ public class PanEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("pan").setRegistryName("pan");
 
 	public PanEntity(UltimateFnafModModElements instance) {
-		super(instance, 593);
+		super(instance, 592);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PanRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

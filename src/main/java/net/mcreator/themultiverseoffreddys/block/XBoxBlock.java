@@ -51,7 +51,7 @@ public class XBoxBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public XBoxBlock(UltimateFnafModModElements instance) {
-		super(instance, 191);
+		super(instance, 190);
 	}
 
 	@Override

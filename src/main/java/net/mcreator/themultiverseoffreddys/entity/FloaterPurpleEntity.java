@@ -48,7 +48,7 @@ public class FloaterPurpleEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.7999999999999998f)).build("floater_purple").setRegistryName("floater_purple");
 
 	public FloaterPurpleEntity(UltimateFnafModModElements instance) {
-		super(instance, 255);
+		super(instance, 254);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FloaterPurpleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

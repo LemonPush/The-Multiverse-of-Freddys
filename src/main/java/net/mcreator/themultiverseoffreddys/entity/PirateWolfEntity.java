@@ -59,7 +59,7 @@ public class PirateWolfEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("pirate_wolf").setRegistryName("pirate_wolf");
 
 	public PirateWolfEntity(UltimateFnafModModElements instance) {
-		super(instance, 481);
+		super(instance, 480);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PirateWolfRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

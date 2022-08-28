@@ -56,7 +56,7 @@ public class TamedRoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_roxy").setRegistryName("tamed_roxy");
 
 	public TamedRoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 714);
+		super(instance, 713);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedRoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

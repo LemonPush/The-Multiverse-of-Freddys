@@ -62,7 +62,7 @@ public class CatrinaToyChicaEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.4f)).build("catrina_toy_chica").setRegistryName("catrina_toy_chica");
 
 	public CatrinaToyChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 783);
+		super(instance, 782);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CatrinaToyChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

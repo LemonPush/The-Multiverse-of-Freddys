@@ -40,7 +40,7 @@ public class RockFoxyPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public RockFoxyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 628);
+		super(instance, 627);
 	}
 
 	@Override

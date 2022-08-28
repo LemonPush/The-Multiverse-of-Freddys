@@ -43,7 +43,7 @@ public class ChaserEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.7999999999999998f)).build("chaser").setRegistryName("chaser");
 
 	public ChaserEntity(UltimateFnafModModElements instance) {
-		super(instance, 250);
+		super(instance, 249);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChaserRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

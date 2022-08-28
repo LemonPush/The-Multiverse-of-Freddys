@@ -57,7 +57,7 @@ public class TheAgonyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 5.4f)).build("the_agony").setRegistryName("the_agony");
 
 	public TheAgonyEntity(UltimateFnafModModElements instance) {
-		super(instance, 225);
+		super(instance, 224);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TheAgonyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

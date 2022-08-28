@@ -32,7 +32,7 @@ public class PranksterBoxItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public PranksterBoxItem(UltimateFnafModModElements instance) {
-		super(instance, 196);
+		super(instance, 195);
 	}
 
 	@Override

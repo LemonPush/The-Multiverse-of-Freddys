@@ -62,7 +62,7 @@ public class Endo02Entity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("endo_02").setRegistryName("endo_02");
 
 	public Endo02Entity(UltimateFnafModModElements instance) {
-		super(instance, 446);
+		super(instance, 445);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new Endo02Renderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

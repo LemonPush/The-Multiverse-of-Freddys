@@ -26,7 +26,7 @@ public class BlackBlockBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BlackBlockBlock(UltimateFnafModModElements instance) {
-		super(instance, 261);
+		super(instance, 260);
 	}
 
 	@Override

@@ -61,7 +61,7 @@ public class BlacklightPuppetEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("blacklight_puppet").setRegistryName("blacklight_puppet");
 
 	public BlacklightPuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 288);
+		super(instance, 287);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlacklightPuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

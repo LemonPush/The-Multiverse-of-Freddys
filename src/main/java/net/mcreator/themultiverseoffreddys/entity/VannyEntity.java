@@ -62,7 +62,7 @@ public class VannyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("vanny").setRegistryName("vanny");
 
 	public VannyEntity(UltimateFnafModModElements instance) {
-		super(instance, 709);
+		super(instance, 708);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new VannyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

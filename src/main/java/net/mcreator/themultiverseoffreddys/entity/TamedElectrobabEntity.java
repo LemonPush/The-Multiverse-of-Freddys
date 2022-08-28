@@ -56,7 +56,7 @@ public class TamedElectrobabEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 0.8f)).build("tamed_electrobab").setRegistryName("tamed_electrobab");
 
 	public TamedElectrobabEntity(UltimateFnafModModElements instance) {
-		super(instance, 1011);
+		super(instance, 1010);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedElectrobabRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

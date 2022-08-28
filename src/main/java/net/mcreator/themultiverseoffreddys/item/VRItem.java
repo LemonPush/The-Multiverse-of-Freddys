@@ -18,7 +18,7 @@ public class VRItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public VRItem(UltimateFnafModModElements instance) {
-		super(instance, 270);
+		super(instance, 269);
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class NoAISpringtrapEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 1.8f)).build("no_ai_springtrap").setRegistryName("no_ai_springtrap");
 
 	public NoAISpringtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 1695);
+		super(instance, 1694);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAISpringtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -32,7 +32,7 @@ public class NoAIBonnieTheRabbitEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 2.4f)).build("no_ai_bonnie_the_rabbit").setRegistryName("no_ai_bonnie_the_rabbit");
 
 	public NoAIBonnieTheRabbitEntity(UltimateFnafModModElements instance) {
-		super(instance, 1669);
+		super(instance, 1668);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIBonnieTheRabbitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -59,7 +59,7 @@ public class GlamrockFreddyEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("glamrock_freddy").setRegistryName("glamrock_freddy");
 
 	public GlamrockFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 691);
+		super(instance, 690);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GlamrockFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

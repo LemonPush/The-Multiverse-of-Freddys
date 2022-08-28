@@ -38,7 +38,7 @@ public class EleanorPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public EleanorPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 236);
+		super(instance, 235);
 	}
 
 	@Override

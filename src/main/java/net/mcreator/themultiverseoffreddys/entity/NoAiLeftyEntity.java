@@ -32,7 +32,7 @@ public class NoAiLeftyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_lefty").setRegistryName("no_ai_lefty");
 
 	public NoAiLeftyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1758);
+		super(instance, 1757);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiLeftyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

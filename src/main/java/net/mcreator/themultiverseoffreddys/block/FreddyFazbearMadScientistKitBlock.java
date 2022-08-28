@@ -48,7 +48,7 @@ public class FreddyFazbearMadScientistKitBlock extends UltimateFnafModModElement
 	public static final Block block = null;
 
 	public FreddyFazbearMadScientistKitBlock(UltimateFnafModModElements instance) {
-		super(instance, 186);
+		super(instance, 185);
 	}
 
 	@Override

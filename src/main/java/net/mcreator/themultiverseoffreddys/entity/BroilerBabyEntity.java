@@ -62,7 +62,7 @@ public class BroilerBabyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("broiler_baby").setRegistryName("broiler_baby");
 
 	public BroilerBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 761);
+		super(instance, 760);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BroilerBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

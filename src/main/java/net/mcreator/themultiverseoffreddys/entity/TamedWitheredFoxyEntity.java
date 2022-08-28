@@ -56,7 +56,7 @@ public class TamedWitheredFoxyEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("tamed_withered_foxy").setRegistryName("tamed_withered_foxy");
 
 	public TamedWitheredFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 958);
+		super(instance, 957);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedWitheredFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

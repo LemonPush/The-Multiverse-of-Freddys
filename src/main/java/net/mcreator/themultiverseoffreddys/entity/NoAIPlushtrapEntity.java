@@ -32,7 +32,7 @@ public class NoAIPlushtrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_ai_plushtrap").setRegistryName("no_ai_plushtrap");
 
 	public NoAIPlushtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 1715);
+		super(instance, 1714);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIPlushtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

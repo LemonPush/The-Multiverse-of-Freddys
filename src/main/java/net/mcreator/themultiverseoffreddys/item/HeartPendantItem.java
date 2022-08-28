@@ -28,7 +28,7 @@ public class HeartPendantItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public HeartPendantItem(UltimateFnafModModElements instance) {
-		super(instance, 362);
+		super(instance, 361);
 	}
 
 	@Override

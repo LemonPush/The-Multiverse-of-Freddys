@@ -43,7 +43,7 @@ public class WallBreakItem extends UltimateFnafModModElements.ModElement {
 			.size(0.5f, 0.5f)).build("projectile_wall_break").setRegistryName("projectile_wall_break");
 
 	public WallBreakItem(UltimateFnafModModElements instance) {
-		super(instance, 1398);
+		super(instance, 1397);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WallBreakRenderer.ModelRegisterHandler());
 	}
 

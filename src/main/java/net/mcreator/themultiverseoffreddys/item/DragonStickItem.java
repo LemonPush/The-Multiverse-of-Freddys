@@ -20,7 +20,7 @@ public class DragonStickItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public DragonStickItem(UltimateFnafModModElements instance) {
-		super(instance, 349);
+		super(instance, 348);
 	}
 
 	@Override

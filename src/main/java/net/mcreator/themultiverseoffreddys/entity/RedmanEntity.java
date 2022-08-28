@@ -57,7 +57,7 @@ public class RedmanEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("redman").setRegistryName("redman");
 
 	public RedmanEntity(UltimateFnafModModElements instance) {
-		super(instance, 860);
+		super(instance, 859);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RedmanRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

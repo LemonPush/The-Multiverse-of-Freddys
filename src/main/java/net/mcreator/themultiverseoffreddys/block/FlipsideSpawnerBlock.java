@@ -34,7 +34,7 @@ public class FlipsideSpawnerBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public FlipsideSpawnerBlock(UltimateFnafModModElements instance) {
-		super(instance, 269);
+		super(instance, 268);
 	}
 
 	@Override

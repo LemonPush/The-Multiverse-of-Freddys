@@ -38,7 +38,7 @@ public class NightHarePlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public NightHarePlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 356);
+		super(instance, 355);
 	}
 
 	@Override

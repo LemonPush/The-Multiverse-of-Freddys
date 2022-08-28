@@ -56,7 +56,7 @@ public class TamedCurseEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_curse").setRegistryName("tamed_curse");
 
 	public TamedCurseEntity(UltimateFnafModModElements instance) {
-		super(instance, 815);
+		super(instance, 814);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedCurseRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

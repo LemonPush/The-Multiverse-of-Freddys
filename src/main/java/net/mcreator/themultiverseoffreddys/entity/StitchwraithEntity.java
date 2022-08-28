@@ -59,7 +59,7 @@ public class StitchwraithEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.7f)).build("stitchwraith").setRegistryName("stitchwraith");
 
 	public StitchwraithEntity(UltimateFnafModModElements instance) {
-		super(instance, 224);
+		super(instance, 223);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new StitchwraithRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

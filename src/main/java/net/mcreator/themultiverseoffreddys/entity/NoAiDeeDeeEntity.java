@@ -32,7 +32,7 @@ public class NoAiDeeDeeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_dee_dee").setRegistryName("no_ai_dee_dee");
 
 	public NoAiDeeDeeEntity(UltimateFnafModModElements instance) {
-		super(instance, 1770);
+		super(instance, 1769);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiDeeDeeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -31,7 +31,7 @@ public class SubTunnelBlockBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public SubTunnelBlockBlock(UltimateFnafModModElements instance) {
-		super(instance, 392);
+		super(instance, 391);
 	}
 
 	@Override

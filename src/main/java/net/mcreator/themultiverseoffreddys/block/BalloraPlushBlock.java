@@ -40,7 +40,7 @@ public class BalloraPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BalloraPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 580);
+		super(instance, 579);
 	}
 
 	@Override

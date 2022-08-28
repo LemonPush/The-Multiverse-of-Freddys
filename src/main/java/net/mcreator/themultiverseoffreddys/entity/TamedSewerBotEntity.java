@@ -63,7 +63,7 @@ public class TamedSewerBotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_sewer_bot").setRegistryName("tamed_sewer_bot");
 
 	public TamedSewerBotEntity(UltimateFnafModModElements instance) {
-		super(instance, 728);
+		super(instance, 727);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedSewerBotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

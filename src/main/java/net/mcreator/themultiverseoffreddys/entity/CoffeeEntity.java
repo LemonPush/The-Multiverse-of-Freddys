@@ -58,7 +58,7 @@ public class CoffeeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("coffee").setRegistryName("coffee");
 
 	public CoffeeEntity(UltimateFnafModModElements instance) {
-		super(instance, 410);
+		super(instance, 409);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CoffeeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

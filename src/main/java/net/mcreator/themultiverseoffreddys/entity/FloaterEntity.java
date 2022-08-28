@@ -43,7 +43,7 @@ public class FloaterEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.7999999999999998f)).build("floater").setRegistryName("floater");
 
 	public FloaterEntity(UltimateFnafModModElements instance) {
-		super(instance, 253);
+		super(instance, 252);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FloaterRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

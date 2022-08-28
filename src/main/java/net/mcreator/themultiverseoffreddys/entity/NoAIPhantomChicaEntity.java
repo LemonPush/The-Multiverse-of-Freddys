@@ -32,7 +32,7 @@ public class NoAIPhantomChicaEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("no_ai_phantom_chica").setRegistryName("no_ai_phantom_chica");
 
 	public NoAIPhantomChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 1703);
+		super(instance, 1702);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIPhantomChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

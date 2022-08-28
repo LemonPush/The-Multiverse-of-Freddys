@@ -62,7 +62,7 @@ public class ElectrobabEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("electrobab").setRegistryName("electrobab");
 
 	public ElectrobabEntity(UltimateFnafModModElements instance) {
-		super(instance, 574);
+		super(instance, 573);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ElectrobabRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

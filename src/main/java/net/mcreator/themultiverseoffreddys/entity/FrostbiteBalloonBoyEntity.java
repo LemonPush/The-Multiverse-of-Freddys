@@ -62,7 +62,7 @@ public class FrostbiteBalloonBoyEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 1.8f)).build("frostbite_balloon_boy").setRegistryName("frostbite_balloon_boy");
 
 	public FrostbiteBalloonBoyEntity(UltimateFnafModModElements instance) {
-		super(instance, 793);
+		super(instance, 792);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FrostbiteBalloonBoyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

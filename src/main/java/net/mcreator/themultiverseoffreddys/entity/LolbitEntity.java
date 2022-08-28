@@ -62,7 +62,7 @@ public class LolbitEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("lolbit").setRegistryName("lolbit");
 
 	public LolbitEntity(UltimateFnafModModElements instance) {
-		super(instance, 576);
+		super(instance, 575);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LolbitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

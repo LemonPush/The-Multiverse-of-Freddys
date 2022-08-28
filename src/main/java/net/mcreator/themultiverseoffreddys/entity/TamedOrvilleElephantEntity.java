@@ -56,7 +56,7 @@ public class TamedOrvilleElephantEntity extends UltimateFnafModModElements.ModEl
 			.size(0.6f, 2.4f)).build("tamed_orville_elephant").setRegistryName("tamed_orville_elephant");
 
 	public TamedOrvilleElephantEntity(UltimateFnafModModElements instance) {
-		super(instance, 1028);
+		super(instance, 1027);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedOrvilleElephantRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -62,7 +62,7 @@ public class DarkWaterBareEndoEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 1.95f)).build("dark_water_bare_endo").setRegistryName("dark_water_bare_endo");
 
 	public DarkWaterBareEndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 802);
+		super(instance, 801);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DarkWaterBareEndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

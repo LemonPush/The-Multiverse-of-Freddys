@@ -59,7 +59,7 @@ public class TangleEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tangle").setRegistryName("tangle");
 
 	public TangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 475);
+		super(instance, 474);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

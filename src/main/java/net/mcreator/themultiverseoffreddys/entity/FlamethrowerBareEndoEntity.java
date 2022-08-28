@@ -62,7 +62,7 @@ public class FlamethrowerBareEndoEntity extends UltimateFnafModModElements.ModEl
 			.size(0.6f, 2.4f)).build("flamethrower_bare_endo").setRegistryName("flamethrower_bare_endo");
 
 	public FlamethrowerBareEndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 760);
+		super(instance, 759);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FlamethrowerBareEndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

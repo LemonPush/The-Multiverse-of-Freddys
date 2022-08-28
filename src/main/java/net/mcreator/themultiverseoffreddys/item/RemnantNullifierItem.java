@@ -55,7 +55,7 @@ public class RemnantNullifierItem extends UltimateFnafModModElements.ModElement 
 			.size(0.5f, 0.5f)).build("projectile_remnant_nullifier").setRegistryName("projectile_remnant_nullifier");
 
 	public RemnantNullifierItem(UltimateFnafModModElements instance) {
-		super(instance, 393);
+		super(instance, 392);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RemnantNullifierRenderer.ModelRegisterHandler());
 	}
 

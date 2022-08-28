@@ -32,7 +32,7 @@ public class NoAiHappyFrogEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_happy_frog").setRegistryName("no_ai_happy_frog");
 
 	public NoAiHappyFrogEntity(UltimateFnafModModElements instance) {
-		super(instance, 1737);
+		super(instance, 1736);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiHappyFrogRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -32,7 +32,7 @@ public class GearItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public GearItem(UltimateFnafModModElements instance) {
-		super(instance, 190);
+		super(instance, 189);
 	}
 
 	@Override

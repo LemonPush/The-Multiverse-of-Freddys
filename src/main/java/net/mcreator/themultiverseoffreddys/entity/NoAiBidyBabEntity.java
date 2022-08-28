@@ -56,7 +56,7 @@ public class NoAiBidyBabEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.8f)).build("no_ai_bidy_bab").setRegistryName("no_ai_bidy_bab");
 
 	public NoAiBidyBabEntity(UltimateFnafModModElements instance) {
-		super(instance, 1727);
+		super(instance, 1726);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiBidyBabRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

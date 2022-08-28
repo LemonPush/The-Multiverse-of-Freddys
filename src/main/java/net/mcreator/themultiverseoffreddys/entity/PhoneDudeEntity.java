@@ -57,7 +57,7 @@ public class PhoneDudeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("phone_dude").setRegistryName("phone_dude");
 
 	public PhoneDudeEntity(UltimateFnafModModElements instance) {
-		super(instance, 417);
+		super(instance, 416);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhoneDudeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

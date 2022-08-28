@@ -57,7 +57,7 @@ public class WitheredGeorgeEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 1.8f)).build("withered_george").setRegistryName("withered_george");
 
 	public WitheredGeorgeEntity(UltimateFnafModModElements instance) {
-		super(instance, 894);
+		super(instance, 893);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WitheredGeorgeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

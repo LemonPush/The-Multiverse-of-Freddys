@@ -77,7 +77,7 @@ public class FNaFManiaDimension extends UltimateFnafModModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public FNaFManiaDimension(UltimateFnafModModElements instance) {
-		super(instance, 925);
+		super(instance, 924);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

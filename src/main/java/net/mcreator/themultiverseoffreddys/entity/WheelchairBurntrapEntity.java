@@ -57,7 +57,7 @@ public class WheelchairBurntrapEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 1.8f)).build("wheelchair_burntrap").setRegistryName("wheelchair_burntrap");
 
 	public WheelchairBurntrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 423);
+		super(instance, 422);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WheelchairBurntrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

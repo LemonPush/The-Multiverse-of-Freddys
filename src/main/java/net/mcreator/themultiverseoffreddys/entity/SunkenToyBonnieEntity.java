@@ -62,7 +62,7 @@ public class SunkenToyBonnieEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.4f)).build("sunken_toy_bonnie").setRegistryName("sunken_toy_bonnie");
 
 	public SunkenToyBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 804);
+		super(instance, 803);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SunkenToyBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

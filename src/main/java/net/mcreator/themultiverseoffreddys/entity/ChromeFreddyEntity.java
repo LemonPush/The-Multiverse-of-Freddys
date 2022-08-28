@@ -61,7 +61,7 @@ public class ChromeFreddyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("chrome_freddy").setRegistryName("chrome_freddy");
 
 	public ChromeFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 313);
+		super(instance, 312);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChromeFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

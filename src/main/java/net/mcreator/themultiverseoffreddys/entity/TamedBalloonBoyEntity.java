@@ -56,7 +56,7 @@ public class TamedBalloonBoyEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 1.8f)).build("tamed_balloon_boy").setRegistryName("tamed_balloon_boy");
 
 	public TamedBalloonBoyEntity(UltimateFnafModModElements instance) {
-		super(instance, 945);
+		super(instance, 944);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBalloonBoyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

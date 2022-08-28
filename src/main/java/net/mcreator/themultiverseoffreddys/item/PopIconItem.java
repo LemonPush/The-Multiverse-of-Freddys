@@ -17,7 +17,7 @@ public class PopIconItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public PopIconItem(UltimateFnafModModElements instance) {
-		super(instance, 1219);
+		super(instance, 1218);
 	}
 
 	@Override

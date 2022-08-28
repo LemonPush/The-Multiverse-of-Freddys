@@ -32,7 +32,7 @@ public class NoAiXOREntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_xor").setRegistryName("no_ai_xor");
 
 	public NoAiXOREntity(UltimateFnafModModElements instance) {
-		super(instance, 1771);
+		super(instance, 1770);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiXORRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

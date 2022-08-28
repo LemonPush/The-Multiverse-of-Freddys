@@ -62,7 +62,7 @@ public class BonnieTheRabbitEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.4f)).build("bonnie_the_rabbit").setRegistryName("bonnie_the_rabbit");
 
 	public BonnieTheRabbitEntity(UltimateFnafModModElements instance) {
-		super(instance, 493);
+		super(instance, 492);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BonnieTheRabbitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

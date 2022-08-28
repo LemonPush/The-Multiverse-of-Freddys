@@ -50,7 +50,7 @@ public class ChipperRevengeEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 3.6f)).build("chipper_revenge").setRegistryName("chipper_revenge");
 
 	public ChipperRevengeEntity(UltimateFnafModModElements instance) {
-		super(instance, 920);
+		super(instance, 919);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChipperRevengeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

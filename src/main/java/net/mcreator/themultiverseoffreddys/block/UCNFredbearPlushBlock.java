@@ -40,7 +40,7 @@ public class UCNFredbearPlushBlock extends UltimateFnafModModElements.ModElement
 	public static final Block block = null;
 
 	public UCNFredbearPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 401);
+		super(instance, 400);
 	}
 
 	@Override

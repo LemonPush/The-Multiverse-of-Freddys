@@ -59,7 +59,7 @@ public class IgnitedChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("ignited_chica").setRegistryName("ignited_chica");
 
 	public IgnitedChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 847);
+		super(instance, 846);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IgnitedChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

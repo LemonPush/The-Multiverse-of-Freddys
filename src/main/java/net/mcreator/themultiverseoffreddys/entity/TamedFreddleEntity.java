@@ -56,7 +56,7 @@ public class TamedFreddleEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("tamed_freddle").setRegistryName("tamed_freddle");
 
 	public TamedFreddleEntity(UltimateFnafModModElements instance) {
-		super(instance, 1049);
+		super(instance, 1048);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedFreddleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

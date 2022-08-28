@@ -57,7 +57,7 @@ public class CensoreBarEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("censore_bar").setRegistryName("censore_bar");
 
 	public CensoreBarEntity(UltimateFnafModModElements instance) {
-		super(instance, 274);
+		super(instance, 273);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CensoreBarRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

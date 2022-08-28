@@ -56,7 +56,7 @@ public class TamedCrateEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_crate").setRegistryName("tamed_crate");
 
 	public TamedCrateEntity(UltimateFnafModModElements instance) {
-		super(instance, 641);
+		super(instance, 640);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedCrateRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

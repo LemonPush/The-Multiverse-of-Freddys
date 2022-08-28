@@ -56,7 +56,7 @@ public class NoAiElectrobabEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 0.8f)).build("no_ai_electrobab").setRegistryName("no_ai_electrobab");
 
 	public NoAiElectrobabEntity(UltimateFnafModModElements instance) {
-		super(instance, 1730);
+		super(instance, 1729);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiElectrobabRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

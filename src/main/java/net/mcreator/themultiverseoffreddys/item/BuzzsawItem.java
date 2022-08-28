@@ -44,7 +44,7 @@ public class BuzzsawItem extends UltimateFnafModModElements.ModElement {
 			.size(0.5f, 0.5f)).build("projectile_buzzsaw").setRegistryName("projectile_buzzsaw");
 
 	public BuzzsawItem(UltimateFnafModModElements instance) {
-		super(instance, 364);
+		super(instance, 363);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BuzzsawRenderer.ModelRegisterHandler());
 	}
 

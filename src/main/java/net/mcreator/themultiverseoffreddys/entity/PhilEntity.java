@@ -59,7 +59,7 @@ public class PhilEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("phil").setRegistryName("phil");
 
 	public PhilEntity(UltimateFnafModModElements instance) {
-		super(instance, 336);
+		super(instance, 335);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhilRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

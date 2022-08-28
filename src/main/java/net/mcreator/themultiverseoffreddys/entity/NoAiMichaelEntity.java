@@ -32,7 +32,7 @@ public class NoAiMichaelEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_michael").setRegistryName("no_ai_michael");
 
 	public NoAiMichaelEntity(UltimateFnafModModElements instance) {
-		super(instance, 1757);
+		super(instance, 1756);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiMichaelRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

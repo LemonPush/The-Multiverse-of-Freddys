@@ -59,7 +59,7 @@ public class BunnyCallEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.7f)).build("bunny_call").setRegistryName("bunny_call");
 
 	public BunnyCallEntity(UltimateFnafModModElements instance) {
-		super(instance, 208);
+		super(instance, 207);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BunnyCallRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

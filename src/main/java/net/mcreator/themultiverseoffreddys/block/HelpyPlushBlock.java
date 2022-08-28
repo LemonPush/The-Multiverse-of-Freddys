@@ -40,7 +40,7 @@ public class HelpyPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public HelpyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 618);
+		super(instance, 617);
 	}
 
 	@Override

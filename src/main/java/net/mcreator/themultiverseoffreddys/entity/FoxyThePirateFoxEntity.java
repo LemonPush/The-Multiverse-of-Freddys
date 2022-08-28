@@ -62,7 +62,7 @@ public class FoxyThePirateFoxEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("foxy_the_pirate_fox").setRegistryName("foxy_the_pirate_fox");
 
 	public FoxyThePirateFoxEntity(UltimateFnafModModElements instance) {
-		super(instance, 495);
+		super(instance, 494);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FoxyThePirateFoxRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

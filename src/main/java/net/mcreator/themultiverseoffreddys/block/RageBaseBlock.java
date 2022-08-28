@@ -34,7 +34,7 @@ public class RageBaseBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public RageBaseBlock(UltimateFnafModModElements instance) {
-		super(instance, 490);
+		super(instance, 489);
 	}
 
 	@Override

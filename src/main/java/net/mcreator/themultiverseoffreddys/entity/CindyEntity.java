@@ -57,7 +57,7 @@ public class CindyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("cindy").setRegistryName("cindy");
 
 	public CindyEntity(UltimateFnafModModElements instance) {
-		super(instance, 880);
+		super(instance, 879);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CindyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

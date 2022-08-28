@@ -57,7 +57,7 @@ public class RatEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("rat").setRegistryName("rat");
 
 	public RatEntity(UltimateFnafModModElements instance) {
-		super(instance, 887);
+		super(instance, 886);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RatRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

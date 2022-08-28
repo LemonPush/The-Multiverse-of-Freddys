@@ -57,7 +57,7 @@ public class SpeedEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("speed").setRegistryName("speed");
 
 	public SpeedEntity(UltimateFnafModModElements instance) {
-		super(instance, 342);
+		super(instance, 341);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SpeedRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

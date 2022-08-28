@@ -56,7 +56,7 @@ public class TamedFrostEndoEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("tamed_frost_endo").setRegistryName("tamed_frost_endo");
 
 	public TamedFrostEndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 729);
+		super(instance, 728);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedFrostEndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -40,7 +40,7 @@ public class NeonBPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public NeonBPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 679);
+		super(instance, 678);
 	}
 
 	@Override

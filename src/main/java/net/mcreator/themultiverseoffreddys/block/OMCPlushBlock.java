@@ -40,7 +40,7 @@ public class OMCPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public OMCPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 402);
+		super(instance, 401);
 	}
 
 	@Override

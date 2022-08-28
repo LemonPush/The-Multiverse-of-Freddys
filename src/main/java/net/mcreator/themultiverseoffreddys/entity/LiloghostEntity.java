@@ -72,7 +72,7 @@ public class LiloghostEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("liloghost").setRegistryName("liloghost");
 
 	public LiloghostEntity(UltimateFnafModModElements instance) {
-		super(instance, 915);
+		super(instance, 914);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LiloghostRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

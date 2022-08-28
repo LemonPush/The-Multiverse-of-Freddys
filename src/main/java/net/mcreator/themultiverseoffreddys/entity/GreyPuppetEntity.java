@@ -59,7 +59,7 @@ public class GreyPuppetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("grey_puppet").setRegistryName("grey_puppet");
 
 	public GreyPuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 311);
+		super(instance, 310);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GreyPuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

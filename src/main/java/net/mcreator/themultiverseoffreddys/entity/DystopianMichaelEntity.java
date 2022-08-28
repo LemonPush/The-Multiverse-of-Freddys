@@ -58,7 +58,7 @@ public class DystopianMichaelEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 1.8f)).build("dystopian_michael").setRegistryName("dystopian_michael");
 
 	public DystopianMichaelEntity(UltimateFnafModModElements instance) {
-		super(instance, 335);
+		super(instance, 334);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DystopianMichaelRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

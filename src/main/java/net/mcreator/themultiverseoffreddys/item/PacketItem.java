@@ -32,7 +32,7 @@ public class PacketItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public PacketItem(UltimateFnafModModElements instance) {
-		super(instance, 194);
+		super(instance, 193);
 	}
 
 	@Override

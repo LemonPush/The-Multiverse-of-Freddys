@@ -57,7 +57,7 @@ public class WitheredMaxieEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("withered_maxie").setRegistryName("withered_maxie");
 
 	public WitheredMaxieEntity(UltimateFnafModModElements instance) {
-		super(instance, 893);
+		super(instance, 892);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WitheredMaxieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

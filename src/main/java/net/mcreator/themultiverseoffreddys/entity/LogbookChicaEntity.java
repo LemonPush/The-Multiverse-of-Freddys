@@ -52,7 +52,7 @@ public class LogbookChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("logbook_chica").setRegistryName("logbook_chica");
 
 	public LogbookChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 164);
+		super(instance, 163);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LogbookChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

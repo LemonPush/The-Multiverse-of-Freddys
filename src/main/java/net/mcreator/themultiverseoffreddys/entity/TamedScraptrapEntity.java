@@ -56,7 +56,7 @@ public class TamedScraptrapEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("tamed_scraptrap").setRegistryName("tamed_scraptrap");
 
 	public TamedScraptrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 1040);
+		super(instance, 1039);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedScraptrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

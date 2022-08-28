@@ -56,7 +56,7 @@ public class TamedXOREntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_xor").setRegistryName("tamed_xor");
 
 	public TamedXOREntity(UltimateFnafModModElements instance) {
-		super(instance, 1046);
+		super(instance, 1045);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedXORRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

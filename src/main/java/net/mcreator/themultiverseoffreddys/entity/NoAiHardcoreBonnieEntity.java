@@ -32,7 +32,7 @@ public class NoAiHardcoreBonnieEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 2.4f)).build("no_ai_hardcore_bonnie").setRegistryName("no_ai_hardcore_bonnie");
 
 	public NoAiHardcoreBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 688);
+		super(instance, 687);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiHardcoreBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

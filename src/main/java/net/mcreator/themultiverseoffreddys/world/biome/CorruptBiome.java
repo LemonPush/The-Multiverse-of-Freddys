@@ -33,7 +33,7 @@ public class CorruptBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public CorruptBiome(UltimateFnafModModElements instance) {
-		super(instance, 1573);
+		super(instance, 1572);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

@@ -57,7 +57,7 @@ public class BirthdayBoyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("birthday_boy").setRegistryName("birthday_boy");
 
 	public BirthdayBoyEntity(UltimateFnafModModElements instance) {
-		super(instance, 856);
+		super(instance, 855);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BirthdayBoyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -40,7 +40,7 @@ public class LemonPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public LemonPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 156);
+		super(instance, 155);
 	}
 
 	@Override

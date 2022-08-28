@@ -32,7 +32,7 @@ public class NoAiOMCEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_omc").setRegistryName("no_ai_omc");
 
 	public NoAiOMCEntity(UltimateFnafModModElements instance) {
-		super(instance, 1772);
+		super(instance, 1771);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiOMCRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

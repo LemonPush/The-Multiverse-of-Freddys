@@ -54,7 +54,7 @@ public class RWQFSFASXCEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("rwqfsfasxc").setRegistryName("rwqfsfasxc");
 
 	public RWQFSFASXCEntity(UltimateFnafModModElements instance) {
-		super(instance, 212);
+		super(instance, 211);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RWQFSFASXCRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -62,7 +62,7 @@ public class NightmareFredbearEndoEntity extends UltimateFnafModModElements.ModE
 			.size(0.6f, 4.5f)).build("nightmare_fredbear_endo").setRegistryName("nightmare_fredbear_endo");
 
 	public NightmareFredbearEndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 658);
+		super(instance, 657);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NightmareFredbearEndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -59,7 +59,7 @@ public class GlamrockBonnieEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("glamrock_bonnie").setRegistryName("glamrock_bonnie");
 
 	public GlamrockBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 299);
+		super(instance, 298);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GlamrockBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

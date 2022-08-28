@@ -56,7 +56,7 @@ public class TamedWitheredRoxyEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("tamed_withered_roxy").setRegistryName("tamed_withered_roxy");
 
 	public TamedWitheredRoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 732);
+		super(instance, 731);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedWitheredRoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -63,7 +63,7 @@ public class ToxicSpringtrapEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 1.7999999999999998f)).build("toxic_springtrap").setRegistryName("toxic_springtrap");
 
 	public ToxicSpringtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 757);
+		super(instance, 756);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ToxicSpringtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

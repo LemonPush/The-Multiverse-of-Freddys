@@ -32,7 +32,7 @@ public class NoAiMrHippoEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_mr_hippo").setRegistryName("no_ai_mr_hippo");
 
 	public NoAiMrHippoEntity(UltimateFnafModModElements instance) {
-		super(instance, 1738);
+		super(instance, 1737);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiMrHippoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

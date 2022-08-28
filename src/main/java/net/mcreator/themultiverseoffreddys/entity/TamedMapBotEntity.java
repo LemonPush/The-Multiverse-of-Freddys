@@ -63,7 +63,7 @@ public class TamedMapBotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_map_bot").setRegistryName("tamed_map_bot");
 
 	public TamedMapBotEntity(UltimateFnafModModElements instance) {
-		super(instance, 725);
+		super(instance, 724);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedMapBotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

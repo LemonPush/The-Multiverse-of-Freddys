@@ -32,7 +32,7 @@ public class NoAiSecurityPuppetEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 2.4f)).build("no_ai_security_puppet").setRegistryName("no_ai_security_puppet");
 
 	public NoAiSecurityPuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 1750);
+		super(instance, 1749);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiSecurityPuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

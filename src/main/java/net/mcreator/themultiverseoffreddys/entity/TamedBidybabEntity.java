@@ -56,7 +56,7 @@ public class TamedBidybabEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.8f)).build("tamed_bidybab").setRegistryName("tamed_bidybab");
 
 	public TamedBidybabEntity(UltimateFnafModModElements instance) {
-		super(instance, 1008);
+		super(instance, 1007);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBidybabRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

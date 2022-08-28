@@ -62,7 +62,7 @@ public class EnnardEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("ennard").setRegistryName("ennard");
 
 	public EnnardEntity(UltimateFnafModModElements instance) {
-		super(instance, 573);
+		super(instance, 572);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EnnardRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

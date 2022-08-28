@@ -38,7 +38,7 @@ public class GrayPuppetPlushBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public GrayPuppetPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 326);
+		super(instance, 325);
 	}
 
 	@Override

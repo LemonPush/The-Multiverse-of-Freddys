@@ -57,7 +57,7 @@ public class JollyTheBeeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("jolly_the_bee").setRegistryName("jolly_the_bee");
 
 	public JollyTheBeeEntity(UltimateFnafModModElements instance) {
-		super(instance, 890);
+		super(instance, 889);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new JollyTheBeeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -57,7 +57,7 @@ public class TFCCircusBabyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tfc_circus_baby").setRegistryName("tfc_circus_baby");
 
 	public TFCCircusBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 161);
+		super(instance, 160);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TFCCircusBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

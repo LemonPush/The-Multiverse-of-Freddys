@@ -26,7 +26,7 @@ public class RainbowBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public RainbowBlock(UltimateFnafModModElements instance) {
-		super(instance, 348);
+		super(instance, 347);
 	}
 
 	@Override

@@ -51,7 +51,7 @@ public class KidsAtPleyBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public KidsAtPleyBlock(UltimateFnafModModElements instance) {
-		super(instance, 197);
+		super(instance, 196);
 	}
 
 	@Override

@@ -65,7 +65,7 @@ public class DarktrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("darktrap").setRegistryName("darktrap");
 
 	public DarktrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 578);
+		super(instance, 577);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DarktrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

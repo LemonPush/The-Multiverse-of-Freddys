@@ -43,7 +43,7 @@ public class EleanorEndgameBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public EleanorEndgameBlock(UltimateFnafModModElements instance) {
-		super(instance, 391);
+		super(instance, 390);
 	}
 
 	@Override

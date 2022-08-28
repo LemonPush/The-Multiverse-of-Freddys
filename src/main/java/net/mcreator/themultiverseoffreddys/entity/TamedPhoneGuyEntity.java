@@ -63,7 +63,7 @@ public class TamedPhoneGuyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_phone_guy").setRegistryName("tamed_phone_guy");
 
 	public TamedPhoneGuyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1048);
+		super(instance, 1047);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedPhoneGuyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

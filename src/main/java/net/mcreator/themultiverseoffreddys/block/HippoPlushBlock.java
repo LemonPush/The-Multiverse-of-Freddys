@@ -40,7 +40,7 @@ public class HippoPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public HippoPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 620);
+		super(instance, 619);
 	}
 
 	@Override

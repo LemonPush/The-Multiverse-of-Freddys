@@ -57,7 +57,7 @@ public class BubbaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("bubba").setRegistryName("bubba");
 
 	public BubbaEntity(UltimateFnafModModElements instance) {
-		super(instance, 483);
+		super(instance, 482);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BubbaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

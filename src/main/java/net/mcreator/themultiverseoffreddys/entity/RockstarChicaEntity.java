@@ -62,7 +62,7 @@ public class RockstarChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("rockstar_chica").setRegistryName("rockstar_chica");
 
 	public RockstarChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 604);
+		super(instance, 603);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RockstarChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

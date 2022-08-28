@@ -56,7 +56,7 @@ public class TamedPlushBabyBlueEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 0.9f)).build("tamed_plush_baby_blue").setRegistryName("tamed_plush_baby_blue");
 
 	public TamedPlushBabyBlueEntity(UltimateFnafModModElements instance) {
-		super(instance, 1061);
+		super(instance, 1060);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedPlushBabyBlueRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

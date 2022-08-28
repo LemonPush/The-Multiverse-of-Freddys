@@ -59,7 +59,7 @@ public class ChicanatorEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("chicanator").setRegistryName("chicanator");
 
 	public ChicanatorEntity(UltimateFnafModModElements instance) {
-		super(instance, 479);
+		super(instance, 478);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChicanatorRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

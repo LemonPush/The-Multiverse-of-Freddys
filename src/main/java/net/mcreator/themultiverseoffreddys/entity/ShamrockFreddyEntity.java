@@ -62,7 +62,7 @@ public class ShamrockFreddyEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("shamrock_freddy").setRegistryName("shamrock_freddy");
 
 	public ShamrockFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 749);
+		super(instance, 748);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShamrockFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

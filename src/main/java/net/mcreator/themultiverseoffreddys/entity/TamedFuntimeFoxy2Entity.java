@@ -56,7 +56,7 @@ public class TamedFuntimeFoxy2Entity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("tamed_funtime_foxy_2").setRegistryName("tamed_funtime_foxy_2");
 
 	public TamedFuntimeFoxy2Entity(UltimateFnafModModElements instance) {
-		super(instance, 1116);
+		super(instance, 1115);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedFuntimeFoxy2Renderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

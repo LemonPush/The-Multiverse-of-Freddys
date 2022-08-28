@@ -62,7 +62,7 @@ public class BoulderToyBonnieEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("boulder_toy_bonnie").setRegistryName("boulder_toy_bonnie");
 
 	public BoulderToyBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 789);
+		super(instance, 788);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BoulderToyBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

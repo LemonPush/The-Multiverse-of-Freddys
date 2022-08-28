@@ -32,7 +32,7 @@ public class NoAINightmarionneEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 3.6f)).build("no_ai_nightmarionne").setRegistryName("no_ai_nightmarionne");
 
 	public NoAINightmarionneEntity(UltimateFnafModModElements instance) {
-		super(instance, 1721);
+		super(instance, 1720);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAINightmarionneRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

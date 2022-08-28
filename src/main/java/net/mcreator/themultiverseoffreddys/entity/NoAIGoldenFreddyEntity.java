@@ -32,7 +32,7 @@ public class NoAIGoldenFreddyEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("no_ai_golden_freddy").setRegistryName("no_ai_golden_freddy");
 
 	public NoAIGoldenFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1672);
+		super(instance, 1671);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIGoldenFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

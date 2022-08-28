@@ -70,7 +70,7 @@ public class BlacklightGoldenEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 1.8f)).build("blacklight_golden").setRegistryName("blacklight_golden");
 
 	public BlacklightGoldenEntity(UltimateFnafModModElements instance) {
-		super(instance, 287);
+		super(instance, 286);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlacklightGoldenRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

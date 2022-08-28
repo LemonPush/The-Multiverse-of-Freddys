@@ -56,7 +56,7 @@ public class TamedBoulderToyBonnieEntity extends UltimateFnafModModElements.ModE
 			.size(0.6f, 2.4f)).build("tamed_boulder_toy_bonnie").setRegistryName("tamed_boulder_toy_bonnie");
 
 	public TamedBoulderToyBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 818);
+		super(instance, 817);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBoulderToyBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

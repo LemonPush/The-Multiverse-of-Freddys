@@ -66,7 +66,7 @@ public class GoldenFlumptyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("golden_flumpty").setRegistryName("golden_flumpty");
 
 	public GoldenFlumptyEntity(UltimateFnafModModElements instance) {
-		super(instance, 862);
+		super(instance, 861);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GoldenFlumptyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

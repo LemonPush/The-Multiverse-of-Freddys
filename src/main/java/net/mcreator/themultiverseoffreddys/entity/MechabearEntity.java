@@ -44,7 +44,7 @@ public class MechabearEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("mechabear").setRegistryName("mechabear");
 
 	public MechabearEntity(UltimateFnafModModElements instance) {
-		super(instance, 917);
+		super(instance, 916);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MechabearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

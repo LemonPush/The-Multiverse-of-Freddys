@@ -60,7 +60,7 @@ public class HalloweenLandBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public HalloweenLandBiome(UltimateFnafModModElements instance) {
-		super(instance, 1508);
+		super(instance, 1507);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

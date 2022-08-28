@@ -42,7 +42,7 @@ public class PageMainOverworldGui extends UltimateFnafModModElements.ModElement 
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public PageMainOverworldGui(UltimateFnafModModElements instance) {
-		super(instance, 1592);
+		super(instance, 1591);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

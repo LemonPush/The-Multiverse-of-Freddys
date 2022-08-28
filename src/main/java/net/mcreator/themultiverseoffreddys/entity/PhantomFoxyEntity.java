@@ -62,7 +62,7 @@ public class PhantomFoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("phantom_foxy").setRegistryName("phantom_foxy");
 
 	public PhantomFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 511);
+		super(instance, 510);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhantomFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

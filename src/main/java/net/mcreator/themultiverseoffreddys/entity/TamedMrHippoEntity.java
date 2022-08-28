@@ -56,7 +56,7 @@ public class TamedMrHippoEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_mr_hippo").setRegistryName("tamed_mr_hippo");
 
 	public TamedMrHippoEntity(UltimateFnafModModElements instance) {
-		super(instance, 1025);
+		super(instance, 1024);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedMrHippoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

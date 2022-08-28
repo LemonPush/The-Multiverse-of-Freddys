@@ -62,7 +62,7 @@ public class SwampBalloonBoyEntity extends UltimateFnafModModElements.ModElement
 			.size(0.5f, 1.8f)).build("swamp_balloon_boy").setRegistryName("swamp_balloon_boy");
 
 	public SwampBalloonBoyEntity(UltimateFnafModModElements instance) {
-		super(instance, 790);
+		super(instance, 789);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SwampBalloonBoyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

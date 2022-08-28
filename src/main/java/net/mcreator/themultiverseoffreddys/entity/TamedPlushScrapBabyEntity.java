@@ -56,7 +56,7 @@ public class TamedPlushScrapBabyEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 0.9f)).build("tamed_plush_scrap_baby").setRegistryName("tamed_plush_scrap_baby");
 
 	public TamedPlushScrapBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1063);
+		super(instance, 1062);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedPlushScrapBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

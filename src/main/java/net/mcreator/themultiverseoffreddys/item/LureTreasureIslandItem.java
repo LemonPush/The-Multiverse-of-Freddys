@@ -30,7 +30,7 @@ public class LureTreasureIslandItem extends UltimateFnafModModElements.ModElemen
 	public static final Item block = null;
 
 	public LureTreasureIslandItem(UltimateFnafModModElements instance) {
-		super(instance, 878);
+		super(instance, 877);
 	}
 
 	@Override

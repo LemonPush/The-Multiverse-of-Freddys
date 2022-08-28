@@ -62,7 +62,7 @@ public class ClockworkBalloraEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("clockwork_ballora").setRegistryName("clockwork_ballora");
 
 	public ClockworkBalloraEntity(UltimateFnafModModElements instance) {
-		super(instance, 806);
+		super(instance, 805);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ClockworkBalloraRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

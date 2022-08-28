@@ -59,7 +59,7 @@ public class RightyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("righty").setRegistryName("righty");
 
 	public RightyEntity(UltimateFnafModModElements instance) {
-		super(instance, 303);
+		super(instance, 302);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RightyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

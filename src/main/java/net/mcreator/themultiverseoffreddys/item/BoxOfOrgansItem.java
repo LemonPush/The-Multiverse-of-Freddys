@@ -32,7 +32,7 @@ public class BoxOfOrgansItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public BoxOfOrgansItem(UltimateFnafModModElements instance) {
-		super(instance, 175);
+		super(instance, 174);
 	}
 
 	@Override

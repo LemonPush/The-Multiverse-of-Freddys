@@ -32,7 +32,7 @@ public class NoAiCrateEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_ai_crate").setRegistryName("no_ai_crate");
 
 	public NoAiCrateEntity(UltimateFnafModModElements instance) {
-		super(instance, 647);
+		super(instance, 646);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiCrateRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

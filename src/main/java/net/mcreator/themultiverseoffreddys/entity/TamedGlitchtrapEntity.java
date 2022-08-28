@@ -63,7 +63,7 @@ public class TamedGlitchtrapEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 1.8f)).build("tamed_glitchtrap").setRegistryName("tamed_glitchtrap");
 
 	public TamedGlitchtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 1055);
+		super(instance, 1054);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedGlitchtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -61,7 +61,7 @@ public class GoldenFoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("golden_foxy").setRegistryName("golden_foxy");
 
 	public GoldenFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 307);
+		super(instance, 306);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GoldenFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

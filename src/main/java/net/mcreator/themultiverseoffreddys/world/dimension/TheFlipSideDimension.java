@@ -40,7 +40,7 @@ import com.google.common.collect.ImmutableSet;
 @UltimateFnafModModElements.ModElement.Tag
 public class TheFlipSideDimension extends UltimateFnafModModElements.ModElement {
 	public TheFlipSideDimension(UltimateFnafModModElements instance) {
-		super(instance, 908);
+		super(instance, 907);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

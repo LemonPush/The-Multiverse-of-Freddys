@@ -55,7 +55,7 @@ public class FazGooBruteEntity extends UltimateFnafModModElements.ModElement {
 			.build("faz_goo_brute").setRegistryName("faz_goo_brute");
 
 	public FazGooBruteEntity(UltimateFnafModModElements instance) {
-		super(instance, 227);
+		super(instance, 226);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FazGooBruteRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -32,7 +32,7 @@ public class NoAIPaperpalsEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_ai_paperpals").setRegistryName("no_ai_paperpals");
 
 	public NoAIPaperpalsEntity(UltimateFnafModModElements instance) {
-		super(instance, 1690);
+		super(instance, 1689);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIPaperpalsRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

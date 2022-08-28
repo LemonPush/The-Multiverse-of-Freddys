@@ -59,7 +59,7 @@ public class ShadowFuntimeFreddyEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 2.4f)).build("shadow_funtime_freddy").setRegistryName("shadow_funtime_freddy");
 
 	public ShadowFuntimeFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 320);
+		super(instance, 319);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShadowFuntimeFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

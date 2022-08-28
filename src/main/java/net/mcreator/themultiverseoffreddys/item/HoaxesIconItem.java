@@ -17,7 +17,7 @@ public class HoaxesIconItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public HoaxesIconItem(UltimateFnafModModElements instance) {
-		super(instance, 1224);
+		super(instance, 1223);
 	}
 
 	@Override

@@ -20,7 +20,7 @@ public class BlueRemnantItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public BlueRemnantItem(UltimateFnafModModElements instance) {
-		super(instance, 300);
+		super(instance, 299);
 	}
 
 	@Override

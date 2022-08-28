@@ -64,7 +64,7 @@ public class GamesSpringtrapEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 1.8f)).build("games_springtrap").setRegistryName("games_springtrap");
 
 	public GamesSpringtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 416);
+		super(instance, 415);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GamesSpringtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

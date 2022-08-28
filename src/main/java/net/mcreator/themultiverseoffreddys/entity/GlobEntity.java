@@ -57,7 +57,7 @@ public class GlobEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 5.3999999999999995f)).build("glob").setRegistryName("glob");
 
 	public GlobEntity(UltimateFnafModModElements instance) {
-		super(instance, 304);
+		super(instance, 303);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GlobRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -57,7 +57,7 @@ public class IgnitedPuppetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("ignited_puppet").setRegistryName("ignited_puppet");
 
 	public IgnitedPuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 852);
+		super(instance, 851);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IgnitedPuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

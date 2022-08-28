@@ -45,7 +45,7 @@ public class TentacleEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tentacle").setRegistryName("tentacle");
 
 	public TentacleEntity(UltimateFnafModModElements instance) {
-		super(instance, 919);
+		super(instance, 918);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TentacleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

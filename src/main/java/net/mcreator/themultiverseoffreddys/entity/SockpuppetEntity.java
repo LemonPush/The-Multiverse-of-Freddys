@@ -59,7 +59,7 @@ public class SockpuppetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("sockpuppet").setRegistryName("sockpuppet");
 
 	public SockpuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 487);
+		super(instance, 486);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SockpuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

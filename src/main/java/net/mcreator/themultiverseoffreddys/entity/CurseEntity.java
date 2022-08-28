@@ -62,7 +62,7 @@ public class CurseEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.7999999999999998f)).build("curse").setRegistryName("curse");
 
 	public CurseEntity(UltimateFnafModModElements instance) {
-		super(instance, 797);
+		super(instance, 796);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CurseRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

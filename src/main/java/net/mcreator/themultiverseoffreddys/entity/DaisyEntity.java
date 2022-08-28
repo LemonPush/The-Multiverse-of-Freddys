@@ -57,7 +57,7 @@ public class DaisyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("daisy").setRegistryName("daisy");
 
 	public DaisyEntity(UltimateFnafModModElements instance) {
-		super(instance, 874);
+		super(instance, 873);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DaisyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

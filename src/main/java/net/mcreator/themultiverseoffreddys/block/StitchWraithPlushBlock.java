@@ -38,7 +38,7 @@ public class StitchWraithPlushBlock extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public StitchWraithPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 243);
+		super(instance, 242);
 	}
 
 	@Override

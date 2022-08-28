@@ -46,7 +46,7 @@ public class BlueLavaBlock extends UltimateFnafModModElements.ModElement {
 	private ForgeFlowingFluid.Properties fluidproperties = null;
 
 	public BlueLavaBlock(UltimateFnafModModElements instance) {
-		super(instance, 302);
+		super(instance, 301);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FluidRegisterHandler());
 	}
 

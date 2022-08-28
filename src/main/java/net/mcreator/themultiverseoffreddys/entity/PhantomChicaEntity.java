@@ -62,7 +62,7 @@ public class PhantomChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("phantom_chica").setRegistryName("phantom_chica");
 
 	public PhantomChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 510);
+		super(instance, 509);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhantomChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

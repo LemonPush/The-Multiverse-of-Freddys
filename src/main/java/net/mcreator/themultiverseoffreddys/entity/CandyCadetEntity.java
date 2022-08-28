@@ -62,7 +62,7 @@ public class CandyCadetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("candy_cadet").setRegistryName("candy_cadet");
 
 	public CandyCadetEntity(UltimateFnafModModElements instance) {
-		super(instance, 610);
+		super(instance, 609);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CandyCadetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

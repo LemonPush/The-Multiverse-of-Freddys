@@ -50,7 +50,7 @@ public class LunarMinesBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public LunarMinesBiome(UltimateFnafModModElements instance) {
-		super(instance, 1514);
+		super(instance, 1513);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

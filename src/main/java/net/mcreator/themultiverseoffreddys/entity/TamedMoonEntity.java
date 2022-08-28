@@ -56,7 +56,7 @@ public class TamedMoonEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_moon").setRegistryName("tamed_moon");
 
 	public TamedMoonEntity(UltimateFnafModModElements instance) {
-		super(instance, 717);
+		super(instance, 716);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedMoonRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

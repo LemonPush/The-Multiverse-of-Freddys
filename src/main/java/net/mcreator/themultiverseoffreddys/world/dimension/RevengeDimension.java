@@ -28,7 +28,7 @@ import com.google.common.collect.ImmutableSet;
 @UltimateFnafModModElements.ModElement.Tag
 public class RevengeDimension extends UltimateFnafModModElements.ModElement {
 	public RevengeDimension(UltimateFnafModModElements instance) {
-		super(instance, 909);
+		super(instance, 908);
 	}
 
 	@Override

@@ -56,7 +56,7 @@ public class TamedJetpackBBEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 1.8f)).build("tamed_jetpack_bb").setRegistryName("tamed_jetpack_bb");
 
 	public TamedJetpackBBEntity(UltimateFnafModModElements instance) {
-		super(instance, 827);
+		super(instance, 826);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedJetpackBBRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

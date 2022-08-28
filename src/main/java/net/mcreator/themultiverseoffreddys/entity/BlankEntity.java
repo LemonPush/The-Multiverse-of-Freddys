@@ -57,7 +57,7 @@ public class BlankEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("blank").setRegistryName("blank");
 
 	public BlankEntity(UltimateFnafModModElements instance) {
-		super(instance, 883);
+		super(instance, 882);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlankRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

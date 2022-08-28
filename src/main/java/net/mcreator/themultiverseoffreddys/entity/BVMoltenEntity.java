@@ -59,7 +59,7 @@ public class BVMoltenEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("bv_molten").setRegistryName("bv_molten");
 
 	public BVMoltenEntity(UltimateFnafModModElements instance) {
-		super(instance, 280);
+		super(instance, 279);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BVMoltenRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

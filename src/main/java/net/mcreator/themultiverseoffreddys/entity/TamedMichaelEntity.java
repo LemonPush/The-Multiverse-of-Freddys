@@ -56,7 +56,7 @@ public class TamedMichaelEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_michael").setRegistryName("tamed_michael");
 
 	public TamedMichaelEntity(UltimateFnafModModElements instance) {
-		super(instance, 1042);
+		super(instance, 1041);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedMichaelRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

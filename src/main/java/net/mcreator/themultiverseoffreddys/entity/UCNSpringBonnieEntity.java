@@ -59,7 +59,7 @@ public class UCNSpringBonnieEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 1.8f)).build("ucn_spring_bonnie").setRegistryName("ucn_spring_bonnie");
 
 	public UCNSpringBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 298);
+		super(instance, 297);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new UCNSpringBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

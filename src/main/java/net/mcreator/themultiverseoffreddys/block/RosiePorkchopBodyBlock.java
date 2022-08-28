@@ -51,7 +51,7 @@ public class RosiePorkchopBodyBlock extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public RosiePorkchopBodyBlock(UltimateFnafModModElements instance) {
-		super(instance, 195);
+		super(instance, 194);
 	}
 
 	@Override

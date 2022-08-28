@@ -40,7 +40,7 @@ public class GlitchtrapPlushBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public GlitchtrapPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 674);
+		super(instance, 673);
 	}
 
 	@Override

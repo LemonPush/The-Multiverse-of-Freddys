@@ -40,7 +40,7 @@ public class CupcakeplushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public CupcakeplushBlock(UltimateFnafModModElements instance) {
-		super(instance, 556);
+		super(instance, 555);
 	}
 
 	@Override

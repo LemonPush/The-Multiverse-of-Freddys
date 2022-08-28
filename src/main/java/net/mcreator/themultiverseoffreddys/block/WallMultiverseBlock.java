@@ -33,7 +33,7 @@ public class WallMultiverseBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public WallMultiverseBlock(UltimateFnafModModElements instance) {
-		super(instance, 386);
+		super(instance, 385);
 	}
 
 	@Override

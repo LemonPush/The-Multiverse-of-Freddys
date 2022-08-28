@@ -57,7 +57,7 @@ public class BlakeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("blake").setRegistryName("blake");
 
 	public BlakeEntity(UltimateFnafModModElements instance) {
-		super(instance, 900);
+		super(instance, 899);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlakeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

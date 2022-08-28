@@ -62,7 +62,7 @@ public class DJMMEntity extends UltimateFnafModModElements.ModElement {
 			.size(3.6f, 3.6f)).build("djmm").setRegistryName("djmm");
 
 	public DJMMEntity(UltimateFnafModModElements instance) {
-		super(instance, 697);
+		super(instance, 696);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DJMMRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

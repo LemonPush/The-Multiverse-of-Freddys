@@ -56,7 +56,7 @@ public class TamedLeftyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_lefty").setRegistryName("tamed_lefty");
 
 	public TamedLeftyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1043);
+		super(instance, 1042);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedLeftyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

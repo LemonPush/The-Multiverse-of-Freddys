@@ -32,7 +32,7 @@ public class NoAINightmareMangleEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 3.6f)).build("no_ai_nightmare_mangle").setRegistryName("no_ai_nightmare_mangle");
 
 	public NoAINightmareMangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 1719);
+		super(instance, 1718);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAINightmareMangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -56,7 +56,7 @@ public class TamedSystemErrorToyBonnieEntity extends UltimateFnafModModElements.
 			.size(0.6f, 2.4f)).build("tamed_system_error_toy_bonnie").setRegistryName("tamed_system_error_toy_bonnie");
 
 	public TamedSystemErrorToyBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 769);
+		super(instance, 768);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedSystemErrorToyBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

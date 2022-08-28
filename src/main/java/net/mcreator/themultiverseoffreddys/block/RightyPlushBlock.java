@@ -38,7 +38,7 @@ public class RightyPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public RightyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 332);
+		super(instance, 331);
 	}
 
 	@Override

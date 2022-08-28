@@ -62,7 +62,7 @@ public class SerpentMangleEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("serpent_mangle").setRegistryName("serpent_mangle");
 
 	public SerpentMangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 798);
+		super(instance, 797);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SerpentMangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

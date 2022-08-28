@@ -62,7 +62,7 @@ public class RingmasterFoxyEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("ringmaster_foxy").setRegistryName("ringmaster_foxy");
 
 	public RingmasterFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 780);
+		super(instance, 779);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RingmasterFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

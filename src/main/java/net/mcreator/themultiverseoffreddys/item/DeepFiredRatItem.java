@@ -18,7 +18,7 @@ public class DeepFiredRatItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public DeepFiredRatItem(UltimateFnafModModElements instance) {
-		super(instance, 366);
+		super(instance, 365);
 	}
 
 	@Override

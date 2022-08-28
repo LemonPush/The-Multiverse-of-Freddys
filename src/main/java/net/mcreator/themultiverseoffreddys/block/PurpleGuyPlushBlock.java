@@ -38,7 +38,7 @@ public class PurpleGuyPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public PurpleGuyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 328);
+		super(instance, 327);
 	}
 
 	@Override

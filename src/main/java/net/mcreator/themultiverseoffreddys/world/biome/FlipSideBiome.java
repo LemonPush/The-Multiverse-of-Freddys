@@ -40,7 +40,7 @@ public class FlipSideBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public FlipSideBiome(UltimateFnafModModElements instance) {
-		super(instance, 1458);
+		super(instance, 1457);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

@@ -59,7 +59,7 @@ public class ChopNRollEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("chop_n_roll").setRegistryName("chop_n_roll");
 
 	public ChopNRollEntity(UltimateFnafModModElements instance) {
-		super(instance, 472);
+		super(instance, 471);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChopNRollRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

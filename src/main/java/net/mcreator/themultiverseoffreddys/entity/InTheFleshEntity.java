@@ -58,7 +58,7 @@ public class InTheFleshEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.3f, 0.9f)).build("in_the_flesh").setRegistryName("in_the_flesh");
 
 	public InTheFleshEntity(UltimateFnafModModElements instance) {
-		super(instance, 209);
+		super(instance, 208);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new InTheFleshRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

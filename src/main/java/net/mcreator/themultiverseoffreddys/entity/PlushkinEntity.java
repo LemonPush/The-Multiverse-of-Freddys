@@ -54,7 +54,7 @@ public class PlushkinEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("plushkin").setRegistryName("plushkin");
 
 	public PlushkinEntity(UltimateFnafModModElements instance) {
-		super(instance, 669);
+		super(instance, 668);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PlushkinRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -57,7 +57,7 @@ public class BuffMapbotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("buff_mapbot").setRegistryName("buff_mapbot");
 
 	public BuffMapbotEntity(UltimateFnafModModElements instance) {
-		super(instance, 424);
+		super(instance, 423);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BuffMapbotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

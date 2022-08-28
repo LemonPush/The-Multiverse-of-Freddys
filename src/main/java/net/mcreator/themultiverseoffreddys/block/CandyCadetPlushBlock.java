@@ -40,7 +40,7 @@ public class CandyCadetPlushBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public CandyCadetPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 624);
+		super(instance, 623);
 	}
 
 	@Override

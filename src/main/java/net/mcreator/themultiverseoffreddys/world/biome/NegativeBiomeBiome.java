@@ -33,7 +33,7 @@ public class NegativeBiomeBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public NegativeBiomeBiome(UltimateFnafModModElements instance) {
-		super(instance, 1593);
+		super(instance, 1592);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

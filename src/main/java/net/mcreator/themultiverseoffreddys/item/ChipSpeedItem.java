@@ -30,7 +30,7 @@ public class ChipSpeedItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public ChipSpeedItem(UltimateFnafModModElements instance) {
-		super(instance, 380);
+		super(instance, 379);
 	}
 
 	@Override

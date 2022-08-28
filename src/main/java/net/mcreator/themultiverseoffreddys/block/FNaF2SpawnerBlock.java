@@ -34,7 +34,7 @@ public class FNaF2SpawnerBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public FNaF2SpawnerBlock(UltimateFnafModModElements instance) {
-		super(instance, 465);
+		super(instance, 464);
 	}
 
 	@Override

@@ -48,7 +48,7 @@ public class ChaserPurpleEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.7999999999999998f)).build("chaser_purple").setRegistryName("chaser_purple");
 
 	public ChaserPurpleEntity(UltimateFnafModModElements instance) {
-		super(instance, 252);
+		super(instance, 251);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChaserPurpleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

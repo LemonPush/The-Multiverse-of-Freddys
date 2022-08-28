@@ -39,7 +39,7 @@ public class JunkyardBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public JunkyardBiome(UltimateFnafModModElements instance) {
-		super(instance, 1363);
+		super(instance, 1362);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

@@ -32,7 +32,7 @@ public class NoAiPanEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_ai_pan").setRegistryName("no_ai_pan");
 
 	public NoAiPanEntity(UltimateFnafModModElements instance) {
-		super(instance, 649);
+		super(instance, 648);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiPanRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

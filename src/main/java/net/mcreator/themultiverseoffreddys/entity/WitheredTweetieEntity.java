@@ -57,7 +57,7 @@ public class WitheredTweetieEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 1.8f)).build("withered_tweetie").setRegistryName("withered_tweetie");
 
 	public WitheredTweetieEntity(UltimateFnafModModElements instance) {
-		super(instance, 892);
+		super(instance, 891);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WitheredTweetieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

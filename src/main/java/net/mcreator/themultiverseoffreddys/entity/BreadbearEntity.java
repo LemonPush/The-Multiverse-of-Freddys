@@ -57,7 +57,7 @@ public class BreadbearEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("breadbear").setRegistryName("breadbear");
 
 	public BreadbearEntity(UltimateFnafModModElements instance) {
-		super(instance, 420);
+		super(instance, 419);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BreadbearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

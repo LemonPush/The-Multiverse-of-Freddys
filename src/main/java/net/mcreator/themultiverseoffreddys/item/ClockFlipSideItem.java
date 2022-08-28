@@ -32,7 +32,7 @@ public class ClockFlipSideItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public ClockFlipSideItem(UltimateFnafModModElements instance) {
-		super(instance, 361);
+		super(instance, 360);
 	}
 
 	@Override

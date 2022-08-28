@@ -26,7 +26,7 @@ public class OMCTreeBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public OMCTreeBlock(UltimateFnafModModElements instance) {
-		super(instance, 260);
+		super(instance, 259);
 	}
 
 	@Override

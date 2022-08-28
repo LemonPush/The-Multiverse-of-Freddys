@@ -60,7 +60,7 @@ public class AnomalyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.7f)).build("anomaly").setRegistryName("anomaly");
 
 	public AnomalyEntity(UltimateFnafModModElements instance) {
-		super(instance, 248);
+		super(instance, 247);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AnomalyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

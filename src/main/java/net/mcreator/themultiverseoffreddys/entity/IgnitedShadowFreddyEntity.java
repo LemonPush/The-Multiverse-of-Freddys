@@ -66,7 +66,7 @@ public class IgnitedShadowFreddyEntity extends UltimateFnafModModElements.ModEle
 			.size(0.4f, 0.7f)).build("ignited_shadow_freddy").setRegistryName("ignited_shadow_freddy");
 
 	public IgnitedShadowFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 853);
+		super(instance, 852);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IgnitedShadowFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

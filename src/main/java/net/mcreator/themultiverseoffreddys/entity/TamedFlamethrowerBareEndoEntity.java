@@ -56,7 +56,7 @@ public class TamedFlamethrowerBareEndoEntity extends UltimateFnafModModElements.
 			.size(0.6f, 2.4f)).build("tamed_flamethrower_bare_endo").setRegistryName("tamed_flamethrower_bare_endo");
 
 	public TamedFlamethrowerBareEndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 776);
+		super(instance, 775);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedFlamethrowerBareEndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -62,7 +62,7 @@ public class DarkFreddyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("dark_freddy").setRegistryName("dark_freddy");
 
 	public DarkFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 653);
+		super(instance, 652);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DarkFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -58,7 +58,7 @@ public class HighSchoolEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("high_school").setRegistryName("high_school");
 
 	public HighSchoolEntity(UltimateFnafModModElements instance) {
-		super(instance, 422);
+		super(instance, 421);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HighSchoolRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

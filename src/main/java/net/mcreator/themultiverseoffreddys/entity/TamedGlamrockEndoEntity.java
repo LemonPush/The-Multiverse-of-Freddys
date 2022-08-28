@@ -56,7 +56,7 @@ public class TamedGlamrockEndoEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("tamed_glamrock_endo").setRegistryName("tamed_glamrock_endo");
 
 	public TamedGlamrockEndoEntity(UltimateFnafModModElements instance) {
-		super(instance, 720);
+		super(instance, 719);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedGlamrockEndoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

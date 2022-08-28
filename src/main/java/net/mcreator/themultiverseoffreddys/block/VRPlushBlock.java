@@ -40,7 +40,7 @@ public class VRPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public VRPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 834);
+		super(instance, 833);
 	}
 
 	@Override

@@ -40,7 +40,7 @@ public class PhantomFoxyPlushBlock extends UltimateFnafModModElements.ModElement
 	public static final Block block = null;
 
 	public PhantomFoxyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 527);
+		super(instance, 526);
 	}
 
 	@Override

@@ -55,7 +55,7 @@ public class HeToldMeEverythingEntity extends UltimateFnafModModElements.ModElem
 			.size(0.6f, 1.8f)).build("he_told_me_everything").setRegistryName("he_told_me_everything");
 
 	public HeToldMeEverythingEntity(UltimateFnafModModElements instance) {
-		super(instance, 214);
+		super(instance, 213);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HeToldMeEverythingRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

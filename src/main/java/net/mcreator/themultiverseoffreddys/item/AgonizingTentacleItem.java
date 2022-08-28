@@ -33,7 +33,7 @@ public class AgonizingTentacleItem extends UltimateFnafModModElements.ModElement
 	public static final Item block = null;
 
 	public AgonizingTentacleItem(UltimateFnafModModElements instance) {
-		super(instance, 376);
+		super(instance, 375);
 	}
 
 	@Override

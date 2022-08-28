@@ -43,7 +43,7 @@ public class MemeLandBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public MemeLandBlock(UltimateFnafModModElements instance) {
-		super(instance, 390);
+		super(instance, 389);
 	}
 
 	@Override

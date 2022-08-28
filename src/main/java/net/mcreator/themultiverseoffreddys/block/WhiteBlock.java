@@ -26,7 +26,7 @@ public class WhiteBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public WhiteBlock(UltimateFnafModModElements instance) {
-		super(instance, 384);
+		super(instance, 383);
 	}
 
 	@Override

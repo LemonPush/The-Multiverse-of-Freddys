@@ -62,7 +62,7 @@ public class HighscoreToyChicaEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("highscore_toy_chica").setRegistryName("highscore_toy_chica");
 
 	public HighscoreToyChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 754);
+		super(instance, 753);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HighscoreToyChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -52,7 +52,7 @@ public class TOYSNHKEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.4f, 0.7f)).build("toysnhk").setRegistryName("toysnhk");
 
 	public TOYSNHKEntity(UltimateFnafModModElements instance) {
-		super(instance, 395);
+		super(instance, 394);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TOYSNHKRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

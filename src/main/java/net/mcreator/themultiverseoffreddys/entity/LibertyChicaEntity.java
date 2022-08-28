@@ -62,7 +62,7 @@ public class LibertyChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("liberty_chica").setRegistryName("liberty_chica");
 
 	public LibertyChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 759);
+		super(instance, 758);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LibertyChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

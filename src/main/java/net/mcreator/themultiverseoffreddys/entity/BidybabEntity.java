@@ -62,7 +62,7 @@ public class BidybabEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("bidybab").setRegistryName("bidybab");
 
 	public BidybabEntity(UltimateFnafModModElements instance) {
-		super(instance, 571);
+		super(instance, 570);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BidybabRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

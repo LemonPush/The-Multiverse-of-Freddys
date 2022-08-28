@@ -62,7 +62,7 @@ public class RockstarBonnieEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("rockstar_bonnie").setRegistryName("rockstar_bonnie");
 
 	public RockstarBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 603);
+		super(instance, 602);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RockstarBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

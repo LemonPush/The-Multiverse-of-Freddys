@@ -63,7 +63,7 @@ public class NoAIBalloraEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("no_ai_ballora").setRegistryName("no_ai_ballora");
 
 	public NoAIBalloraEntity(UltimateFnafModModElements instance) {
-		super(instance, 1724);
+		super(instance, 1723);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIBalloraRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

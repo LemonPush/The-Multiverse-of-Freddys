@@ -38,7 +38,7 @@ public class GlamrockBonniePlushBlock extends UltimateFnafModModElements.ModElem
 	public static final Block block = null;
 
 	public GlamrockBonniePlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 360);
+		super(instance, 359);
 	}
 
 	@Override

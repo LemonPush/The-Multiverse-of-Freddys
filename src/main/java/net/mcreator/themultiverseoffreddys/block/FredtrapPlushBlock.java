@@ -38,7 +38,7 @@ public class FredtrapPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public FredtrapPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 354);
+		super(instance, 353);
 	}
 
 	@Override

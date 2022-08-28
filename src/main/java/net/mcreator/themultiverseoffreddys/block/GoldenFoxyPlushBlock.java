@@ -38,7 +38,7 @@ public class GoldenFoxyPlushBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public GoldenFoxyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 324);
+		super(instance, 323);
 	}
 
 	@Override

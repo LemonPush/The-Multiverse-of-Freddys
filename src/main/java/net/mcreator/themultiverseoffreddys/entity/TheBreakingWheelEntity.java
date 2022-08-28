@@ -57,7 +57,7 @@ public class TheBreakingWheelEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 1.8f)).build("the_breaking_wheel").setRegistryName("the_breaking_wheel");
 
 	public TheBreakingWheelEntity(UltimateFnafModModElements instance) {
-		super(instance, 213);
+		super(instance, 212);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TheBreakingWheelRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -50,7 +50,7 @@ public class MetalManEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("metal_man").setRegistryName("metal_man");
 
 	public MetalManEntity(UltimateFnafModModElements instance) {
-		super(instance, 918);
+		super(instance, 917);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MetalManRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

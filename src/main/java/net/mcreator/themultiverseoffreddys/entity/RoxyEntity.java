@@ -62,7 +62,7 @@ public class RoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("roxy").setRegistryName("roxy");
 
 	public RoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 693);
+		super(instance, 692);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

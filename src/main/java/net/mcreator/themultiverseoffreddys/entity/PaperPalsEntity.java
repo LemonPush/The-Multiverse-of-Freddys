@@ -62,7 +62,7 @@ public class PaperPalsEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("paper_pals").setRegistryName("paper_pals");
 
 	public PaperPalsEntity(UltimateFnafModModElements instance) {
-		super(instance, 447);
+		super(instance, 446);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PaperPalsRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

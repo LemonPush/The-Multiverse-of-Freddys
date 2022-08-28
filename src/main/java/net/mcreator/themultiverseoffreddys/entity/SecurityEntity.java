@@ -50,7 +50,7 @@ public class SecurityEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("security").setRegistryName("security");
 
 	public SecurityEntity(UltimateFnafModModElements instance) {
-		super(instance, 921);
+		super(instance, 920);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SecurityRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

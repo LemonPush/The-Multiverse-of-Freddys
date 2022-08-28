@@ -58,7 +58,7 @@ public class GamesEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("games").setRegistryName("games");
 
 	public GamesEntity(UltimateFnafModModElements instance) {
-		super(instance, 345);
+		super(instance, 344);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GamesRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

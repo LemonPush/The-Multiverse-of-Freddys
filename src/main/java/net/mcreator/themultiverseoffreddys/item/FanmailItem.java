@@ -18,7 +18,7 @@ public class FanmailItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public FanmailItem(UltimateFnafModModElements instance) {
-		super(instance, 368);
+		super(instance, 367);
 	}
 
 	@Override

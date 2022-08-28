@@ -28,7 +28,7 @@ public class GarbageBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public GarbageBlock(UltimateFnafModModElements instance) {
-		super(instance, 263);
+		super(instance, 262);
 	}
 
 	@Override

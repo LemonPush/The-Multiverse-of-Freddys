@@ -32,7 +32,7 @@ public class NoAiBucketEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_ai_bucket").setRegistryName("no_ai_bucket");
 
 	public NoAiBucketEntity(UltimateFnafModModElements instance) {
-		super(instance, 648);
+		super(instance, 647);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiBucketRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

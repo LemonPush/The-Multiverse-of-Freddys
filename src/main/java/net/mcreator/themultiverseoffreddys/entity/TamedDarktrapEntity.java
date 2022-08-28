@@ -63,7 +63,7 @@ public class TamedDarktrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_darktrap").setRegistryName("tamed_darktrap");
 
 	public TamedDarktrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 1015);
+		super(instance, 1014);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedDarktrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

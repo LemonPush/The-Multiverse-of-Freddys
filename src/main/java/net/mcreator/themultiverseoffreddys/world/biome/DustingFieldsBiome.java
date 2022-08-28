@@ -52,7 +52,7 @@ public class DustingFieldsBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public DustingFieldsBiome(UltimateFnafModModElements instance) {
-		super(instance, 1513);
+		super(instance, 1512);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

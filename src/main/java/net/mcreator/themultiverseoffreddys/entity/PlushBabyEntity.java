@@ -54,7 +54,7 @@ public class PlushBabyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("plush_baby").setRegistryName("plush_baby");
 
 	public PlushBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 663);
+		super(instance, 662);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PlushBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

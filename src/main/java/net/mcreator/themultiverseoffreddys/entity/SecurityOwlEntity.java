@@ -53,7 +53,7 @@ public class SecurityOwlEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("security_owl").setRegistryName("security_owl");
 
 	public SecurityOwlEntity(UltimateFnafModModElements instance) {
-		super(instance, 922);
+		super(instance, 921);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SecurityOwlRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

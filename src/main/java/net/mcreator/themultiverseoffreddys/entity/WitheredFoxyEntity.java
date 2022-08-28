@@ -62,7 +62,7 @@ public class WitheredFoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("withered_foxy").setRegistryName("withered_foxy");
 
 	public WitheredFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 444);
+		super(instance, 443);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WitheredFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

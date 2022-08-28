@@ -17,7 +17,7 @@ public class F2IconItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public F2IconItem(UltimateFnafModModElements instance) {
-		super(instance, 1523);
+		super(instance, 1522);
 	}
 
 	@Override

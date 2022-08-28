@@ -57,7 +57,7 @@ public class TamedWitheredGlamrockChicaEntity extends UltimateFnafModModElements
 			.size(0.6f, 2.4f)).build("tamed_withered_glamrock_chica").setRegistryName("tamed_withered_glamrock_chica");
 
 	public TamedWitheredGlamrockChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 730);
+		super(instance, 729);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedWitheredGlamrockChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

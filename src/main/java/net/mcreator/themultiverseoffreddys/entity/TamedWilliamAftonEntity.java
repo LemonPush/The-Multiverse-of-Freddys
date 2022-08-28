@@ -68,7 +68,7 @@ public class TamedWilliamAftonEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.9f, 1.8f)).build("tamed_william_afton").setRegistryName("tamed_william_afton");
 
 	public TamedWilliamAftonEntity(UltimateFnafModModElements instance) {
-		super(instance, 1193);
+		super(instance, 1192);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedWilliamAftonRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

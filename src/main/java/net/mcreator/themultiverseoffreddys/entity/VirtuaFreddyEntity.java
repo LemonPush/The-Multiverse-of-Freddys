@@ -57,7 +57,7 @@ public class VirtuaFreddyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("virtua_freddy").setRegistryName("virtua_freddy");
 
 	public VirtuaFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 469);
+		super(instance, 468);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new VirtuaFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

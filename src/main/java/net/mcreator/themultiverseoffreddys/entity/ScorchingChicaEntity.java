@@ -62,7 +62,7 @@ public class ScorchingChicaEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("scorching_chica").setRegistryName("scorching_chica");
 
 	public ScorchingChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 762);
+		super(instance, 761);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ScorchingChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

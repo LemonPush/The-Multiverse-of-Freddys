@@ -37,7 +37,7 @@ public class AgonysuitItem extends UltimateFnafModModElements.ModElement {
 	public static final Item boots = null;
 
 	public AgonysuitItem(UltimateFnafModModElements instance) {
-		super(instance, 375);
+		super(instance, 374);
 	}
 
 	@Override

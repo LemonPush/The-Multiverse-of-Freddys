@@ -59,7 +59,7 @@ public class EleanorEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("eleanor").setRegistryName("eleanor");
 
 	public EleanorEntity(UltimateFnafModModElements instance) {
-		super(instance, 226);
+		super(instance, 225);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EleanorRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

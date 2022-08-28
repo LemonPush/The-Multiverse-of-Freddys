@@ -62,7 +62,7 @@ public class JetpackBBEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("jetpack_bb").setRegistryName("jetpack_bb");
 
 	public JetpackBBEntity(UltimateFnafModModElements instance) {
-		super(instance, 807);
+		super(instance, 806);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new JetpackBBRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

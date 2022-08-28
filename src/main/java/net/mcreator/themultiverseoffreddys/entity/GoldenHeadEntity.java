@@ -54,7 +54,7 @@ public class GoldenHeadEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("golden_head").setRegistryName("golden_head");
 
 	public GoldenHeadEntity(UltimateFnafModModElements instance) {
-		super(instance, 449);
+		super(instance, 448);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GoldenHeadRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -62,7 +62,7 @@ public class LittleRedChicaEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("little_red_chica").setRegistryName("little_red_chica");
 
 	public LittleRedChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 800);
+		super(instance, 799);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new LittleRedChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

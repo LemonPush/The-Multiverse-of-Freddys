@@ -13,7 +13,7 @@ import net.mcreator.themultiverseoffreddys.UltimateFnafModModElements;
 @UltimateFnafModModElements.ModElement.Tag
 public class TJoCTabItemGroup extends UltimateFnafModModElements.ModElement {
 	public TJoCTabItemGroup(UltimateFnafModModElements instance) {
-		super(instance, 1535);
+		super(instance, 1534);
 	}
 
 	@Override

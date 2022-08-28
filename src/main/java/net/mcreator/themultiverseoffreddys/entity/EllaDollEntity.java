@@ -59,7 +59,7 @@ public class EllaDollEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("ella_doll").setRegistryName("ella_doll");
 
 	public EllaDollEntity(UltimateFnafModModElements instance) {
-		super(instance, 206);
+		super(instance, 205);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EllaDollRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

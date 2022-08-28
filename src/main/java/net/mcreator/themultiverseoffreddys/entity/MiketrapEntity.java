@@ -60,7 +60,7 @@ public class MiketrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("miketrap").setRegistryName("miketrap");
 
 	public MiketrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 273);
+		super(instance, 272);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MiketrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

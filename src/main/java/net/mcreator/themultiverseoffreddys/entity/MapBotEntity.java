@@ -59,7 +59,7 @@ public class MapBotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("map_bot").setRegistryName("map_bot");
 
 	public MapBotEntity(UltimateFnafModModElements instance) {
-		super(instance, 699);
+		super(instance, 698);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MapBotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

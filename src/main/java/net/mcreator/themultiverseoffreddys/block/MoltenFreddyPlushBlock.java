@@ -40,7 +40,7 @@ public class MoltenFreddyPlushBlock extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public MoltenFreddyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 633);
+		super(instance, 632);
 	}
 
 	@Override

@@ -59,7 +59,7 @@ public class HammerHeadPuppetEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("hammer_head_puppet").setRegistryName("hammer_head_puppet");
 
 	public HammerHeadPuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 480);
+		super(instance, 479);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HammerHeadPuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

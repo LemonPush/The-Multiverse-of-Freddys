@@ -32,7 +32,7 @@ public class NoAIMangleEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_mangle").setRegistryName("no_ai_mangle");
 
 	public NoAIMangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 1679);
+		super(instance, 1678);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAIMangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

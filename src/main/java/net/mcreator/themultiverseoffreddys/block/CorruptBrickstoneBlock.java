@@ -26,7 +26,7 @@ public class CorruptBrickstoneBlock extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public CorruptBrickstoneBlock(UltimateFnafModModElements instance) {
-		super(instance, 924);
+		super(instance, 923);
 	}
 
 	@Override

@@ -51,7 +51,7 @@ public class TheRealJakeBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public TheRealJakeBlock(UltimateFnafModModElements instance) {
-		super(instance, 182);
+		super(instance, 181);
 	}
 
 	@Override

@@ -26,7 +26,7 @@ public class PizzeriaWallFNaF2Block extends UltimateFnafModModElements.ModElemen
 	public static final Block block = null;
 
 	public PizzeriaWallFNaF2Block(UltimateFnafModModElements instance) {
-		super(instance, 145);
+		super(instance, 144);
 	}
 
 	@Override

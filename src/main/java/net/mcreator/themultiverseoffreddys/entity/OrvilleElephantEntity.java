@@ -62,7 +62,7 @@ public class OrvilleElephantEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.4f)).build("orville_elephant").setRegistryName("orville_elephant");
 
 	public OrvilleElephantEntity(UltimateFnafModModElements instance) {
-		super(instance, 600);
+		super(instance, 599);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new OrvilleElephantRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

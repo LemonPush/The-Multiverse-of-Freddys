@@ -40,7 +40,7 @@ public class NightmareChicaPlushBlock extends UltimateFnafModModElements.ModElem
 	public static final Block block = null;
 
 	public NightmareChicaPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 551);
+		super(instance, 550);
 	}
 
 	@Override

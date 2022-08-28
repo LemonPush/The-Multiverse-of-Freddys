@@ -62,7 +62,7 @@ public class WoodlandToyFreddyEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("woodland_toy_freddy").setRegistryName("woodland_toy_freddy");
 
 	public WoodlandToyFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 788);
+		super(instance, 787);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WoodlandToyFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

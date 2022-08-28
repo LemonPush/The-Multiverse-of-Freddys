@@ -62,7 +62,7 @@ public class PiranhaPlushtrapEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 1.8f)).build("piranha_plushtrap").setRegistryName("piranha_plushtrap");
 
 	public PiranhaPlushtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 803);
+		super(instance, 802);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PiranhaPlushtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -62,7 +62,7 @@ public class JackOBonnieEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("jack_o_bonnie").setRegistryName("jack_o_bonnie");
 
 	public JackOBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 543);
+		super(instance, 542);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new JackOBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

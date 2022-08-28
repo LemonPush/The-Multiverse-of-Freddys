@@ -57,7 +57,7 @@ public class VinnieEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("vinnie").setRegistryName("vinnie");
 
 	public VinnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 885);
+		super(instance, 884);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new VinnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

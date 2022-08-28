@@ -59,7 +59,7 @@ public class UglyFoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("ugly_foxy").setRegistryName("ugly_foxy");
 
 	public UglyFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 341);
+		super(instance, 340);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new UglyFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -65,7 +65,7 @@ public class ScraptrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("scraptrap").setRegistryName("scraptrap");
 
 	public ScraptrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 612);
+		super(instance, 611);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ScraptrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

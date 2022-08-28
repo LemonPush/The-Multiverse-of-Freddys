@@ -17,7 +17,7 @@ public class BlastItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public BlastItem(UltimateFnafModModElements instance) {
-		super(instance, 1161);
+		super(instance, 1160);
 	}
 
 	@Override

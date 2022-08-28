@@ -40,7 +40,7 @@ public class CircusBabyPlushBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public CircusBabyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 579);
+		super(instance, 578);
 	}
 
 	@Override

@@ -57,7 +57,7 @@ public class BuffHelpyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("buff_helpy").setRegistryName("buff_helpy");
 
 	public BuffHelpyEntity(UltimateFnafModModElements instance) {
-		super(instance, 421);
+		super(instance, 420);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BuffHelpyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

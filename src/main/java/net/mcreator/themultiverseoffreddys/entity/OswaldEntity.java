@@ -57,7 +57,7 @@ public class OswaldEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("oswald").setRegistryName("oswald");
 
 	public OswaldEntity(UltimateFnafModModElements instance) {
-		super(instance, 867);
+		super(instance, 866);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new OswaldRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

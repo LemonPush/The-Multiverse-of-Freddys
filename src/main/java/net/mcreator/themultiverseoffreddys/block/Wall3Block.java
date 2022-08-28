@@ -26,7 +26,7 @@ public class Wall3Block extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public Wall3Block(UltimateFnafModModElements instance) {
-		super(instance, 149);
+		super(instance, 147);
 	}
 
 	@Override

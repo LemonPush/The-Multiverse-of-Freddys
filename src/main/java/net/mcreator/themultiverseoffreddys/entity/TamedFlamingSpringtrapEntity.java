@@ -66,7 +66,7 @@ public class TamedFlamingSpringtrapEntity extends UltimateFnafModModElements.Mod
 			.size(0.6f, 1.7999999999999998f)).build("tamed_flaming_springtrap").setRegistryName("tamed_flaming_springtrap");
 
 	public TamedFlamingSpringtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 779);
+		super(instance, 778);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedFlamingSpringtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

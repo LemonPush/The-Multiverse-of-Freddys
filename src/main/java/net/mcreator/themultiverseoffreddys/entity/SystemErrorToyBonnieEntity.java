@@ -62,7 +62,7 @@ public class SystemErrorToyBonnieEntity extends UltimateFnafModModElements.ModEl
 			.size(0.6f, 2.4f)).build("system_error_toy_bonnie").setRegistryName("system_error_toy_bonnie");
 
 	public SystemErrorToyBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 753);
+		super(instance, 752);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SystemErrorToyBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

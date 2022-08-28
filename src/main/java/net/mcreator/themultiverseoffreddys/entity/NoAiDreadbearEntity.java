@@ -39,7 +39,7 @@ public class NoAiDreadbearEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("no_ai_dreadbear").setRegistryName("no_ai_dreadbear");
 
 	public NoAiDreadbearEntity(UltimateFnafModModElements instance) {
-		super(instance, 1780);
+		super(instance, 1779);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiDreadbearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

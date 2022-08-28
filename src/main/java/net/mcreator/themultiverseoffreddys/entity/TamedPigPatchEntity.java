@@ -56,7 +56,7 @@ public class TamedPigPatchEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_pig_patch").setRegistryName("tamed_pig_patch");
 
 	public TamedPigPatchEntity(UltimateFnafModModElements instance) {
-		super(instance, 1026);
+		super(instance, 1025);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedPigPatchRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

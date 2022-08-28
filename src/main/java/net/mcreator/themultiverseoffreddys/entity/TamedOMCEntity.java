@@ -56,7 +56,7 @@ public class TamedOMCEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_omc").setRegistryName("tamed_omc");
 
 	public TamedOMCEntity(UltimateFnafModModElements instance) {
-		super(instance, 1047);
+		super(instance, 1046);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedOMCRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

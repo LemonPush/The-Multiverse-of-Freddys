@@ -30,7 +30,7 @@ public class LureAR2Item extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public LureAR2Item(UltimateFnafModModElements instance) {
-		super(instance, 844);
+		super(instance, 843);
 	}
 
 	@Override

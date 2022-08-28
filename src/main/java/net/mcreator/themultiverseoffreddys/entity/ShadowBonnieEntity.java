@@ -71,7 +71,7 @@ public class ShadowBonnieEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("shadow_bonnie").setRegistryName("shadow_bonnie");
 
 	public ShadowBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 519);
+		super(instance, 518);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShadowBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

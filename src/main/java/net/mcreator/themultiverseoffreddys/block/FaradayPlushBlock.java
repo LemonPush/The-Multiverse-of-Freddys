@@ -38,7 +38,7 @@ public class FaradayPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public FaradayPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 241);
+		super(instance, 240);
 	}
 
 	@Override

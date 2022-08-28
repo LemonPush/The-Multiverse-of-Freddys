@@ -59,7 +59,7 @@ public class ScrapBalloraEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("scrap_ballora").setRegistryName("scrap_ballora");
 
 	public ScrapBalloraEntity(UltimateFnafModModElements instance) {
-		super(instance, 296);
+		super(instance, 295);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ScrapBalloraRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

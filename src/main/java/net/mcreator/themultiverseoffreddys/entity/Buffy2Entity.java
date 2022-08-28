@@ -57,7 +57,7 @@ public class Buffy2Entity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("buffy_2").setRegistryName("buffy_2");
 
 	public Buffy2Entity(UltimateFnafModModElements instance) {
-		super(instance, 344);
+		super(instance, 343);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new Buffy2Renderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

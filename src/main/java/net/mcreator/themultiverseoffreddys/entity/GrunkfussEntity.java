@@ -57,7 +57,7 @@ public class GrunkfussEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("grunkfuss").setRegistryName("grunkfuss");
 
 	public GrunkfussEntity(UltimateFnafModModElements instance) {
-		super(instance, 859);
+		super(instance, 858);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GrunkfussRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

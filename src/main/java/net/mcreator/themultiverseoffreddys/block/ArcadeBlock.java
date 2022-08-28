@@ -42,7 +42,7 @@ public class ArcadeBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ArcadeBlock(UltimateFnafModModElements instance) {
-		super(instance, 350);
+		super(instance, 349);
 	}
 
 	@Override

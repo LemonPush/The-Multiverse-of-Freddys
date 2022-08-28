@@ -40,7 +40,7 @@ public class FuntimeFoxyPlushBlock extends UltimateFnafModModElements.ModElement
 	public static final Block block = null;
 
 	public FuntimeFoxyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 582);
+		super(instance, 581);
 	}
 
 	@Override

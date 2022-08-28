@@ -62,7 +62,7 @@ public class RadioactiveFoxyEntity extends UltimateFnafModModElements.ModElement
 			.size(0.6f, 2.4f)).build("radioactive_foxy").setRegistryName("radioactive_foxy");
 
 	public RadioactiveFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 756);
+		super(instance, 755);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RadioactiveFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

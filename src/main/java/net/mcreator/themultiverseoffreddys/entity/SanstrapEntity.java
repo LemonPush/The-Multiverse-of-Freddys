@@ -57,7 +57,7 @@ public class SanstrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("sanstrap").setRegistryName("sanstrap");
 
 	public SanstrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 428);
+		super(instance, 427);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SanstrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

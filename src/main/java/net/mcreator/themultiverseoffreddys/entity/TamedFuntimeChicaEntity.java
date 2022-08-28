@@ -56,7 +56,7 @@ public class TamedFuntimeChicaEntity extends UltimateFnafModModElements.ModEleme
 			.size(0.6f, 2.4f)).build("tamed_funtime_chica").setRegistryName("tamed_funtime_chica");
 
 	public TamedFuntimeChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 1036);
+		super(instance, 1035);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedFuntimeChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -40,7 +40,7 @@ public class WChicaPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public WChicaPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 459);
+		super(instance, 458);
 	}
 
 	@Override

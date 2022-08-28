@@ -55,7 +55,7 @@ public class PhantomToyBonnieEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("phantom_toy_bonnie").setRegistryName("phantom_toy_bonnie");
 
 	public PhantomToyBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 316);
+		super(instance, 315);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PhantomToyBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

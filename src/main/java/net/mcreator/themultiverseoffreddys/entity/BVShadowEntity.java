@@ -59,7 +59,7 @@ public class BVShadowEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("bv_shadow").setRegistryName("bv_shadow");
 
 	public BVShadowEntity(UltimateFnafModModElements instance) {
-		super(instance, 277);
+		super(instance, 276);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BVShadowRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

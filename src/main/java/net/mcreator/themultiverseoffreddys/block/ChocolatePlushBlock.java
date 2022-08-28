@@ -40,7 +40,7 @@ public class ChocolatePlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ChocolatePlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 832);
+		super(instance, 831);
 	}
 
 	@Override

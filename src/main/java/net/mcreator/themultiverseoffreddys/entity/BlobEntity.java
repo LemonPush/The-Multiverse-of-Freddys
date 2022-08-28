@@ -62,7 +62,7 @@ public class BlobEntity extends UltimateFnafModModElements.ModElement {
 			.size(3.6f, 3.6f)).build("blob").setRegistryName("blob");
 
 	public BlobEntity(UltimateFnafModModElements instance) {
-		super(instance, 710);
+		super(instance, 709);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlobRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

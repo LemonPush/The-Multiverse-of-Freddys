@@ -13,7 +13,7 @@ import net.mcreator.themultiverseoffreddys.UltimateFnafModModElements;
 @UltimateFnafModModElements.ModElement.Tag
 public class PopgoesTabItemGroup extends UltimateFnafModModElements.ModElement {
 	public PopgoesTabItemGroup(UltimateFnafModModElements instance) {
-		super(instance, 1533);
+		super(instance, 1532);
 	}
 
 	@Override

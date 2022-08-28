@@ -62,7 +62,7 @@ public class ToyFreddyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("toy_freddy").setRegistryName("toy_freddy");
 
 	public ToyFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 434);
+		super(instance, 433);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ToyFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

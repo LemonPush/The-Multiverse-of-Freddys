@@ -57,7 +57,7 @@ public class AcephalousEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("acephalous").setRegistryName("acephalous");
 
 	public AcephalousEntity(UltimateFnafModModElements instance) {
-		super(instance, 868);
+		super(instance, 867);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AcephalousRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

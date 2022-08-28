@@ -34,7 +34,7 @@ public class DreadbearHubSpawnerBlock extends UltimateFnafModModElements.ModElem
 	public static final Block block = null;
 
 	public DreadbearHubSpawnerBlock(UltimateFnafModModElements instance) {
-		super(instance, 686);
+		super(instance, 685);
 	}
 
 	@Override

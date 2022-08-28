@@ -31,7 +31,7 @@ public class BlueBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public BlueBlock(UltimateFnafModModElements instance) {
-		super(instance, 385);
+		super(instance, 384);
 	}
 
 	@Override

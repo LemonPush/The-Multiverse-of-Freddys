@@ -28,7 +28,7 @@ public class FazGooBlockBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public FazGooBlockBlock(UltimateFnafModModElements instance) {
-		super(instance, 262);
+		super(instance, 261);
 	}
 
 	@Override

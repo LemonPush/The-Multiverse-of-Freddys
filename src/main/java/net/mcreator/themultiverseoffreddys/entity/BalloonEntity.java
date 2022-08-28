@@ -62,7 +62,7 @@ public class BalloonEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("balloon").setRegistryName("balloon");
 
 	public BalloonEntity(UltimateFnafModModElements instance) {
-		super(instance, 594);
+		super(instance, 593);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BalloonRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

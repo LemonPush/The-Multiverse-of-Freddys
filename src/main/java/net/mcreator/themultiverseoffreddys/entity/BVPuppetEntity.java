@@ -59,7 +59,7 @@ public class BVPuppetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("bv_puppet").setRegistryName("bv_puppet");
 
 	public BVPuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 276);
+		super(instance, 275);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BVPuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

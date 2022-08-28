@@ -57,7 +57,7 @@ public class TheFaceEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("the_face").setRegistryName("the_face");
 
 	public TheFaceEntity(UltimateFnafModModElements instance) {
-		super(instance, 870);
+		super(instance, 869);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TheFaceRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

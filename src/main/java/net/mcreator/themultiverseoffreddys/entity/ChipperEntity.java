@@ -70,7 +70,7 @@ public class ChipperEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("chipper").setRegistryName("chipper");
 
 	public ChipperEntity(UltimateFnafModModElements instance) {
-		super(instance, 409);
+		super(instance, 408);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChipperRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

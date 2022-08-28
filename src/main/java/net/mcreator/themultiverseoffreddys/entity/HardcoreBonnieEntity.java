@@ -62,7 +62,7 @@ public class HardcoreBonnieEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 2.4f)).build("hardcore_bonnie").setRegistryName("hardcore_bonnie");
 
 	public HardcoreBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 654);
+		super(instance, 653);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HardcoreBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

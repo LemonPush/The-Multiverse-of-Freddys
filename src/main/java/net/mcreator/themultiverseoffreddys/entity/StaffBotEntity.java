@@ -59,7 +59,7 @@ public class StaffBotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("staff_bot").setRegistryName("staff_bot");
 
 	public StaffBotEntity(UltimateFnafModModElements instance) {
-		super(instance, 698);
+		super(instance, 697);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new StaffBotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

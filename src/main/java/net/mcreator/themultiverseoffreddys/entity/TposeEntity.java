@@ -59,7 +59,7 @@ public class TposeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tpose").setRegistryName("tpose");
 
 	public TposeEntity(UltimateFnafModModElements instance) {
-		super(instance, 346);
+		super(instance, 345);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TposeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

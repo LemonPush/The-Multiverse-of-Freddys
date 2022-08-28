@@ -38,7 +38,7 @@ public class DevilFreddyPlushBlock extends UltimateFnafModModElements.ModElement
 	public static final Block block = null;
 
 	public DevilFreddyPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 333);
+		super(instance, 332);
 	}
 
 	@Override

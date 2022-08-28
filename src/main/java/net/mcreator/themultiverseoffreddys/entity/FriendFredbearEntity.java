@@ -59,7 +59,7 @@ public class FriendFredbearEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 1.8f)).build("friend_fredbear").setRegistryName("friend_fredbear");
 
 	public FriendFredbearEntity(UltimateFnafModModElements instance) {
-		super(instance, 272);
+		super(instance, 271);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FriendFredbearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

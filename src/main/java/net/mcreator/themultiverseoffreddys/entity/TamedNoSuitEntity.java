@@ -63,7 +63,7 @@ public class TamedNoSuitEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tamed_no_suit").setRegistryName("tamed_no_suit");
 
 	public TamedNoSuitEntity(UltimateFnafModModElements instance) {
-		super(instance, 977);
+		super(instance, 976);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedNoSuitRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

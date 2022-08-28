@@ -24,7 +24,7 @@ public class AgonyTrophyItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public AgonyTrophyItem(UltimateFnafModModElements instance) {
-		super(instance, 367);
+		super(instance, 366);
 	}
 
 	@Override

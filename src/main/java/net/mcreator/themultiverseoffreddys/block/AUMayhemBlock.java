@@ -43,7 +43,7 @@ public class AUMayhemBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public AUMayhemBlock(UltimateFnafModModElements instance) {
-		super(instance, 389);
+		super(instance, 388);
 	}
 
 	@Override

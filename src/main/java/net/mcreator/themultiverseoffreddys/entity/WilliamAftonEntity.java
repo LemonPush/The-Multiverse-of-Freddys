@@ -61,7 +61,7 @@ public class WilliamAftonEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.9f, 1.8f)).build("william_afton").setRegistryName("william_afton");
 
 	public WilliamAftonEntity(UltimateFnafModModElements instance) {
-		super(instance, 520);
+		super(instance, 519);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new WilliamAftonRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -40,7 +40,7 @@ public class HighScorePlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public HighScorePlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 835);
+		super(instance, 834);
 	}
 
 	@Override

@@ -62,7 +62,7 @@ public class MeltedChocolateBonnieEntity extends UltimateFnafModModElements.ModE
 			.size(0.6f, 2.4f)).build("melted_chocolate_bonnie").setRegistryName("melted_chocolate_bonnie");
 
 	public MeltedChocolateBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 799);
+		super(instance, 798);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MeltedChocolateBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

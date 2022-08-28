@@ -59,7 +59,7 @@ public class BouncePotEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("bounce_pot").setRegistryName("bounce_pot");
 
 	public BouncePotEntity(UltimateFnafModModElements instance) {
-		super(instance, 470);
+		super(instance, 469);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BouncePotRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

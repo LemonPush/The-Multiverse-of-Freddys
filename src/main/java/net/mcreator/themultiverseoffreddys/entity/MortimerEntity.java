@@ -57,7 +57,7 @@ public class MortimerEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("mortimer").setRegistryName("mortimer");
 
 	public MortimerEntity(UltimateFnafModModElements instance) {
-		super(instance, 872);
+		super(instance, 871);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MortimerRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

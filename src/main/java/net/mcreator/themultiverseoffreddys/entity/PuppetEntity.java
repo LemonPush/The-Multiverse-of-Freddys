@@ -62,7 +62,7 @@ public class PuppetEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("puppet").setRegistryName("puppet");
 
 	public PuppetEntity(UltimateFnafModModElements instance) {
-		super(instance, 439);
+		super(instance, 438);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PuppetRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

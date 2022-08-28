@@ -26,7 +26,7 @@ public class ConfettiWallBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ConfettiWallBlock(UltimateFnafModModElements instance) {
-		super(instance, 147);
+		super(instance, 146);
 	}
 
 	@Override

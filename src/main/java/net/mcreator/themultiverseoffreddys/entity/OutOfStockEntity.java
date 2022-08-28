@@ -59,7 +59,7 @@ public class OutOfStockEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("out_of_stock").setRegistryName("out_of_stock");
 
 	public OutOfStockEntity(UltimateFnafModModElements instance) {
-		super(instance, 205);
+		super(instance, 204);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new OutOfStockRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

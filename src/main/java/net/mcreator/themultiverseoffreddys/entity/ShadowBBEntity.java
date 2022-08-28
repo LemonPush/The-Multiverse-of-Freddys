@@ -59,7 +59,7 @@ public class ShadowBBEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("shadow_bb").setRegistryName("shadow_bb");
 
 	public ShadowBBEntity(UltimateFnafModModElements instance) {
-		super(instance, 310);
+		super(instance, 309);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShadowBBRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

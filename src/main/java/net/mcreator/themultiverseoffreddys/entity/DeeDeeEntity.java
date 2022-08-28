@@ -62,7 +62,7 @@ public class DeeDeeEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("dee_dee").setRegistryName("dee_dee");
 
 	public DeeDeeEntity(UltimateFnafModModElements instance) {
-		super(instance, 397);
+		super(instance, 396);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DeeDeeRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

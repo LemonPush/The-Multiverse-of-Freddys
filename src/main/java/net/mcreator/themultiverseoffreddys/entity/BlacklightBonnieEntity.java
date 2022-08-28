@@ -59,7 +59,7 @@ public class BlacklightBonnieEntity extends UltimateFnafModModElements.ModElemen
 			.size(0.6f, 2.4f)).build("blacklight_bonnie").setRegistryName("blacklight_bonnie");
 
 	public BlacklightBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 284);
+		super(instance, 283);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlacklightBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

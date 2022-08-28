@@ -32,7 +32,7 @@ public class SpringtrapFleshItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public SpringtrapFleshItem(UltimateFnafModModElements instance) {
-		super(instance, 189);
+		super(instance, 188);
 	}
 
 	@Override

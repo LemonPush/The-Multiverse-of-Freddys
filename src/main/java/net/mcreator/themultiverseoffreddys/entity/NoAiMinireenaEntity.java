@@ -56,7 +56,7 @@ public class NoAiMinireenaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.8f)).build("no_ai_minireena").setRegistryName("no_ai_minireena");
 
 	public NoAiMinireenaEntity(UltimateFnafModModElements instance) {
-		super(instance, 1728);
+		super(instance, 1727);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiMinireenaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

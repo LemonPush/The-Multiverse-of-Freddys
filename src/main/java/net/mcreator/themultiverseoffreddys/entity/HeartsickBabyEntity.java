@@ -62,7 +62,7 @@ public class HeartsickBabyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("heartsick_baby").setRegistryName("heartsick_baby");
 
 	public HeartsickBabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 796);
+		super(instance, 795);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HeartsickBabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

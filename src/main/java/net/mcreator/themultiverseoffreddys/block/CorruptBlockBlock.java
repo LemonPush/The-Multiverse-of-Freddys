@@ -26,7 +26,7 @@ public class CorruptBlockBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public CorruptBlockBlock(UltimateFnafModModElements instance) {
-		super(instance, 923);
+		super(instance, 922);
 	}
 
 	@Override

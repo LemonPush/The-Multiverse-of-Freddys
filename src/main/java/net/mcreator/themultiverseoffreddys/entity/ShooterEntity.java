@@ -46,7 +46,7 @@ public class ShooterEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("shooter").setRegistryName("shooter");
 
 	public ShooterEntity(UltimateFnafModModElements instance) {
-		super(instance, 256);
+		super(instance, 255);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShooterRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

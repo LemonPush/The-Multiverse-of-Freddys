@@ -51,7 +51,7 @@ public class ShooterPurpleEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("shooter_purple").setRegistryName("shooter_purple");
 
 	public ShooterPurpleEntity(UltimateFnafModModElements instance) {
-		super(instance, 258);
+		super(instance, 257);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShooterPurpleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

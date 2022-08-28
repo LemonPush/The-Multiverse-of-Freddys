@@ -39,7 +39,7 @@ public class NoAiGlitchtrapEntity extends UltimateFnafModModElements.ModElement 
 			.size(0.6f, 1.8f)).build("no_ai_glitchtrap").setRegistryName("no_ai_glitchtrap");
 
 	public NoAiGlitchtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 1775);
+		super(instance, 1774);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiGlitchtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

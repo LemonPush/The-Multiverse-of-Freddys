@@ -63,7 +63,7 @@ public class TamedHelpyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_helpy").setRegistryName("tamed_helpy");
 
 	public TamedHelpyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1029);
+		super(instance, 1028);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedHelpyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -34,7 +34,7 @@ public class TheoryBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public TheoryBiome(UltimateFnafModModElements instance) {
-		super(instance, 1841);
+		super(instance, 1840);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

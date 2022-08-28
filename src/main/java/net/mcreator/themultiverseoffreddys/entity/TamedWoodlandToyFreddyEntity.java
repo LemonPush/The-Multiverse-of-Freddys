@@ -56,7 +56,7 @@ public class TamedWoodlandToyFreddyEntity extends UltimateFnafModModElements.Mod
 			.size(0.6f, 2.4f)).build("tamed_woodland_toy_freddy").setRegistryName("tamed_woodland_toy_freddy");
 
 	public TamedWoodlandToyFreddyEntity(UltimateFnafModModElements instance) {
-		super(instance, 817);
+		super(instance, 816);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedWoodlandToyFreddyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

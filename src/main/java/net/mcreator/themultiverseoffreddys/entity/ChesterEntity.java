@@ -57,7 +57,7 @@ public class ChesterEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("chester").setRegistryName("chester");
 
 	public ChesterEntity(UltimateFnafModModElements instance) {
-		super(instance, 881);
+		super(instance, 880);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ChesterRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

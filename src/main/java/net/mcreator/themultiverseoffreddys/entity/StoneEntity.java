@@ -57,7 +57,7 @@ public class StoneEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("stone").setRegistryName("stone");
 
 	public StoneEntity(UltimateFnafModModElements instance) {
-		super(instance, 903);
+		super(instance, 902);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new StoneRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

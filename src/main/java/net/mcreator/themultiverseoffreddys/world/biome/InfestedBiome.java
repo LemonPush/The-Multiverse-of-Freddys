@@ -57,7 +57,7 @@ public class InfestedBiome extends UltimateFnafModModElements.ModElement {
 	public static Biome biome;
 
 	public InfestedBiome(UltimateFnafModModElements instance) {
-		super(instance, 1364);
+		super(instance, 1363);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

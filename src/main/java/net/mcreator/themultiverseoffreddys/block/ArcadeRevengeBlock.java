@@ -55,7 +55,7 @@ public class ArcadeRevengeBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public ArcadeRevengeBlock(UltimateFnafModModElements instance) {
-		super(instance, 179);
+		super(instance, 178);
 	}
 
 	@Override

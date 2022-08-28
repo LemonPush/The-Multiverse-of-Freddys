@@ -56,7 +56,7 @@ public class TamedRingmasterFoxyEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 2.4f)).build("tamed_ringmaster_foxy").setRegistryName("tamed_ringmaster_foxy");
 
 	public TamedRingmasterFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 784);
+		super(instance, 783);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedRingmasterFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

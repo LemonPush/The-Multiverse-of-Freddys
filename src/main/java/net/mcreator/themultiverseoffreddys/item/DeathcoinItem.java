@@ -30,7 +30,7 @@ public class DeathcoinItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public DeathcoinItem(UltimateFnafModModElements instance) {
-		super(instance, 363);
+		super(instance, 362);
 	}
 
 	@Override

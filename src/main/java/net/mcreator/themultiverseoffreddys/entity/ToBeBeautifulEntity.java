@@ -65,7 +65,7 @@ public class ToBeBeautifulEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("to_be_beautiful").setRegistryName("to_be_beautiful");
 
 	public ToBeBeautifulEntity(UltimateFnafModModElements instance) {
-		super(instance, 201);
+		super(instance, 200);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ToBeBeautifulRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -51,7 +51,7 @@ public class MaryJoeBodyBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public MaryJoeBodyBlock(UltimateFnafModModElements instance) {
-		super(instance, 198);
+		super(instance, 197);
 	}
 
 	@Override

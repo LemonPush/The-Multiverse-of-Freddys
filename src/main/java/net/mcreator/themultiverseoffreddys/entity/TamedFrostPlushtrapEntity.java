@@ -56,7 +56,7 @@ public class TamedFrostPlushtrapEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 1.8f)).build("tamed_frost_plushtrap").setRegistryName("tamed_frost_plushtrap");
 
 	public TamedFrostPlushtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 812);
+		super(instance, 811);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedFrostPlushtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

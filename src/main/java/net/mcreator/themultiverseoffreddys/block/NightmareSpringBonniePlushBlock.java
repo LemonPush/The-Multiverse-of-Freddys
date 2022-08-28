@@ -38,7 +38,7 @@ public class NightmareSpringBonniePlushBlock extends UltimateFnafModModElements.
 	public static final Block block = null;
 
 	public NightmareSpringBonniePlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 355);
+		super(instance, 354);
 	}
 
 	@Override

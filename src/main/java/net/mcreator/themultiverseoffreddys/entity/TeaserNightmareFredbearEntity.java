@@ -57,7 +57,7 @@ public class TeaserNightmareFredbearEntity extends UltimateFnafModModElements.Mo
 			.size(0.6f, 3.6f)).build("teaser_nightmare_fredbear").setRegistryName("teaser_nightmare_fredbear");
 
 	public TeaserNightmareFredbearEntity(UltimateFnafModModElements instance) {
-		super(instance, 418);
+		super(instance, 417);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TeaserNightmareFredbearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

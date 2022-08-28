@@ -62,7 +62,7 @@ public class MangleEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("mangle").setRegistryName("mangle");
 
 	public MangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 437);
+		super(instance, 436);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

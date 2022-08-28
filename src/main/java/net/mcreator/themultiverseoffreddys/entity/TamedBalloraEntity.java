@@ -63,7 +63,7 @@ public class TamedBalloraEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("tamed_ballora").setRegistryName("tamed_ballora");
 
 	public TamedBalloraEntity(UltimateFnafModModElements instance) {
-		super(instance, 1005);
+		super(instance, 1004);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBalloraRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

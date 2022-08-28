@@ -62,7 +62,7 @@ public class EasterBonnieEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("easter_bonnie").setRegistryName("easter_bonnie");
 
 	public EasterBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 751);
+		super(instance, 750);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EasterBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

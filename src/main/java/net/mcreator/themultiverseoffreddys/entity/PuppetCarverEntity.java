@@ -59,7 +59,7 @@ public class PuppetCarverEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 0.9f)).build("puppet_carver").setRegistryName("puppet_carver");
 
 	public PuppetCarverEntity(UltimateFnafModModElements instance) {
-		super(instance, 216);
+		super(instance, 215);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PuppetCarverRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

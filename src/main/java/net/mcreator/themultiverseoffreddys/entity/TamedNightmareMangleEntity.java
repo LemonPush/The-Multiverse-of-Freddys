@@ -56,7 +56,7 @@ public class TamedNightmareMangleEntity extends UltimateFnafModModElements.ModEl
 			.size(0.6f, 3.6f)).build("tamed_nightmare_mangle").setRegistryName("tamed_nightmare_mangle");
 
 	public TamedNightmareMangleEntity(UltimateFnafModModElements instance) {
-		super(instance, 993);
+		super(instance, 992);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedNightmareMangleRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

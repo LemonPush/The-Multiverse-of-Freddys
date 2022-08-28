@@ -62,7 +62,7 @@ public class BigBadFoxyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("big_bad_foxy").setRegistryName("big_bad_foxy");
 
 	public BigBadFoxyEntity(UltimateFnafModModElements instance) {
-		super(instance, 801);
+		super(instance, 800);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BigBadFoxyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

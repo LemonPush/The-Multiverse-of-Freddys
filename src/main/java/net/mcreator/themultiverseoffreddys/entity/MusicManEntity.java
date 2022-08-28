@@ -62,7 +62,7 @@ public class MusicManEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("music_man").setRegistryName("music_man");
 
 	public MusicManEntity(UltimateFnafModModElements instance) {
-		super(instance, 609);
+		super(instance, 608);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MusicManRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

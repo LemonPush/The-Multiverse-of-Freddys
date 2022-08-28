@@ -66,7 +66,7 @@ public class ShadowTweetieEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("shadow_tweetie").setRegistryName("shadow_tweetie");
 
 	public ShadowTweetieEntity(UltimateFnafModModElements instance) {
-		super(instance, 896);
+		super(instance, 895);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ShadowTweetieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

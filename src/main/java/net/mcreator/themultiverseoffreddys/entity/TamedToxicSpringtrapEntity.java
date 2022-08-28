@@ -63,7 +63,7 @@ public class TamedToxicSpringtrapEntity extends UltimateFnafModModElements.ModEl
 			.size(0.6f, 1.7999999999999998f)).build("tamed_toxic_springtrap").setRegistryName("tamed_toxic_springtrap");
 
 	public TamedToxicSpringtrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 773);
+		super(instance, 772);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedToxicSpringtrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

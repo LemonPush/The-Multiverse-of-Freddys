@@ -59,7 +59,7 @@ public class IgnitedBonnieEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("ignited_bonnie").setRegistryName("ignited_bonnie");
 
 	public IgnitedBonnieEntity(UltimateFnafModModElements instance) {
-		super(instance, 846);
+		super(instance, 845);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new IgnitedBonnieRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -40,7 +40,7 @@ public class YenndoPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public YenndoPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 585);
+		super(instance, 584);
 	}
 
 	@Override

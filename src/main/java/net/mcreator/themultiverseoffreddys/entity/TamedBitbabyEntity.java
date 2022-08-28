@@ -56,7 +56,7 @@ public class TamedBitbabyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("tamed_bitbaby").setRegistryName("tamed_bitbaby");
 
 	public TamedBitbabyEntity(UltimateFnafModModElements instance) {
-		super(instance, 771);
+		super(instance, 770);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedBitbabyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -62,7 +62,7 @@ public class GlamrockChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("glamrock_chica").setRegistryName("glamrock_chica");
 
 	public GlamrockChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 694);
+		super(instance, 693);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GlamrockChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

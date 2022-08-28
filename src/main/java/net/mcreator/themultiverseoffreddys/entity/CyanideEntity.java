@@ -57,7 +57,7 @@ public class CyanideEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("cyanide").setRegistryName("cyanide");
 
 	public CyanideEntity(UltimateFnafModModElements instance) {
-		super(instance, 905);
+		super(instance, 904);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CyanideRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

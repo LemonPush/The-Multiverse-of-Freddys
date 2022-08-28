@@ -56,7 +56,7 @@ public class TamedLittleMusicManEntity extends UltimateFnafModModElements.ModEle
 			.size(0.6f, 0.9f)).build("tamed_little_music_man").setRegistryName("tamed_little_music_man");
 
 	public TamedLittleMusicManEntity(UltimateFnafModModElements instance) {
-		super(instance, 727);
+		super(instance, 726);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TamedLittleMusicManRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

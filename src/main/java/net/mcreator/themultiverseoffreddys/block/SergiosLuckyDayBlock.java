@@ -41,7 +41,7 @@ public class SergiosLuckyDayBlock extends UltimateFnafModModElements.ModElement 
 	public static final Block block = null;
 
 	public SergiosLuckyDayBlock(UltimateFnafModModElements instance) {
-		super(instance, 188);
+		super(instance, 187);
 	}
 
 	@Override

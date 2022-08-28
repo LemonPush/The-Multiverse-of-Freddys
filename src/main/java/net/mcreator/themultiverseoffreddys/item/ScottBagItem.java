@@ -38,7 +38,7 @@ public class ScottBagItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public ScottBagItem(UltimateFnafModModElements instance) {
-		super(instance, 369);
+		super(instance, 368);
 	}
 
 	@Override

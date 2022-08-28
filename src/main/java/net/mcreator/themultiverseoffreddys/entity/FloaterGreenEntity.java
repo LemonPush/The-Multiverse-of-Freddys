@@ -48,7 +48,7 @@ public class FloaterGreenEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.7999999999999998f)).build("floater_green").setRegistryName("floater_green");
 
 	public FloaterGreenEntity(UltimateFnafModModElements instance) {
-		super(instance, 254);
+		super(instance, 253);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FloaterGreenRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

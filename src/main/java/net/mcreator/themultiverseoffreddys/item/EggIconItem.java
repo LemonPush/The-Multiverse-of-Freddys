@@ -17,7 +17,7 @@ public class EggIconItem extends UltimateFnafModModElements.ModElement {
 	public static final Item block = null;
 
 	public EggIconItem(UltimateFnafModModElements instance) {
-		super(instance, 1220);
+		super(instance, 1219);
 	}
 
 	@Override

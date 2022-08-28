@@ -40,7 +40,7 @@ public class RageQuitPlushBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public RageQuitPlushBlock(UltimateFnafModModElements instance) {
-		super(instance, 489);
+		super(instance, 488);
 	}
 
 	@Override

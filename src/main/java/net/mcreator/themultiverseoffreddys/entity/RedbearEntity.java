@@ -59,7 +59,7 @@ public class RedbearEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("redbear").setRegistryName("redbear");
 
 	public RedbearEntity(UltimateFnafModModElements instance) {
-		super(instance, 473);
+		super(instance, 472);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new RedbearRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

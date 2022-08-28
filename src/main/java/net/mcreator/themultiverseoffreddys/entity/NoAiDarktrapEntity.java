@@ -63,7 +63,7 @@ public class NoAiDarktrapEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("no_ai_darktrap").setRegistryName("no_ai_darktrap");
 
 	public NoAiDarktrapEntity(UltimateFnafModModElements instance) {
-		super(instance, 1734);
+		super(instance, 1733);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiDarktrapRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

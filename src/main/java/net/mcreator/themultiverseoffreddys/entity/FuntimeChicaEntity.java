@@ -62,7 +62,7 @@ public class FuntimeChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("funtime_chica").setRegistryName("funtime_chica");
 
 	public FuntimeChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 607);
+		super(instance, 606);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FuntimeChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

@@ -62,7 +62,7 @@ public class JackOChicaEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 3.6f)).build("jack_o_chica").setRegistryName("jack_o_chica");
 
 	public JackOChicaEntity(UltimateFnafModModElements instance) {
-		super(instance, 544);
+		super(instance, 543);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new JackOChicaRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

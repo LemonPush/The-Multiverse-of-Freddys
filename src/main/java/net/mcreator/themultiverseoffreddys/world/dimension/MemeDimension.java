@@ -40,7 +40,7 @@ import com.google.common.collect.ImmutableSet;
 @UltimateFnafModModElements.ModElement.Tag
 public class MemeDimension extends UltimateFnafModModElements.ModElement {
 	public MemeDimension(UltimateFnafModModElements instance) {
-		super(instance, 912);
+		super(instance, 911);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

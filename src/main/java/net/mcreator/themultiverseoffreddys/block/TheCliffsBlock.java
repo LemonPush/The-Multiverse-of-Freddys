@@ -38,7 +38,7 @@ public class TheCliffsBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public TheCliffsBlock(UltimateFnafModModElements instance) {
-		super(instance, 184);
+		super(instance, 183);
 	}
 
 	@Override

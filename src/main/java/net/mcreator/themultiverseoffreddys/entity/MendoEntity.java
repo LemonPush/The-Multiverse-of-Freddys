@@ -57,7 +57,7 @@ public class MendoEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("mendo").setRegistryName("mendo");
 
 	public MendoEntity(UltimateFnafModModElements instance) {
-		super(instance, 467);
+		super(instance, 466);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new MendoRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

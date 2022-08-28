@@ -57,7 +57,7 @@ public class OldCandyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("old_candy").setRegistryName("old_candy");
 
 	public OldCandyEntity(UltimateFnafModModElements instance) {
-		super(instance, 884);
+		super(instance, 883);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new OldCandyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

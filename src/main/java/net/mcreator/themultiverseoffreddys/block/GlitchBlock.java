@@ -28,7 +28,7 @@ public class GlitchBlock extends UltimateFnafModModElements.ModElement {
 	public static final Block block = null;
 
 	public GlitchBlock(UltimateFnafModModElements instance) {
-		super(instance, 259);
+		super(instance, 258);
 	}
 
 	@Override

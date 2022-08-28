@@ -43,7 +43,7 @@ public class NoAiHelpyEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 2.4f)).build("no_ai_helpy").setRegistryName("no_ai_helpy");
 
 	public NoAiHelpyEntity(UltimateFnafModModElements instance) {
-		super(instance, 1744);
+		super(instance, 1743);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NoAiHelpyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

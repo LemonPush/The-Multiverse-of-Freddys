@@ -59,7 +59,7 @@ public class FlanEntity extends UltimateFnafModModElements.ModElement {
 			.size(0.6f, 1.8f)).build("flan").setRegistryName("flan");
 
 	public FlanEntity(UltimateFnafModModElements instance) {
-		super(instance, 477);
+		super(instance, 476);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FlanRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);
