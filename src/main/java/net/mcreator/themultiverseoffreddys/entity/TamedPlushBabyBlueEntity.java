@@ -11,29 +11,24 @@ import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
+import net.minecraft.world.IServerWorld;
+import net.minecraft.world.DifficultyInstance;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.Hand;
 import net.minecraft.util.DamageSource;
-import net.minecraft.util.ActionResultType;
 import net.minecraft.network.IPacket;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.passive.TameableEntity;
+import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.TemptGoal;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
-import net.minecraft.entity.ai.goal.OwnerHurtByTargetGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
-import net.minecraft.entity.ai.goal.FollowOwnerGoal;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.SpawnReason;
@@ -42,12 +37,21 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ILivingEntityData;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.AgeableEntity;
 
+import net.mcreator.themultiverseoffreddys.procedures.MinionSpawnProcedure;
 import net.mcreator.themultiverseoffreddys.item.TapeItem;
 import net.mcreator.themultiverseoffreddys.entity.renderer.TamedPlushBabyBlueRenderer;
 import net.mcreator.themultiverseoffreddys.UltimateFnafModModElements;
+
+import javax.annotation.Nullable;
+
+import java.util.stream.Stream;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 @UltimateFnafModModElements.ModElement.Tag
 public class TamedPlushBabyBlueEntity extends UltimateFnafModModElements.ModElement {
@@ -83,7 +87,7 @@ public class TamedPlushBabyBlueEntity extends UltimateFnafModModElements.ModElem
 		}
 	}
 
-	public static class CustomEntity extends TameableEntity {
+	public static class CustomEntity extends AnimalEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -103,8 +107,6 @@ public class TamedPlushBabyBlueEntity extends UltimateFnafModModElements.ModElem
 		protected void registerGoals() {
 			super.registerGoals();
 			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, MonsterEntity.class, false, false));
-			this.goalSelector.addGoal(2, new FollowOwnerGoal(this, 1, (float) 10, (float) 2, false));
-			this.goalSelector.addGoal(3, new OwnerHurtByTargetGoal(this));
 			this.goalSelector.addGoal(4, new TemptGoal(this, 1, Ingredient.fromItems(TapeItem.block), false));
 			this.goalSelector.addGoal(5, new MeleeAttackGoal(this, 1.2, false) {
 				@Override
@@ -134,47 +136,17 @@ public class TamedPlushBabyBlueEntity extends UltimateFnafModModElements.ModElem
 		}
 
 		@Override
-		public ActionResultType func_230254_b_(PlayerEntity sourceentity, Hand hand) {
-			ItemStack itemstack = sourceentity.getHeldItem(hand);
-			ActionResultType retval = ActionResultType.func_233537_a_(this.world.isRemote());
-			Item item = itemstack.getItem();
-			if (itemstack.getItem() instanceof SpawnEggItem) {
-				retval = super.func_230254_b_(sourceentity, hand);
-			} else if (this.world.isRemote()) {
-				retval = (this.isTamed() && this.isOwner(sourceentity) || this.isBreedingItem(itemstack))
-						? ActionResultType.func_233537_a_(this.world.isRemote())
-						: ActionResultType.PASS;
-			} else {
-				if (this.isTamed()) {
-					if (this.isOwner(sourceentity)) {
-						if (item.isFood() && this.isBreedingItem(itemstack) && this.getHealth() < this.getMaxHealth()) {
-							this.consumeItemFromStack(sourceentity, itemstack);
-							this.heal((float) item.getFood().getHealing());
-							retval = ActionResultType.func_233537_a_(this.world.isRemote());
-						} else if (this.isBreedingItem(itemstack) && this.getHealth() < this.getMaxHealth()) {
-							this.consumeItemFromStack(sourceentity, itemstack);
-							this.heal(4);
-							retval = ActionResultType.func_233537_a_(this.world.isRemote());
-						} else {
-							retval = super.func_230254_b_(sourceentity, hand);
-						}
-					}
-				} else if (this.isBreedingItem(itemstack)) {
-					this.consumeItemFromStack(sourceentity, itemstack);
-					if (this.rand.nextInt(3) == 0 && !net.minecraftforge.event.ForgeEventFactory.onAnimalTame(this, sourceentity)) {
-						this.setTamedBy(sourceentity);
-						this.world.setEntityState(this, (byte) 7);
-					} else {
-						this.world.setEntityState(this, (byte) 6);
-					}
-					this.enablePersistence();
-					retval = ActionResultType.func_233537_a_(this.world.isRemote());
-				} else {
-					retval = super.func_230254_b_(sourceentity, hand);
-					if (retval == ActionResultType.SUCCESS || retval == ActionResultType.CONSUME)
-						this.enablePersistence();
-				}
-			}
+		public ILivingEntityData onInitialSpawn(IServerWorld world, DifficultyInstance difficulty, SpawnReason reason,
+				@Nullable ILivingEntityData livingdata, @Nullable CompoundNBT tag) {
+			ILivingEntityData retval = super.onInitialSpawn(world, difficulty, reason, livingdata, tag);
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity entity = this;
+
+			MinionSpawnProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
 		}
 
