@@ -52,7 +52,7 @@ public class DreadbearHouseStructure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 285) {
+					if ((random.nextInt(1000000) + 1) <= 230) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);

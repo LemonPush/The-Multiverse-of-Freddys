@@ -5,7 +5,7 @@
     "structure": "fnaf6spawner",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 300,
+    "spawnProbability": 265,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
