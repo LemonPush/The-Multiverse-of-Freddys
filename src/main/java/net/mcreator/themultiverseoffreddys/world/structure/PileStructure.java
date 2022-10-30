@@ -48,8 +48,7 @@ public class PileStructure {
 					int ck = (pos.getZ() >> 4) << 4;
 					RegistryKey<World> dimensionType = world.getWorld().getDimensionKey();
 					boolean dimensionCriteria = false;
-					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
-							new ResourceLocation("ultimate_fnaf_mod:deleted_mod_element")))
+					if (dimensionType == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("ultimate_fnaf_mod:au")))
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;

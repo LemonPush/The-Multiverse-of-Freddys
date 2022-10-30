@@ -1,6 +1,7 @@
 package net.mcreator.themultiverseoffreddys.procedures;
 
 import net.minecraft.util.DamageSource;
+import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
@@ -17,8 +18,10 @@ public class DeathcoinLivingEntityIsHitWithToolProcedure {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) <= 500) {
-			entity.attackEntityFrom(DamageSource.GENERIC, (float) 10000);
+		if (entity instanceof MonsterEntity) {
+			if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) <= 100) {
+				entity.attackEntityFrom(DamageSource.GENERIC, (float) 10000);
+			}
 		}
 	}
 }

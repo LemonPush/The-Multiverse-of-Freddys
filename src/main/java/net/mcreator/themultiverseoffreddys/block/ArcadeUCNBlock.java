@@ -61,7 +61,7 @@ public class ArcadeUCNBlock extends UltimateFnafModModElements.ModElement {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(-1, 3600000).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("arcade_ucn");

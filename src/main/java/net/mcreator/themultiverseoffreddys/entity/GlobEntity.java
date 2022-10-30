@@ -23,7 +23,6 @@ import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.merchant.villager.VillagerEntity;
-import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.ai.goal.MeleeAttackGoal;
@@ -41,7 +40,7 @@ import net.minecraft.entity.AreaEffectCloudEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.themultiverseoffreddys.procedures.GlobEntityDiesProcedure;
-import net.mcreator.themultiverseoffreddys.itemgroup.HoaxesTabItemGroup;
+import net.mcreator.themultiverseoffreddys.itemgroup.F3ItemGroup;
 import net.mcreator.themultiverseoffreddys.entity.renderer.GlobRenderer;
 import net.mcreator.themultiverseoffreddys.UltimateFnafModModElements;
 
@@ -65,8 +64,8 @@ public class GlobEntity extends UltimateFnafModModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -16777216, -16737895, new Item.Properties().group(HoaxesTabItemGroup.tab))
-				.setRegistryName("glob_spawn_egg"));
+		elements.items.add(
+				() -> new SpawnEggItem(entity, -16777216, -16737895, new Item.Properties().group(F3ItemGroup.tab)).setRegistryName("glob_spawn_egg"));
 	}
 
 	@Override
@@ -117,9 +116,8 @@ public class GlobEntity extends UltimateFnafModModElements.ModElement {
 			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 1));
 			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(5, new SwimGoal(this));
-			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
-			this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, VillagerEntity.class, false, false));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
+			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, VillagerEntity.class, false, false));
 		}
 
 		@Override

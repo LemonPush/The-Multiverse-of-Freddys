@@ -28,12 +28,12 @@
         "data": {
           "text": "Continue",
           "onClick": {
-            "name": "Entry4"
+            "name": "Entry3"
           },
           "width": 67,
           "height": 20,
           "name": "Continue",
-          "x": 181,
+          "x": 177,
           "y": 170
         }
       },

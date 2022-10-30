@@ -22,7 +22,7 @@ import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.gui.ScreenManager;
 
-import net.mcreator.themultiverseoffreddys.procedures.Entry3Procedure;
+import net.mcreator.themultiverseoffreddys.procedures.Entry4Procedure;
 import net.mcreator.themultiverseoffreddys.UltimateFnafModModElements;
 
 import java.util.stream.Stream;
@@ -187,7 +187,7 @@ public class Meme1Gui extends UltimateFnafModModElements.ModElement {
 			return;
 		if (buttonID == 0) {
 
-			Entry3Procedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+			Entry4Procedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
 					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}

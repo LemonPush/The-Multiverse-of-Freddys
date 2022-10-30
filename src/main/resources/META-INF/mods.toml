@@ -18,12 +18,6 @@ authors="LemonPush"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.ultimate_fnaf_mod]]
-    modId="forge"
-    mandatory=true
-    versionRange="[36.2.26]"
-    ordering="NONE"
-    side="BOTH"
 
 
 

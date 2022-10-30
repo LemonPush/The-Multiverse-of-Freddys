@@ -98,7 +98,7 @@ public class Alternate1GuiWindow extends ContainerScreen<Alternate1Gui.GuiContai
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 55, this.guiTop + 133, 67, 20, new StringTextComponent("Continue"), e -> {
+		this.addButton(new Button(this.guiLeft + 51, this.guiTop + 133, 67, 20, new StringTextComponent("Continue"), e -> {
 			if (true) {
 				UltimateFnafModMod.PACKET_HANDLER.sendToServer(new Alternate1Gui.ButtonPressedMessage(0, x, y, z));
 				Alternate1Gui.handleButtonAction(entity, 0, x, y, z);

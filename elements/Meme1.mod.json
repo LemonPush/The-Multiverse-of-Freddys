@@ -28,7 +28,7 @@
         "data": {
           "text": "Continue",
           "onClick": {
-            "name": "Entry3"
+            "name": "Entry4"
           },
           "width": 67,
           "height": 20,

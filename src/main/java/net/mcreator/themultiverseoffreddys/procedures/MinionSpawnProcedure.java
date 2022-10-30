@@ -51,6 +51,6 @@ public class MinionSpawnProcedure {
 					entity.remove();
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}.start(world, (int) 1200);
+		}.start(world, (int) 600);
 	}
 }

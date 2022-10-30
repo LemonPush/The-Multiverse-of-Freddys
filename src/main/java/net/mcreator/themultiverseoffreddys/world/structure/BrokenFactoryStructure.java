@@ -33,7 +33,7 @@ import net.minecraft.block.BlockState;
 import java.util.Random;
 
 @Mod.EventBusSubscriber
-public class TrashendoStructure {
+public class BrokenFactoryStructure {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 
@@ -52,7 +52,7 @@ public class TrashendoStructure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 250000) {
+					if ((random.nextInt(1000000) + 1) <= 1000) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -65,14 +65,14 @@ public class TrashendoStructure {
 								blockCriteria = true;
 							if (!blockCriteria)
 								continue;
-							Rotation rotation = Rotation.values()[random.nextInt(3)];
-							Mirror mirror = Mirror.values()[random.nextInt(2)];
+							Rotation rotation = Rotation.NONE;
+							Mirror mirror = Mirror.NONE;
 							BlockPos spawnTo = new BlockPos(i + 0, j + 1, k + 0);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("ultimate_fnaf_mod", "endo"));
+									.getTemplateDefaulted(new ResourceLocation("ultimate_fnaf_mod", "brokenfactory"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo,
@@ -86,8 +86,8 @@ public class TrashendoStructure {
 			};
 			configuredFeature = feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG));
-			event.getRegistry().register(feature.setRegistryName("trashendo"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("ultimate_fnaf_mod:trashendo"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("broken_factory"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("ultimate_fnaf_mod:broken_factory"), configuredFeature);
 		}
 	}
 

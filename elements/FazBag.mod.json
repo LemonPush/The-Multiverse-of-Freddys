@@ -28,8 +28,8 @@
       "Used for carrying items"
     ],
     "hasGlow": false,
-    "guiBoundTo": "BiggerBag",
-    "inventorySize": 54,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 0,
     "inventoryStackSize": 64,
     "isFood": false,
     "nutritionalValue": 0,
