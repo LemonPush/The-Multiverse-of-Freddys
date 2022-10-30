@@ -84,7 +84,7 @@
       "value": "CUSTOM:puppet4"
     },
     "hurtSound": {
-      "value": "CUSTOM:hurt1"
+      "value": "entity.slime.hurt"
     },
     "deathSound": {
       "value": "CUSTOM:death4"

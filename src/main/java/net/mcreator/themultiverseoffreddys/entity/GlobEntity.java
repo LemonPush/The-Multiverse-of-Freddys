@@ -143,7 +143,7 @@ public class GlobEntity extends UltimateFnafModModElements.ModElement {
 
 		@Override
 		public net.minecraft.util.SoundEvent getHurtSound(DamageSource ds) {
-			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ultimate_fnaf_mod:hurt1"));
+			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.slime.hurt"));
 		}
 
 		@Override
